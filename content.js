@@ -860,3 +860,153 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D08",
+  title: "Participating in group work",
+  moduleTitle: "Helping students participate in group work",
+  description:
+    "Make group tasks clear and structure participation so students can prepare, contribute and discuss subject ideas.",
+  status: "Draft",
+  practicalGuide:
+    "D08-S1–S6 Helping students participate in group work",
+
+  strategies: [
+    {
+      id: "D08-S1",
+      title: "Make the task and expected contribution clear",
+      summary:
+        "Explain the group goal, required output and what each member should contribute.",
+      howTo: [
+        "Explain the group’s goal, time available and required output.",
+        "Clarify what each member should contribute.",
+        "Display the instructions so students can refer back to them."
+      ],
+      example:
+        "Business: “Compare the two proposals and recommend one. Each person should contribute one strength or limitation. Submit a shared recommendation with two reasons.”",
+      sources: [
+        {
+          text:
+            "University of Waterloo — Implementing Group Work in the Classroom, Introducing the Group Activity. Supports explaining the task and final output, providing written or visual instructions and including time estimates.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The specified individual contribution and subject example are toolkit adaptations."
+    },
+    {
+      id: "D08-S2",
+      title: "Give individual preparation time",
+      summary:
+        "Allow students to prepare an idea before the group discussion begins.",
+      howTo: [
+        "Before discussion, ask students to read the task.",
+        "Ask each student to note an idea, question or piece of evidence.",
+        "Allow brief notes rather than requiring complete sentences."
+      ],
+      example:
+        "Public health: Each student identifies one benefit and one limitation of an intervention before the group evaluates it.",
+      sources: [
+        {
+          text:
+            "Northeastern University — Active Question and Answer Techniques, Think-Pair-Share. Describes individual thinking or writing before comparing ideas with peers.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Using individual preparation before a larger group task is a toolkit application."
+    },
+    {
+      id: "D08-S3",
+      title: "Structure opportunities for everyone to contribute",
+      summary:
+        "Begin with an opportunity for each member to share an idea before open discussion.",
+      howTo: [
+        "Begin with a short round in which each member shares an initial idea.",
+        "Allow students to request more time and return to them.",
+        "Explain that members should invite contributions without pressuring others.",
+        "Move to open discussion after the initial round."
+      ],
+      example:
+        "Engineering: Each member suggests a possible cause of a fault. The group then compares the suggestions against the evidence.",
+      sources: [
+        {
+          text:
+            "University of Waterloo — Types of Small Groups, Circle of Voices. Describes preparation followed by uninterrupted turns before open discussion.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The shorter opening round and option to return to a student are toolkit adaptations."
+    },
+    {
+      id: "D08-S4",
+      title: "Assign useful roles and rotate them",
+      summary:
+        "Use clear roles to support the task while keeping everyone involved in subject discussion.",
+      howTo: [
+        "Choose roles that serve the task.",
+        "Explain the actions involved in each role.",
+        "Rotate roles across activities.",
+        "Make clear that everyone still contributes to the subject discussion."
+      ],
+      example:
+        "Environmental science: A facilitator invites views; an evidence checker asks which data support claims; a recorder captures the decision. Roles change next task.",
+      sources: [
+        {
+          text:
+            "University of Waterloo — Group Work: Assignment of Roles. Explains specific responsibilities for group roles and suggests rotating roles periodically.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Role descriptions are adapted to the subject task."
+    },
+    {
+      id: "D08-S5",
+      title: "Model language for working together",
+      summary:
+        "Provide optional phrases for joining in, discussing evidence and checking meaning.",
+      howTo: [
+        "Provide a few optional phrases for joining in and building on ideas.",
+        "Include phrases for disagreeing and checking meaning.",
+        "Demonstrate a short exchange using course content."
+      ],
+      example:
+        "Economics: “Can I add a point?”; “What evidence supports that?”; “I see your point, but…”; “Do you mean that…?”",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Teaching Support, Group Work: Navigating group miscommunications. Recommends providing examples of discussion language for different functions.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The phrases and model exchange are toolkit-created applications."
+    },
+    {
+      id: "D08-S6",
+      title: "Monitor how the group is working",
+      summary:
+        "Check progress and participation, helping groups adjust their process where necessary.",
+      howTo: [
+        "During the task, check both progress and participation.",
+        "If one person dominates or others cannot follow, help the group adjust its process.",
+        "Finish with a brief reflection on what helped members contribute."
+      ],
+      example:
+        "Nursing: “Pause and summarise the options so far. Give everyone a moment to review them, then invite any additional concerns before deciding.”",
+      sources: [
+        {
+          text:
+            "University of Waterloo — Implementing Group Work in the Classroom, Monitoring the Group Task and Ending the Group Task. Supports circulating, listening, facilitating without taking over and reflection on group functioning.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The intervention for uneven participation is a toolkit application."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
