@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EMI Educator Toolkit</title>
+
+  <style>
+    :root {
+      --navy: #17324d;
+      --blue: #236fa1;
+      --light-blue: #eef7fb;
+      --yellow: #f4c542;
+      --text: #243442;
+      --muted: #5e6d78;
+      --border: #d4e0e7;
+      --white: #ffffff;
+      --background: #f6f8fa;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.55;
+    }
+
+    header {
+      padding: 3rem 1.5rem;
+      color: var(--white);
+      background: var(--navy);
+    }
+
+    header .header-content,
+    main {
+      width: min(1100px, 92%);
+      margin: auto;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.2;
+    }
+
+    h1 {
+      max-width: 800px;
+      margin: 0 0 1rem;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 0;
+      font-size: 1.15rem;
+    }
+
+    main {
+      padding: 2rem 0 4rem;
+    }
+
+    .notice {
+      padding: 1rem 1.2rem;
+      margin-bottom: 2rem;
+      border-left: 5px solid var(--yellow);
+      background: #fffdf2;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: end;
+      margin-bottom: 2rem;
+    }
+
+    .search-box {
+      flex: 1 1 320px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.35rem;
+      font-weight: bold;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: var(--white);
+      color: var(--text);
+      font: inherit;
+    }
+
+    .breadcrumb {
+      margin-bottom: 1.5rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .category-header {
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      background: var(--light-blue);
+    }
+
+    .category-header h2 {
+      margin-top: 0;
+      color: var(--navy);
+    }
+
+    .strategy-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .strategy-card {
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--white);
+      box-shadow: 0 2px 8px #0000000d;
+    }
+
+    .strategy-summary {
+      width: 100%;
+      padding: 1.2rem;
+      border: 0;
+      background: var(--white);
+      color: var(--text);
+      cursor: pointer;
+      font: inherit;
+      text-align: left;
+    }
+
+    .strategy-summary:hover,
+    .strategy-summary:focus {
+      background: var(--light-blue);
+    }
+
+    .strategy-summary:focus-visible,
+    .resource-button:focus-visible,
+    input:focus-visible,
+    select:focus-visible {
+      outline: 3px solid #f4c542;
+      outline-offset: 2px;
+    }
+
+    .strategy-code {
+      display: inline-block;
+      margin-bottom: 0.5rem;
+      color: var(--blue);
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+
+    .strategy-summary h3 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .strategy-summary p {
+      margin-bottom: 0;
+      color: var(--muted);
+    }
+
+    .strategy-content {
+      display: none;
+      padding: 0 1.2rem 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .strategy-content.open {
+      display: block;
+    }
+
+    .strategy-content h4 {
+      margin-bottom: 0.3rem;
+      color: var(--blue);
+    }
+
+    .strategy-content ul {
+      padding-left: 1.3rem;
+    }
+
+    .source {
+      padding: 0.8rem;
+      border-left: 4px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .draft-note {
+      color: #815d00;
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+
+    .empty {
+      display: none;
+      padding: 2rem;
+      text-align: center;
+      color: var(--muted);
+      background: var(--white);
+      border-radius: 12px;
+    }
+
+    footer {
+      padding: 2rem;
+      color: var(--muted);
+      background: #eaf0f4;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <h1>EMI Educator Toolkit</h1>
+      <p>
+        Practical strategies for supporting students in English-medium instruction.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <div class="notice">
+      <strong>How to use this toolkit:</strong>
+      Select a strategy to view practical steps, a subject example and supporting sources.
+      The content currently represents one category and can be expanded as further spreadsheet
+      rows are added.
+    </div>
+
+    <div class="toolbar">
+      <div class="search-box">
+        <label for="search">Search the toolkit</label>
+        <input
+          id="search"
+          type="search"
+          placeholder="Try “instructions”, “engineering” or “grouping”"
+        >
+      </div>
+
+      <div>
+        <label for="view">Filter by area</label>
+        <select id="view">
+          <option value="all">All strategies</option>
+          <option value="instructions">Understanding task instructions</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="breadcrumb">
+      Home &rsaquo; Giving instructions &rsaquo; Understanding task instructions
+    </div>
+
+    <section class="category-header">
+      <h2>Understanding task instructions</h2>
+      <p>
+        Students may struggle to identify what a task requires, which actions to complete,
+        what output is expected or how to begin. The strategies below support clarity,
+        sequencing and early checking.
+      </p>
+    </section>
+
+    <section
+      id="strategy-list"
+      class="strategy-list"
+      aria-label="Strategies for understanding task instructions"
+    ></section>
+
+    <div id="empty" class="empty">
+      No strategies match your search. Try a different keyword.
+    </div>
+  </main>
+
+  <footer>
+    EMI Educator Toolkit · Content status: draft; local validation pending
+  </footer>
+
+  <script>
+    const strategies = [
+      {
+        code: "D01-S1",
+        title: "Use clear, direct language",
+        category: "instructions",
+        difficulty: "Understanding task instructions",
+        summary:
+          "Make instructions easier to process by using familiar wording, short sentences and clear actions.",
+        steps: [
+          "Use short sentences with clear actions.",
+          "Choose familiar wording and replace unnecessary phrases or confusing idioms.",
+          "Keep essential subject terms, but explain them.",
+          "Use a formal verb where it is clearer than a phrasal verb."
+        ],
+        example:
+          "Business — Before: “Undertake a comparative evaluation of the two proposed pricing strategies, identifying the relative merits and limitations of each.” Clearer: “Compare the two pricing strategies. Identify the strengths and limitations of each.”",
+        sources: [
+          "University of Minnesota: Communication Tips, “Speak more effectively” and “Navigate communication styles”.",
+          "DraftToolkit-created example. General higher-education guidance; local validation pending."
+        ],
+        pathway: "Giving instructions DS01-S1-S5"
+      },
+      {
+        code: "D01-S2",
+        title: "Break instructions into steps",
+        category: "instructions",
+        difficulty: "Understanding task instructions",
+        summary:
+          "Present the actions in the order students should complete them, including timing, grouping and expected output.",
+        steps: [
+          "Number the actions in the order students should complete them.",
+          "State how much time students have.",
+          "Explain whether students work individually, in pairs or in groups.",
+          "State what students should produce or submit."
+        ],
+        example:
+          "Engineering: 1. Examine the diagram. 2. Identify the fault. 3. Explain its likely cause. Work in pairs; write three sentences.",
+        sources: [
+          "British Council: Communicate clearly, section 4.",
+          "CSUSB: Strategies for Inclusive Teaching, “Use Multiple Modes”.",
+          "Draft content."
+        ],
+        pathway: "Giving instructions DS01-S1-S5"
+      },
+      {
+        code: "D01-S3",
+        title: "Demonstrate the task",
+        category: "instructions",
+        difficulty: "Understanding task instructions",
+        summary:
+          "Work through the first step of a similar example and explain the decisions being made.",
+        steps: [
+          "Choose a short, representative example.",
+          "Complete the first step in front of students.",
+          "Explain why you are making each decision.",
+          "Leave the main task for students to complete independently or collaboratively."
+        ],
+        example:
+          "Accounting: show how to classify one transaction, explaining which information determines its category.",
+        sources: [
+          "CSUSB: Strategies for Inclusive Teaching, “Use Multiple Modes”.",
+          "Draft content."
+        ],
+        pathway: "Giving instructions DS01-S1-S5"
+      },
+      {
+        code: "D01-S4",
+        title: "Check what students need to do",
+        category: "instructions",
+        difficulty: "Understanding task instructions",
+        summary:
+          "Use specific instruction-checking questions rather than relying on students responding collectively that they understand.",
+        steps: [
+          "Ask how many actions or options students need to complete.",
+          "Check whether students will work alone, in pairs or in groups.",
+          "Ask what students will submit or produce.",
+          "Ask several students rather than relying on a chorus of “yes”."
+        ],
+        example:
+          "Ask: “How many options will you compare?” “Will you work alone?” “What will you submit?”",
+        sources: [
+          "British Council: Communicate clearly, section 4, checking instructions.",
+          "English in Action: Instruction-and-Concept-Checking-Questions.",
+          "Draft content."
+        ],
+        pathway: "Giving instructions DS01-S1-S5"
+      },
+      {
+        code: "D01-S5",
+        title: "Check the first attempt",
+        category: "instructions",
+        difficulty: "Understanding task instructions",
+        summary:
+          "Inspect students’ first steps and clarify any widespread misunderstanding before they continue.",
+        steps: [
+          "Move around the room after students begin.",
+          "Inspect the first step or initial output from several students or groups.",
+          "Identify whether the same misunderstanding appears repeatedly.",
+          "Pause the activity and clarify the issue for everyone if needed."
+        ],
+        example:
+          "Ask pairs to show the two variables they selected before they begin calculating.",
+        sources: [
+          "British Council: Communicate clearly, section 4, checking participants are on task.",
+          "Draft content."
+        ],
+        pathway: "Giving instructions DS01-S1-S5"
+      }
+    ];
+
+    const list = document.getElementById("strategy-list");
+    const search = document.getElementById("search");
+    const view = document.getElementById("view");
+    const empty = document.getElementById("empty");
+
+    function renderStrategies() {
+      const query = search.value.toLowerCase().trim();
+      const selectedView = view.value;
+
+      const filtered = strategies.filter(strategy => {
+        const searchableText = [
+          strategy.code,
+          strategy.title,
+          strategy.summary,
+          strategy.example,
+          strategy.difficulty,
+          strategy.sources.join(" "),
+          strategy.steps.join(" ")
+        ].join(" ").toLowerCase();
+
+        const matchesSearch = searchableText.includes(query);
+        const matchesView =
+          selectedView === "all" || strategy.category === selectedView;
+
+        return matchesSearch && matchesView;
+      });
+
+      list.innerHTML = "";
+
+      filtered.forEach(strategy => {
+        const card = document.createElement("article");
+        card.className = "strategy-card";
+
+        card.innerHTML = `
+          <button class="strategy-summary" aria-expanded="false">
+            <span class="strategy-code">${strategy.code}</span>
+            <h3>${strategy.title}</h3>
+            <p>${strategy.summary}</p>
+          </button>
+
+          <div class="strategy-content">
+            <h4>Practical steps</h4>
+            <ul>
+              ${strategy.steps.map(step => `<li>${step}</li>`).join("")}
+            </ul>
+
+            <h4>Subject example</h4>
+            <p>${strategy.example}</p>
+
+            <h4>Supporting sources</h4>
+            <div class="source">
+              ${strategy.sources.map(source => `<p>${source}</p>`).join("")}
+            </div>
+
+            <p class="draft-note">
+              Content status: draft; local validation pending.
+            </p>
+          </div>
+        `;
+
+        const button = card.querySelector(".strategy-summary");
+        const content = card.querySelector(".strategy-content");
+
+        button.addEventListener("click", () => {
+          const isOpen = content.classList.toggle("open");
+          button.setAttribute("aria-expanded", isOpen);
+        });
+
+        list.appendChild(card);
+      });
+
+      empty.style.display = filtered.length ? "none" : "block";
+    }
+
+    search.addEventListener("input", renderStrategies);
+    view.addEventListener("change", renderStrategies);
+
+    renderStrategies();
+  </script>
+</body>
+</html>
