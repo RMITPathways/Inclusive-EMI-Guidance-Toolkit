@@ -2045,3 +2045,46 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D18",
+  title: "Understanding students’ contributions accurately",
+  moduleTitle: "Interpreting student contributions accurately",
+  description:
+    "Check your understanding of a student’s contribution before evaluating the subject reasoning.",
+  status: "Draft",
+  practicalGuide:
+    "D18 Understanding students’ contributions",
+
+  strategies: [
+    {
+      id: "D18-S1",
+      title: "Check your interpretation before evaluating",
+      summary:
+        "Listen to the whole contribution, check your tentative understanding and let the student confirm or correct it.",
+      howTo: [
+        "Listen to the complete contribution and allow thinking time.",
+        "Identify the specific point you are unsure about.",
+        "Ask for clarification of a key term or relationship where needed.",
+        "Restate your understanding tentatively and ask the student to confirm or correct it.",
+        "Offer a diagram, example or brief written explanation as another way to clarify meaning.",
+        "Once the meaning is clear, respond to the subject reasoning.",
+        "Keep your paraphrase close to what the student said so you do not supply reasoning they have not expressed."
+      ],
+      example:
+        "Economics: “Do you mean the increase is temporary because supply will adjust, or are you suggesting another explanation?” After confirmation: “What conditions would allow firms to increase supply, and how quickly could that happen?”",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Communication Tips, Check comprehension and Give feedback. Recommends paraphrasing a student’s contribution and allowing them to confirm or correct the interpretation.",
+          url:
+            "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/communication-tips"
+        }
+      ],
+      reviewNotes:
+        "Direct support for checking interpretation. Responding to disciplinary reasoning after clarification is a toolkit application. Avoid leading the student. In assessment, follow approved criteria and rules for clarification."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
