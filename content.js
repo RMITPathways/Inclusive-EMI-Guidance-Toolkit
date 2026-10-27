@@ -741,4 +741,154 @@ const toolkit = [
       }
     ]
   }
+  toolkit.push({
+  id: "D06",
+  title: "Answering questions spontaneously",
+  moduleTitle: "Helping students respond to questions in class",
+  description:
+    "Give students time and practical support to formulate answers while preserving the subject thinking required.",
+  status: "Draft",
+  practicalGuide:
+    "D06-S1–S6 Helping students respond to questions in class",
+
+  strategies: [
+    {
+      id: "D06-S1",
+      title: "Ask one clear question at a time",
+      summary:
+        "Use direct wording and introduce follow-up questions separately.",
+      howTo: [
+        "Use direct wording and retain essential subject terms.",
+        "Avoid combining several questions.",
+        "Ask the first question, hear responses, then introduce a follow-up."
+      ],
+      example:
+        "Business: Ask “Which pricing strategy would you choose?” Then follow with “What is your main reason?”",
+      sources: [
+        {
+          text:
+            "Washington University in St. Louis — Asking Questions to Improve Learning, General Strategies. Supports direct, specific questions and asking one question at a time.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Toolkit-created subject example. Local validation pending."
+    },
+    {
+      id: "D06-S2",
+      title: "Allow thinking time",
+      summary:
+        "Pause after asking a question so students can formulate a response.",
+      howTo: [
+        "After asking, pause silently for several seconds.",
+        "Allow longer for questions requiring analysis.",
+        "Avoid immediately rephrasing the question or answering it yourself.",
+        "Tell students that you are giving everyone time to think."
+      ],
+      example:
+        "Engineering: “Which component is most likely to have failed? Take a moment to examine the diagram before answering.”",
+      sources: [
+        {
+          text:
+            "University of Waterloo — Question Strategies, Wait for the answer and Reach non-responsive students with wait times. Recommends waiting five to ten seconds and allowing longer reflection where appropriate.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Toolkit-created subject example. Local validation pending."
+    },
+    {
+      id: "D06-S3",
+      title: "Give brief preparation before public responses",
+      summary:
+        "Allow students to note or discuss an idea before answering publicly.",
+      howTo: [
+        "For a demanding question, ask everyone to jot down a key point.",
+        "Alternatively, allow brief discussion with a partner before inviting answers.",
+        "Students can use keywords rather than full sentences."
+      ],
+      example:
+        "Public health: Give students a minute to select an intervention and note one reason before sharing their choice.",
+      sources: [
+        {
+          text:
+            "Northeastern University — Active Question and Answer Techniques, Think-Pair-Share. Describes individual thinking or writing followed by peer discussion before whole-class contributions.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Toolkit-created subject example. Local validation pending."
+    },
+    {
+      id: "D06-S4",
+      title: "Offer simple ways to begin an answer",
+      summary:
+        "Provide optional sentence openings suited to the subject task.",
+      howTo: [
+        "Display a few optional sentence openings suited to the task.",
+        "Explain their purpose and model one response.",
+        "Keep them short enough to use while thinking."
+      ],
+      example:
+        "Economics: “The main cause is… because…”; “One possible explanation is…”; “This depends on…”",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Teaching Support, Group Work. Supports providing language for discussion functions. Applying sentence openings to answers to lecturer questions is a toolkit adaptation.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. Phrases and classroom application developed for the toolkit."
+    },
+    {
+      id: "D06-S5",
+      title: "Make invitations to answer predictable",
+      summary:
+        "Explain how contributions will be invited and allow preparation time.",
+      howTo: [
+        "Explain how you will invite contributions.",
+        "Ask the question before selecting a respondent.",
+        "Allow thinking time.",
+        "Offer an opportunity to return to a student after another contribution."
+      ],
+      example:
+        "Nursing: “Everyone, consider which action should come first. I’ll give you thinking time, then invite a few people to explain their choice.”",
+      sources: [
+        {
+          text:
+            "University of Waterloo — Question Strategies, Establish expectations early. Supports explaining participation arrangements and reasonable opportunities to opt out. Returning to a student is a toolkit suggestion.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Toolkit-created implementation and subject example. Local validation pending."
+    },
+    {
+      id: "D06-S6",
+      title: "Help students develop an initial response",
+      summary:
+        "Listen, clarify meaning and use a focused follow-up to develop reasoning.",
+      howTo: [
+        "Let students finish.",
+        "If an answer is incomplete, acknowledge the relevant idea and ask one focused follow-up.",
+        "If the meaning is unclear, check your interpretation before evaluating it."
+      ],
+      example:
+        "Environmental science: Student: “Less water… crops.” Teacher: “Are you saying that reduced rainfall lowers crop yields?” After confirmation: “What happens to the plants when water is limited?”",
+      sources: [
+        {
+          text:
+            "University of Waterloo — Question Strategies, Listening actively. Supports avoiding interruptions, restating contributions, inviting elaboration and asking for clarification.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Toolkit-created subject example. Local validation pending."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
 ];
