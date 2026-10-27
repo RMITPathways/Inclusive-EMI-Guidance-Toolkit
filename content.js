@@ -741,6 +741,7 @@ const toolkit = [
       }
     ]
   }
+  ];
   toolkit.push({
   id: "D06",
   title: "Answering questions spontaneously",
@@ -891,4 +892,3 @@ const toolkit = [
   checklist: [],
   moduleSources: []
 });
-];
