@@ -1309,3 +1309,153 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D11",
+  title: "Explaining disciplinary knowledge in English",
+  moduleTitle: "Helping students explain subject knowledge in English",
+  description:
+    "Show students how explanations work in your subject and support them to organise, express and refine their reasoning.",
+  status: "Draft",
+  practicalGuide:
+    "D11-S1–S6 Helping students explain subject knowledge in English",
+
+  strategies: [
+    {
+      id: "D11-S1",
+      title: "Make the structure of an explanation explicit",
+      summary:
+        "Show the parts an explanation needs for the particular task.",
+      howTo: [
+        "Identify the parts an explanation needs for the task.",
+        "Display a short sequence of prompts.",
+        "For example, ask what happens, why it happens and what evidence supports the explanation."
+      ],
+      example:
+        "Engineering: “Identify the fault → explain how it affects the circuit → support your explanation with the test results.”",
+      sources: [
+        {
+          text:
+            "University of Toronto — Designing Assignments and Presenting Them to Students, Presenting Assignments, points 2–3. Supports demonstrating the thinking required, outlining effective answers and explaining disciplinary writing structures.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. The source focuses on writing; the sequence of explanation prompts is a toolkit adaptation."
+    },
+    {
+      id: "D11-S2",
+      title: "Model an explanation and unpack its features",
+      summary:
+        "Use a short model to show how concepts, connections and evidence form an explanation.",
+      howTo: [
+        "Give a short explanation using course content.",
+        "Point out how you introduce the concept, connect ideas and use evidence.",
+        "Explain why these features matter in your subject."
+      ],
+      example:
+        "Economics: Highlight where an explanation identifies a price change, explains the mechanism and uses data to support it.",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Supporting Multilingual Learners, As You’re Creating a Writing Assignment. Recommends annotated models and sample extracts that highlight valued writing features.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Direct support for written models. Applying this to spoken explanations is a toolkit adaptation."
+    },
+    {
+      id: "D11-S3",
+      title: "Provide language for expressing key relationships",
+      summary:
+        "Offer a few optional phrases that help students express the reasoning required.",
+      howTo: [
+        "Select a few optional phrases for relationships such as cause, comparison or qualification.",
+        "Demonstrate them with subject content.",
+        "Keep the focus on accurate meaning."
+      ],
+      example:
+        "Environmental science: “This leads to… because…”; “In contrast…”; “This is likely when…”",
+      sources: [
+        {
+          text:
+            "University of Manchester — Academic Phrasebank, Explaining causality. Provides language for causes, effects and contributing factors.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "This source supports cause-and-effect language specifically. Selecting accessible phrases and modelling them with course content is a toolkit teaching approach."
+    },
+    {
+      id: "D11-S4",
+      title: "Use diagrams or other representations to support explanation",
+      summary:
+        "Help students organise their understanding visually before explaining it.",
+      howTo: [
+        "Ask students to organise their understanding in a diagram, table, equation or annotated image.",
+        "Show how to connect each part of the representation to a spoken or written explanation.",
+        "Check that students explain the relationships rather than only naming the parts."
+      ],
+      example:
+        "Biology: Students annotate a process diagram, then use it to explain the sequence and why each stage occurs.",
+      sources: [
+        {
+          text:
+            "UCL — Develop understanding, Concept maps. Supports student-created maps that connect concepts through meaningful statements, followed by discussion and revision.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. Other representations and the transition to spoken or written explanations are toolkit extensions."
+    },
+    {
+      id: "D11-S5",
+      title: "Build in rehearsal and revision",
+      summary:
+        "Allow students to prepare, try out and improve an explanation.",
+      howTo: [
+        "Give students time to prepare a brief explanation.",
+        "Ask them to try it with a partner.",
+        "Give the listener a focused checking task.",
+        "Allow revision before students share or submit the explanation."
+      ],
+      example:
+        "Business: Students explain why profit fell despite higher revenue. Their partner checks whether the explanation connects revenue, costs and profit.",
+      sources: [
+        {
+          text:
+            "Northeastern University — Active Question and Answer Techniques, Think-Pair-Share. Supports individual thinking or writing followed by peer discussion before whole-class contributions.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The focused listener check and explicit revision step are toolkit additions."
+    },
+    {
+      id: "D11-S6",
+      title: "Give focused feedback on meaning and clarity",
+      summary:
+        "Identify the source of a difficulty and give students a focused revision task.",
+      howTo: [
+        "Identify whether the difficulty concerns the concept, the organisation or the wording.",
+        "Address one or two important points.",
+        "Where meaning is unclear, check what the student intended before correcting it.",
+        "Ask the student to revise the explanation."
+      ],
+      example:
+        "Public health: “You have identified the association. Now clarify whether the evidence establishes a cause, and adjust your wording to match.”",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Supporting Multilingual Learners, As Students are Completing a Writing Assignment. Supports prioritising content and organisation, giving instructive draft feedback and addressing language selectively.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The source addresses written work. Checking intended meaning in spoken explanations is a toolkit adaptation."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
