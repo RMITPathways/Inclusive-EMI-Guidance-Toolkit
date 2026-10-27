@@ -1158,3 +1158,154 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D10",
+  title: "Understanding assignment expectations",
+  moduleTitle: "Making assignment expectations clear",
+  description:
+    "Explain what an assignment requires, show how the criteria apply and check students’ understanding before substantial work begins.",
+  status: "Draft",
+  practicalGuide:
+    "D10-S1–S6 Making assignment expectations clear",
+
+  strategies: [
+    {
+      id: "D10-S1",
+      title: "Make the purpose, task and requirements explicit",
+      summary:
+        "Explain why students are completing the assignment, what they must do and what they must submit.",
+      howTo: [
+        "Explain the purpose of the assignment and its connection to the learning outcomes.",
+        "State what students must do and submit.",
+        "Include the audience, format, length and other requirements in one accessible brief."
+      ],
+      example:
+        "Business: “Write a 1,500-word report recommending one of the two expansion options. Address the management team and use evidence from the case.”",
+      sources: [
+        {
+          text:
+            "TILT Higher Ed — Transparent Assignment Template. Organises guidance around purpose, task and criteria for success. Supports explaining learning benefits, required activities and relevant steps.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The detailed requirements checklist and subject example are toolkit applications."
+    },
+    {
+      id: "D10-S2",
+      title: "Explain key task words in the subject context",
+      summary:
+        "Show what words such as analyse, evaluate and justify require in this assignment.",
+      howTo: [
+        "Identify important task words such as analyse, evaluate or justify.",
+        "Explain what each means in this assignment.",
+        "Illustrate the difference between describing information and using it to develop an argument."
+      ],
+      example:
+        "Public health: “‘Evaluate’ means judging the intervention’s effectiveness using evidence, including its strengths and limitations. Listing its features is not enough.”",
+      sources: [
+        {
+          text:
+            "University of Waterloo — Language for Effectively Communicating Assignments. Recommends explaining task descriptors and includes definitions of analyse, evaluate and justify.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The subject-specific explanation is a toolkit application."
+    },
+    {
+      id: "D10-S3",
+      title: "Show how the assessment criteria apply",
+      summary:
+        "Connect each criterion to observable features of students’ work.",
+      howTo: [
+        "Work through the criteria in plain language.",
+        "Explain what each criterion means in observable features of the work.",
+        "Show how those features connect to the assignment."
+      ],
+      example:
+        "Engineering: For “justification of design decisions”, show how a decision should be supported by calculations, relevant standards or test results.",
+      sources: [
+        {
+          text:
+            "TILT Higher Ed — Transparent Assignment Template, Criteria for Success. Supports defining successful work, illustrating its features and developing a checklist for students.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The criterion-by-criterion explanation and subject example are toolkit applications."
+    },
+    {
+      id: "D10-S4",
+      title: "Discuss examples of work at different levels of quality",
+      summary:
+        "Help students compare examples against selected assessment criteria.",
+      howTo: [
+        "Use authorised, anonymised work or teacher-created extracts.",
+        "Ask students to compare examples against selected criteria.",
+        "Explain your judgement using features of the examples.",
+        "Avoid presenting one example as the only acceptable approach."
+      ],
+      example:
+        "Economics: Compare two short explanations: one states a trend; the other explains it using a relevant concept and evidence. Discuss how each meets the criteria.",
+      sources: [
+        {
+          text:
+            "TILT Higher Ed — Transparent Assignment Template, Criteria for Success. Recommends analysing multiple examples before students begin and discussing differences between excellent and adequate work.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Direct support for the approach. Subject examples and extracts are toolkit-created."
+    },
+    {
+      id: "D10-S5",
+      title: "Make subject conventions and permitted support explicit",
+      summary:
+        "Explain expectations about structure, evidence, referencing, collaboration and tools.",
+      howTo: [
+        "Explain subject conventions that may otherwise remain unstated.",
+        "Clarify expectations for structure, evidence and referencing.",
+        "State what collaboration, tools and assistance are permitted.",
+        "Show a short example where useful and keep guidance consistent with course rules."
+      ],
+      example:
+        "Science: Explain what belongs in the results and discussion sections, how sources should be acknowledged, and which forms of assistance are permitted.",
+      sources: [
+        {
+          text:
+            "University of Toronto — Designing Assignments and Presenting Them to Students, Assignment Prompts and Presenting Assignments. Supports explaining genre expectations, disciplinary conventions, sources and documentation.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. Collaboration and permitted tools require assignment-specific guidance consistent with institutional rules."
+    },
+    {
+      id: "D10-S6",
+      title: "Check students’ interpretation before substantial work begins",
+      summary:
+        "Use a brief plan or discussion to uncover misunderstandings early.",
+      howTo: [
+        "Ask students to outline their intended approach or identify what the task requires.",
+        "Use a brief plan, checklist or discussion to uncover misunderstandings.",
+        "Clarify mismatches between students’ plans and the task.",
+        "Share answers to common questions with the whole class."
+      ],
+      example:
+        "Public policy: Ask students to submit their proposed recommendation, two criteria for judging the options and the evidence they intend to use. Clarify any mismatch with the task.",
+      sources: [
+        {
+          text:
+            "TILT Higher Ed — Frequently Asked Questions, What if I don’t have time to be transparent in my teaching? Supports asking students to interpret an upcoming assignment and confirm their understanding before starting.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The brief planning activity is a toolkit adaptation."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
