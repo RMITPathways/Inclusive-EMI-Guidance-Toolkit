@@ -2088,3 +2088,47 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D19",
+  title: "Using different languages inclusively during learning activities",
+  moduleTitle: "Using different languages inclusively in learning activities",
+  description:
+    "Plan how students can draw on their languages while ensuring everyone can follow shared reasoning and meet course requirements.",
+  status: "Draft",
+  practicalGuide:
+    "D19 Using different languages inclusively",
+
+  strategies: [
+    {
+      id: "D19-S1",
+      title: "Agree how languages will be used in the task",
+      summary:
+        "Explain where students can choose their language and how ideas will be shared with everyone.",
+      howTo: [
+        "Check the learning goal and any course or assessment language requirements.",
+        "Identify preparation stages where students may use languages they find helpful, such as private notes or initial idea development.",
+        "Explain which discussion stages and outputs must be in English.",
+        "Plan a shared summary so language choices do not exclude group members.",
+        "Allow diagrams, key terms and other representations to support shared explanations.",
+        "Monitor participation and ask groups to restate important reasoning in the agreed shared language when needed.",
+        "Do not assume students share a language or require individuals to translate for others.",
+        "Let students choose whether to use or disclose their languages."
+      ],
+      example:
+        "“You may make private notes using any languages that help you think. For this group task, explain your reasoning in English so everyone can discuss it. Include key subject terms and a diagram if useful. The group’s final recommendation must be in English.”",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Fostering a Linguistically Inclusive and Asset-Based Classroom, Helpful Tips. Encourages students to draw on different languages and make communication inclusive through translation and interpretation.",
+          url:
+            "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/fostering-linguistically-inclusive-and-asset-based-classroom"
+        }
+      ],
+      reviewNotes:
+        "Supports multilingual participation. Agreed task stages, English summaries and alignment with course requirements are toolkit adaptations. Do not require students to act as translators. For assessment, follow published language and tool rules."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
