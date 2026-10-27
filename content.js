@@ -1916,3 +1916,46 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D15",
+  title: "Understanding course expectations and procedures",
+  moduleTitle: "Helping students understand course expectations and procedures",
+  description:
+    "Guide students through course information so they can find expectations, understand procedures and know where to ask for clarification.",
+  status: "Draft",
+  practicalGuide:
+    "D15 Course expectations and procedures",
+
+  strategies: [
+    {
+      id: "D15-S1",
+      title: "Guide students through the course information",
+      summary:
+        "Use a short activity to help students locate and discuss important course information.",
+      howTo: [
+        "Check that the course guide, learning platform and linked procedures provide consistent information.",
+        "Show students where current course expectations are recorded.",
+        "Model finding one piece of information.",
+        "Give students a few practical questions to locate and discuss in pairs.",
+        "Ask students to explain what they would do and show where they found the answer.",
+        "Clarify misunderstandings and share answers to common questions with everyone.",
+        "Revisit relevant procedures before unfamiliar activities or assessments."
+      ],
+      example:
+        "Ask students to find the submission route, feedback arrangements and process for asking about an assignment. Then ask: “Where would you look for feedback?” and “What would you do if two deadlines appear different?”",
+      sources: [
+        {
+          text:
+            "University of Illinois Chicago — First Day of Class, Introduce the Syllabus (Actively!). Recommends active review of course information, student-generated questions and class discussion.",
+          url:
+            "https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/first-day-of-class/"
+        }
+      ],
+      reviewNotes:
+        "Supports active exploration of course information. Questions about submission, feedback and help are toolkit-created applications. Check against local procedures. D10 addresses individual assignment expectations."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
