@@ -584,4 +584,161 @@ const toolkit = [
       }
     ]
   },
+    {
+    id: "D05",
+    title: "Listening while taking notes",
+    moduleTitle: "Supporting students to listen and take notes",
+    description:
+      "Students may need explicit support to identify important information, record it efficiently and review their notes.",
+    status: "Draft",
+    practicalGuide:
+      "D05-S1–S6 Listening while taking notes",
+
+    strategies: [
+      {
+        id: "D05-S1",
+        title: "Provide a simple note-taking framework",
+        summary:
+          "Share a partly completed outline organised around the main topics before the lecture.",
+        howTo: [
+          "Organise the outline around the main topics.",
+          "Leave space for key explanations, examples and connections.",
+          "Explain what students should add.",
+          "Show how the framework relates to the lecture structure."
+        ],
+        example:
+          "Public health — Provide headings for each intervention, with spaces for its purpose, supporting evidence and limitations.",
+        sources: [
+          {
+            text:
+              "Virginia Tech, Lecture Guides and Wrappers, Guides/Guided notes.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The source directly supports providing a lecture outline with spaces for key concepts, facts, definitions and relationships."
+      },
+
+      {
+        id: "D05-S2",
+        title: "Signal what is important to record",
+        summary:
+          "Identify central points and distinguish them from illustrations or additional detail.",
+        howTo: [
+          "Explicitly identify central points.",
+          "Distinguish key ideas from examples and additional detail.",
+          "Give students time to record a point before expanding on it.",
+          "Explain what students should include in their notes."
+        ],
+        example:
+          "Economics — “The key relationship to record is that purchasing power falls when prices rise faster than income. I’ll now give you an example.”",
+        sources: [
+          {
+            text:
+              "University of Nebraska–Lincoln, Teaching Students to Take Better Notes, “Tell Students What to Record”.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The spoken signposting example is toolkit-created."
+      },
+
+      {
+        id: "D05-S3",
+        title: "Show how to turn an explanation into brief notes",
+        summary:
+          "Model how to select key information and record it using phrases, symbols or a small diagram.",
+        howTo: [
+          "Use a short extract from your own teaching.",
+          "Show how you select key information.",
+          "Record the information using phrases, symbols or a small diagram.",
+          "Explain any abbreviations you use.",
+          "Discourage verbatim transcription."
+        ],
+        example:
+          "Business — Turn “Revenue increased, but profit fell because costs increased by a larger amount” into “Revenue ↑; costs ↑ more → profit ↓.”",
+        sources: [
+          {
+            text:
+              "Vermont State University, Note Taking Guidance, “How to Provide Note-taking Guidance for Students”.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The worked demonstration applies guidance about concise notes, abbreviations and symbols."
+      },
+
+      {
+        id: "D05-S4",
+        title: "Separate listening from copying",
+        summary:
+          "Ask students to listen first, then pause so they can annotate a visual or complete their notes.",
+        howTo: [
+          "When introducing a complex idea or diagram, ask students to listen first.",
+          "Pause for students to make notes.",
+          "Leave the relevant visual visible while students work.",
+          "Provide detailed diagrams or tables that students can annotate."
+        ],
+        example:
+          "Engineering — Explain a circuit while students follow the displayed diagram. Then pause while they label the component responsible for the fault and note why.",
+        sources: [
+          {
+            text: "Imperial College London, Using visual aids.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The source supports handouts that reduce copying and pauses for completing notes. The listen-first-then-annotate sequence is a toolkit adaptation."
+      },
+
+      {
+        id: "D05-S5",
+        title: "Build in short pauses to complete notes",
+        summary:
+          "Pause after a substantial explanation and give students a specific task for completing or improving their notes.",
+        howTo: [
+          "Pause after a substantial explanation.",
+          "Ask students to finish a sentence, add a connection or mark a question.",
+          "Give a specific note-completion task.",
+          "Allow students to use familiar languages where helpful while retaining essential subject terms in English."
+        ],
+        example:
+          "Nursing — “Take a minute to record the three warning signs. Put a question mark beside anything you need me to explain again.”",
+        sources: [
+          {
+            text:
+              "University of Nebraska–Lincoln, Teaching Students to Take Better Notes, “Challenge Students to Think”.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The source supports pauses for paraphrasing, restating relationships and adding explanations. The suggestion about using familiar languages needs separate sourcing."
+      },
+
+      {
+        id: "D05-S6",
+        title: "Help students check and improve their notes",
+        summary:
+          "Ask pairs to compare notes against a focused question, then provide an outline for checking gaps.",
+        howTo: [
+          "Ask pairs to compare notes against a focused question.",
+          "Ask students to identify missing or contradictory information.",
+          "Display a brief outline of the essential content.",
+          "Allow students to correct gaps or misunderstandings.",
+          "Explain that wording and layout can vary."
+        ],
+        example:
+          "Environmental science — “Compare your notes: have you captured the difference between mitigation and adaptation, with one example of each?”",
+        sources: [
+          {
+            text:
+              "University of Nebraska–Lincoln, Reviewing and Comparing Lecture Notes.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The teacher’s comparison outline is an additional toolkit element."
+      }
+    ]
+  },
 ];
