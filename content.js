@@ -272,9 +272,9 @@ const toolkit = [
           "Source supports repetition, spaced retrieval and contextual use. Classroom sequence developed for the toolkit."
       }
     ]
-  }
-];
-  }  {
+  },
+
+  {
     id: "D03",
     title: "Following lectures and extended explanations",
     moduleTitle: "Supporting comprehension during lectures",
