@@ -1459,3 +1459,151 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D12",
+  title: "Understanding and applying feedback",
+  moduleTitle: "Helping students understand and use feedback",
+  description:
+    "Make feedback clear and actionable, check how students interpret it and provide opportunities to use it.",
+  status: "Draft",
+  practicalGuide:
+    "D12 Understanding and using feedback",
+
+  strategies: [
+    {
+      id: "D12-S1",
+      title: "Make comments specific and actionable",
+      summary:
+        "Identify the issue in the work and explain what the student can do next.",
+      howTo: [
+        "Identify the relevant part of the work.",
+        "Explain the issue and suggest an action.",
+        "Unpack terms such as “critical”, “unclear” or “develop” rather than using them alone."
+      ],
+      example:
+        "Business: Replace “Needs more analysis” with “You have listed the risks. Explain how each risk could affect the expansion decision, using the case data.”",
+      sources: [
+        {
+          text:
+            "University of Bath — Actionable Feedback, Breaking it down and Worked examples. Supports identifying what needs improvement, illustrating the issue and explaining how to improve.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Direct source support. The rewritten comment is toolkit-created."
+    },
+    {
+      id: "D12-S2",
+      title: "Connect feedback to criteria and examples",
+      summary:
+        "Connect comments to assessment criteria and illustrate the feature to improve.",
+      howTo: [
+        "Name the criterion the comment addresses.",
+        "Use a short annotated example to show the feature students need to improve.",
+        "Use different content so the example does not supply a replacement for the student’s answer."
+      ],
+      example:
+        "Engineering: Connect “justify your choice” to the design criterion, then show how a different example uses test results to support a decision.",
+      sources: [
+        {
+          text:
+            "King’s College London — How can I help students engage with feedback?, Methods. Supports using exemplars to help students apply assessment criteria.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. Pairing an individual feedback comment with an annotated example is a toolkit application."
+    },
+    {
+      id: "D12-S3",
+      title: "Help students identify priorities",
+      summary:
+        "Explain which changes matter most and where students should begin.",
+      howTo: [
+        "Distinguish the most important changes from smaller refinements.",
+        "Select a manageable number of priorities.",
+        "Explain why those changes matter."
+      ],
+      example:
+        "Public health: “First, check whether your conclusion matches the evidence. Next, organise the supporting points. Then address the wording marked in the final paragraph.”",
+      sources: [
+        {
+          text:
+            "University of Michigan — Giving Feedback on Student Writing, Strategy #1: Overview Notes and Marginal Comments. Supports selecting important issues and explicitly identifying revision priorities.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Direct source support, with a focus on written work. Subject example is toolkit-created."
+    },
+    {
+      id: "D12-S4",
+      title: "Check how students interpret the feedback",
+      summary:
+        "Ask students to explain the feedback and identify their next action.",
+      howTo: [
+        "Ask students to explain a comment in their own words.",
+        "Ask what they will do next.",
+        "Provide an opportunity to clarify uncertainty before they revise."
+      ],
+      example:
+        "Economics: “What does my comment about the missing mechanism mean? Show me where you will explain how the interest-rate change affects borrowing.”",
+      sources: [
+        {
+          text:
+            "University of Glasgow — Respond to feedback, How. Supports asking learners to explain feedback in their own words and develop an action plan through discussion.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Direct source support. Subject example developed for the toolkit; local validation pending."
+    },
+    {
+      id: "D12-S5",
+      title: "Provide an opportunity to use feedback",
+      summary:
+        "Plan a revision or related task so students can act on feedback.",
+      howTo: [
+        "Build in a revision, a second attempt or a related task requiring the same skill.",
+        "Explain which feedback students should revisit.",
+        "Allow time for students to apply it."
+      ],
+      example:
+        "Environmental science: Students revise an explanation of a causal relationship, then apply the same feedback when explaining a different environmental process.",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Creating Revision Plans and Revision Memos. Supports feedback followed by planned revision, including repeated or developing assignments.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The source focuses on written work. Applying the approach to spoken or practical attempts is a toolkit adaptation."
+    },
+    {
+      id: "D12-S6",
+      title: "Ask students to explain how they used feedback",
+      summary:
+        "Use a brief response log to make students’ actions and reasoning visible.",
+      howTo: [
+        "Ask students to record the feedback point.",
+        "Ask them to identify the action taken and where the change appears.",
+        "Invite students to explain their reasoning if they choose a different response."
+      ],
+      example:
+        "Nursing: “Feedback: the care priority lacked justification. Action: added a reason linked to the patient information. Location: paragraph two.”",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Creating Revision Plans and Revision Memos, Revision memos. Supports summarising feedback, describing changes and explaining decisions to leave elements unchanged.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The brief response-log format is a toolkit adaptation."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
