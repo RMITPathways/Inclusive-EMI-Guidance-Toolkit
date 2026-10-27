@@ -740,5 +740,5 @@ const toolkit = [
           "The teacher’s comparison outline is an additional toolkit element."
       }
     ]
-  },
+  }
 ];
