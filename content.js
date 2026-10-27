@@ -1959,3 +1959,46 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D16",
+  title: "Making students’ learning experiences and support preferences visible",
+  moduleTitle: "Learning about students and their support preferences",
+  description:
+    "Use a short survey to understand students’ prior learning, strengths and support preferences, then revisit your understanding as the course progresses.",
+  status: "Draft",
+  practicalGuide:
+    "D16 Learning experiences and support preferences",
+
+  strategies: [
+    {
+      id: "D16-S1",
+      title: "Use a short learning-experience survey",
+      summary:
+        "Ask a few relevant questions and use the responses to make practical teaching adjustments.",
+      howTo: [
+        "Choose four to six questions about prior subject learning, experience with course tasks, strengths and support preferences.",
+        "Invite students to describe languages they use for study if they wish.",
+        "Explain why you are asking, who will see the responses and how you will use them.",
+        "Make personal disclosure optional and provide a private follow-up route.",
+        "Use responses to adjust preparation, demonstrations or examples.",
+        "Tell students what you will adjust without identifying individual responses.",
+        "Revisit your understanding through classroom observation, students’ work and later check-ins."
+      ],
+      example:
+        "Ask: “Which types of tasks have you done before?” “What is one strength you bring to this course?” “What helps you understand a difficult explanation?” If several students report little experience reading research articles, model how to identify an article’s question, method and findings.",
+      sources: [
+        {
+          text:
+            "University of Illinois Chicago — First Day of Class, Create Classroom Community. Recommends introductory surveys about students’ backgrounds, goals, obstacles and preferences to inform teaching.",
+          url:
+            "https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/first-day-of-class/"
+        }
+      ],
+      reviewNotes:
+        "Supports gathering information and using it to inform teaching. Survey wording, optional disclosure and later check-ins are toolkit design choices. Do not infer needs from ethnicity or assign fixed learning styles. A survey provides an initial picture rather than a diagnosis."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
