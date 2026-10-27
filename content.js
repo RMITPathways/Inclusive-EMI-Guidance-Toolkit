@@ -2002,3 +2002,46 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D17",
+  title: "Finding and accessing additional support",
+  moduleTitle: "Helping students access additional support",
+  description:
+    "Make referrals specific and practical so students understand why a service may help and how to access it.",
+  status: "Draft",
+  practicalGuide:
+    "D17 Accessing additional support",
+
+  strategies: [
+    {
+      id: "D17-S1",
+      title: "Make a specific practical referral",
+      summary:
+        "Identify a particular difficulty, explain the relevant service and help the student take the next step.",
+      howTo: [
+        "Speak privately and refer to a particular piece of work or learning task.",
+        "Identify a strength and describe one specific difficulty.",
+        "Ask how the student sees the difficulty before deciding what support fits.",
+        "Explain what the relevant service offers and check current eligibility and booking arrangements.",
+        "Show how to make contact or book an appointment and explain what to bring.",
+        "Check that the student knows the next step.",
+        "Follow up while continuing relevant subject support."
+      ],
+      example:
+        "“Your evidence is relevant. The links between your points are unclear. A writing consultation could help you work on those connections. Bring this draft and the assignment brief. Let’s look at the booking page together.”",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Student Referral Best Practices. Supports identifying specific difficulties and strengths, explaining appointment arrangements and what to bring, and following up.",
+          url:
+            "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support/student-referrals"
+        }
+      ],
+      reviewNotes:
+        "Strong direct support for language-support referrals. Applying this approach to other services extends the source. Verify local services and booking arrangements. Do not use accent or isolated language errors as a diagnosis of support needs."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
