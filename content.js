@@ -1607,3 +1607,156 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D13",
+  title: "Managing independent study and preparation",
+  moduleTitle: "Helping students manage independent study and preparation",
+  description:
+    "Make independent study purposeful and manageable, demonstrate useful study methods and help students adjust their approach.",
+  status: "Draft",
+  practicalGuide:
+    "D13 Independent study and preparation",
+
+  strategies: [
+    {
+      id: "D13-S1",
+      title: "Make preparation tasks specific and purposeful",
+      summary:
+        "Explain what students should prepare and how they will use it.",
+      howTo: [
+        "State what students should do.",
+        "Explain why it matters for the next class.",
+        "Specify what students should bring or produce.",
+        "Distinguish essential preparation from optional extension."
+      ],
+      example:
+        "Business: “Read the case and identify two risks, with supporting evidence. Bring your notes to use in the group recommendation task.”",
+      sources: [
+        {
+          text:
+            "University of Denver — Motivating Students to Come to Class Prepared, Adjust your teaching practices and Use guides/prompts/reflections. Supports explaining preparation purposes and expectations and providing key questions.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Distinguishing essential work from optional extension is a toolkit addition. Subject example is toolkit-created."
+    },
+    {
+      id: "D13-S2",
+      title: "Help students plan the workload",
+      summary:
+        "Provide approximate time estimates and divide substantial work into stages.",
+      howTo: [
+        "Provide an approximate time estimate.",
+        "Break substantial work into stages.",
+        "Show how preparation and deadlines fit together.",
+        "Explain that actual time will vary and invite students to flag difficulties."
+      ],
+      example:
+        "Engineering: “Before Thursday: review the worked example, attempt two problems and note where you get stuck. Allow around an hour initially.”",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Teaching Support, Reading: Taking extra time to read in a second language. Recommends providing time estimates for readings.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. Staged planning, acknowledging variation and inviting students to flag difficulties are toolkit additions."
+    },
+    {
+      id: "D13-S3",
+      title: "Demonstrate how to study subject content actively",
+      summary:
+        "Model recalling or applying learning, then checking and correcting the response.",
+      howTo: [
+        "Use course material to model a useful study activity.",
+        "For example, recall an explanation without looking, solve a problem or compare concepts.",
+        "Check the response against reliable course material and correct errors.",
+        "Explain when the method is useful."
+      ],
+      example:
+        "Biology: Close the notes, sketch the process from memory, then check the sequence and add missing relationships in another colour.",
+      sources: [
+        {
+          text:
+            "Australian Education Research Organisation — Spacing and retrieval practice guide, Key practice 2. Supports recalling learning, using conceptual questions, correcting errors and teaching retrieval for independent study.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Primarily school-facing guidance. The higher-education demonstration is a toolkit adaptation."
+    },
+    {
+      id: "D13-S4",
+      title: "Provide an early structure and gradually reduce support",
+      summary:
+        "Use temporary prompts to help students develop independent approaches.",
+      howTo: [
+        "Provide a short checklist or planning template when a task is new.",
+        "Explain how to use it.",
+        "Reduce prompts as students become more capable of planning independently.",
+        "Retain or restore support where it remains useful."
+      ],
+      example:
+        "Public health: Initially provide prompts for identifying a study’s question, findings and limitations. Later, ask students to generate their own reading questions.",
+      sources: [
+        {
+          text:
+            "Northern Illinois University — Instructional Scaffolding to Improve Learning. Supports providing temporary support and gradually withdrawing it as students master a task.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The independent-study checklist and reading example apply this broader approach."
+    },
+    {
+      id: "D13-S5",
+      title: "Use preparation meaningfully in class",
+      summary:
+        "Design classroom activities that use students’ preparation.",
+      howTo: [
+        "Design the next activity so students use what they prepared.",
+        "Provide a brief opportunity to compare or check preparation before applying it.",
+        "Address gaps while keeping the lesson moving."
+      ],
+      example:
+        "Economics: Students compare their interpretations of a graph, clarify differences, then use it to explain a policy scenario.",
+      sources: [
+        {
+          text:
+            "University of Denver — Motivating Students to Come to Class Prepared, Adjust your teaching practices and Use guides/prompts/reflections. Supports integrating preparation into class activities, including initial responses followed by peer discussion.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The graph-interpretation activity is toolkit-created."
+    },
+    {
+      id: "D13-S6",
+      title: "Build in reflection and adjustment",
+      summary:
+        "Help students review their approach and choose a change for next time.",
+      howTo: [
+        "Ask what students planned and completed.",
+        "Ask what helped and what they will change.",
+        "Help distinguish difficulties with time, instructions, subject knowledge, English or resource access.",
+        "Identify a practical next action or appropriate support."
+      ],
+      example:
+        "Environmental science: “Which part took longer than expected? What caused the difficulty? What will you change for the next reading, and what support do you need?”",
+      sources: [
+        {
+          text:
+            "University of Waterloo — Teaching Metacognitive Skills, Strategies for Assignments. Supports reflecting on how a task was completed and using the experience to plan future work.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Prompts distinguishing different sources of difficulty are toolkit additions."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
