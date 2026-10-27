@@ -711,3 +711,152 @@ const toolkit = [
     ]
   }
 ];
+toolkit.push({
+  id: "D07",
+  title: "Asking questions or admitting confusion",
+  moduleTitle: "Helping students ask questions and seek clarification",
+  description:
+    "Make it clear how students can ask questions, provide different ways to reveal uncertainty and respond constructively.",
+  status: "Draft",
+  practicalGuide:
+    "D07-S1–S6 Helping students ask questions and seek clarification",
+
+  strategies: [
+    {
+      id: "D07-S1",
+      title: "Explain when and how students can ask",
+      summary:
+        "Explain the available ways to ask questions and demonstrate how to use them.",
+      howTo: [
+        "State whether students can interrupt, should wait for a pause, or can submit questions in writing.",
+        "Demonstrate the process.",
+        "Remind students of these options during teaching."
+      ],
+      example:
+        "Engineering: “If a step in the calculation is unclear, raise your hand straight away. We can clarify it before building on it.”",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Teaching Support, Lecture Comprehension: Withholding questions. Recommends encouraging questions, explaining office hours, providing time after class and allowing written questions.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The classroom procedure and demonstration are toolkit adaptations. Local validation pending."
+    },
+    {
+      id: "D07-S2",
+      title: "Ask focused questions about uncertainty",
+      summary:
+        "Invite questions about a particular concept, step or distinction.",
+      howTo: [
+        "Replace a general “Any questions?” with a prompt about a particular concept, step or distinction.",
+        "Allow thinking time before inviting responses.",
+        "Use responses to identify what needs further explanation."
+      ],
+      example:
+        "Accounting: “Which part of deciding whether this is an asset or an expense needs another explanation?”",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Teaching Support, Lecture Comprehension: Withholding questions. Supports encouraging questions. The focused uncertainty prompt is a toolkit adaptation.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. Focused prompts and subject example developed for the toolkit."
+    },
+    {
+      id: "D07-S3",
+      title: "Provide a way to ask without speaking publicly",
+      summary:
+        "Offer a written route for questions and explain when you will respond.",
+      howTo: [
+        "Offer a manageable written route, such as anonymous question slips or a digital question box.",
+        "Explain whether submissions are anonymous.",
+        "Explain when you will review and answer submissions."
+      ],
+      example:
+        "Public health: Students submit the point they most want clarified. The lecturer addresses common questions at the start of the next class.",
+      sources: [
+        {
+          text:
+            "University of Nebraska–Lincoln — Muddiest Point. Describes collecting unclear points through paper slips or anonymous online surveys, then addressing common difficulties.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Supports a written route to disclose confusion. Subject example developed for the toolkit."
+    },
+    {
+      id: "D07-S4",
+      title: "Give students language for requesting clarification",
+      summary:
+        "Provide short phrases that help students identify and explain their uncertainty.",
+      howTo: [
+        "Display a few short phrases for requesting clarification.",
+        "Demonstrate how to use them with course content.",
+        "Include ways to identify the exact point of confusion."
+      ],
+      example:
+        "Economics: “I understand…, but I’m not clear about…”; “Could you explain why…?”; “Could you show another example of…?”",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Discussions, How to ask for clarification and How to ask for more information. Provides phrases for identifying unclear points, requesting explanations and asking for examples.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Student-facing language resource. Introducing and modelling the phrases is a toolkit teaching adaptation."
+    },
+    {
+      id: "D07-S5",
+      title: "Respond constructively when students reveal confusion",
+      summary:
+        "Acknowledge the question, clarify the difficulty and check understanding after explaining.",
+      howTo: [
+        "Acknowledge the question without judging the student.",
+        "Clarify the specific difficulty.",
+        "Explain it another way.",
+        "Check understanding through a small application task."
+      ],
+      example:
+        "Nursing: “Let’s separate those two terms.” Explain the distinction, then ask students to apply it to a new case.",
+      sources: [
+        {
+          text:
+            "University of Waterloo — Question Strategies, Listening actively. Supports acknowledging contributions, avoiding interruption, asking for clarification and inviting elaboration.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. Explaining differently and checking through a new application task are additional toolkit steps."
+    },
+    {
+      id: "D07-S6",
+      title: "Build in opportunities to identify what remains unclear",
+      summary:
+        "Plan short checks that reveal uncertainty and guide what you revisit.",
+      howTo: [
+        "At a planned stopping point, ask everyone to identify a specific uncertainty.",
+        "Alternatively, ask students to apply a concept and explain their reasoning.",
+        "Use responses to decide what to revisit."
+      ],
+      example:
+        "Environmental science: “Write one difference between mitigation and adaptation, with an example. Add a question if any part remains unclear.”",
+      sources: [
+        {
+          text:
+            "University of Nebraska–Lincoln — Muddiest Point. Recommends asking students to identify unclear material and using responses to decide what to review.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Supports the uncertainty prompt. The accompanying subject-application question is toolkit-created."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
