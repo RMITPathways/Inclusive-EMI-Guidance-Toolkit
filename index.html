@@ -192,14 +192,16 @@
       padding-left: 1.3rem;
     }
 
-    .source {
+    .source,
+    .source-box {
       padding: 0.8rem;
       border-left: 4px solid var(--border);
       color: var(--muted);
       font-size: 0.95rem;
     }
 
-    .source a {
+    .source a,
+    .source-box a {
       color: var(--blue);
       text-decoration: underline;
     }
@@ -312,14 +314,14 @@
         example:
           "Business — Before: “Undertake a comparative evaluation of the two proposed pricing strategies, identifying the relative merits and limitations of each.” Clearer: “Compare the two pricing strategies. Identify the strengths and limitations of each.”",
         sources: [
-        {
-    text: "University of Minnesota, Communication Tips, particularly “Speak more effectively” and “Navigate communication styles”.",
-    url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/communication-tips"
-  },
-  {
-    text: "TAEC Erasmus+ project (2017–2020), EMI Handbook, section 1.4.1, “Giving directions”, pp. 19–20.",
-    url: ""
-  }
+          {
+            text: "University of Minnesota, Communication Tips, particularly “Speak more effectively” and “Navigate communication styles”.",
+            url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/communication-tips"
+          },
+          {
+            text: "TAEC Erasmus+ project (2017–2020), EMI Handbook, section 1.4.1, “Giving directions”, pp. 19–20.",
+            url: ""
+          }
         ],
         pathway: "Giving instructions DS01-S1-S5"
       },
@@ -427,7 +429,7 @@
           strategy.summary,
           strategy.example,
           strategy.difficulty,
-          strategy.sources.join(" "),
+          strategy.sources.map(source => typeof source === "string" ? source : (source.text || "")).join(" "),
           strategy.steps.join(" ")
         ].join(" ").toLowerCase();
 
@@ -461,25 +463,22 @@
             <p>${strategy.example}</p>
 
             <h4>Supporting sources</h4>
-           <div class="source-box">
-  ${strategy.sources.map(source => {
-    if (source.url) {
-      return `
-        <p>
-          <a
-            href="${source.url}"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ${source.text}
-          </a>
-        </p>
-      `;
-    }
+            <div class="source-box">
+              ${strategy.sources.map(source => {
+                const text = typeof source === "string" ? source : source.text;
+                const url = typeof source === "string" ? "" : source.url;
 
-    return `<p>${source.text}</p>`;
-  }).join("")}
-</div>
+                if (url) {
+                  return `
+                    <p>
+                      <a href="${url}" target="_blank" rel="noopener noreferrer">${text}</a>
+                    </p>
+                  `;
+                }
+
+                return `<p>${text}</p>`;
+              }).join("")}
+            </div>
 
             <p class="draft-note">
               Content status: draft; local validation pending.
