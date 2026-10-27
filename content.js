@@ -6,7 +6,7 @@ const toolkit = [
     description:
       "Students need to understand what a task requires before they can demonstrate their subject knowledge.",
     status: "Draft",
-    practicalGuide: "Giving instructions DS01-S1-S5",
+    practicalGuide: "D01-S1–S5 Giving clear instructions in EMI",
 
     strategies: [
       {
@@ -23,7 +23,7 @@ const toolkit = [
           "Preserve the thinking required by the learning outcome."
         ],
         example:
-          "Business — Before: “Undertake a comparative evaluation of the two proposed pricing strategies, identifying the relative merits and limitations of each.” Clearer: “Compare the two pricing strategies. Identify the strengths and limitations of each.”",
+          "Business — Before: “Undertake a comparative evaluation of the two proposed pricing strategies, identifying the relative merits and limitations of each.” Clearer: “Compare the two proposed pricing strategies and identify the advantages and disadvantages of each.”",
         sources: [
           {
             text:
@@ -35,7 +35,6 @@ const toolkit = [
         reviewNotes:
           "Toolkit-created example. General higher-education guidance; local validation pending."
       },
-
       {
         id: "D01-S2",
         title: "Break instructions into steps",
@@ -63,7 +62,6 @@ const toolkit = [
         ],
         reviewNotes: "Draft."
       },
-
       {
         id: "D01-S3",
         title: "Demonstrate the task",
@@ -87,7 +85,6 @@ const toolkit = [
         ],
         reviewNotes: "Draft."
       },
-
       {
         id: "D01-S4",
         title: "Check what students need to do",
@@ -115,7 +112,6 @@ const toolkit = [
         ],
         reviewNotes: "Draft."
       },
-
       {
         id: "D01-S5",
         title: "Check the first attempt",
@@ -139,7 +135,6 @@ const toolkit = [
         reviewNotes: "Draft."
       }
     ],
-
     checklist: [
       "Are the required actions easy to identify?",
       "Are essential subject terms retained and explained where necessary?",
@@ -148,7 +143,6 @@ const toolkit = [
       "Which questions will check the instructions?",
       "What will you look for when students begin?"
     ],
-
     moduleSources: [
       {
         text:
@@ -171,8 +165,7 @@ const toolkit = [
     description:
       "Students may need explicit support to understand and use discipline-specific vocabulary.",
     status: "Draft",
-    practicalGuide:
-      "D02-S1–S4 Helping students understand and use subject vocabulary",
+    practicalGuide: "D02-S1–S4 Helping students understand and use subject vocabulary",
 
     strategies: [
       {
@@ -188,7 +181,7 @@ const toolkit = [
           "Check understanding through a new example."
         ],
         example:
-          "Economics — Explain opportunity cost using a business choosing between a delivery vehicle and production equipment. Give another decision and ask students to identify the next-best alternative forgone.",
+          "Economics — Explain opportunity cost using a business choosing between a delivery vehicle and production equipment. Give another decision and ask students to identify the next-best alternative.",
         sources: [
           {
             text: "University of Minnesota, Teaching Support: vocabulary.",
@@ -198,7 +191,6 @@ const toolkit = [
         reviewNotes:
           "Source supports selecting important terms and providing definitions. Teaching sequence and subject example developed for the toolkit."
       },
-
       {
         id: "D02-S2",
         title: "Distinguish subject and everyday meanings",
@@ -222,7 +214,6 @@ const toolkit = [
         reviewNotes:
           "School-science guidance adapted to a university context."
       },
-
       {
         id: "D02-S3",
         title: "Build and use a course glossary",
@@ -248,7 +239,6 @@ const toolkit = [
         reviewNotes:
           "Glossary content is source-supported. Optional multilingual field and subject example developed for the toolkit."
       },
-
       {
         id: "D02-S4",
         title: "Revisit terms through recall and application",
@@ -281,8 +271,7 @@ const toolkit = [
     description:
       "Students may need explicit structure, pauses and visual support to follow extended spoken explanations in English.",
     status: "Draft",
-    practicalGuide:
-      "D03-S1–S6 Following lectures and extended explanations",
+    practicalGuide: "D03-S1–S6 Following lectures and extended explanations",
 
     strategies: [
       {
@@ -308,7 +297,6 @@ const toolkit = [
         ],
         reviewNotes: "Draft."
       },
-
       {
         id: "D03-S2",
         title: "Break explanations into sections and check understanding",
@@ -332,7 +320,6 @@ const toolkit = [
         reviewNotes:
           "Subject questions illustrate implementation."
       },
-
       {
         id: "D03-S3",
         title: "Support spoken explanations with key points and visuals",
@@ -355,9 +342,8 @@ const toolkit = [
           }
         ],
         reviewNotes:
-          "The source supports relevant visuals and listening guides. Limiting slide text needs separate support or should be identified as toolkit guidance."
+          "The source supports relevant visuals and listening guides."
       },
-
       {
         id: "D03-S4",
         title: "Make references to earlier ideas explicit",
@@ -381,7 +367,6 @@ const toolkit = [
         reviewNotes:
           "Original toolkit example; grammatical terminology has been simplified."
       },
-
       {
         id: "D03-S5",
         title: "Guide students through a visual",
@@ -404,9 +389,8 @@ const toolkit = [
           }
         ],
         reviewNotes:
-          "The source supports directing attention to visual features and explaining their relationship to the argument. The checking question is an original toolkit example."
+          "The source supports directing attention to visual features and explaining their relationship to the argument."
       },
-
       {
         id: "D03-S6",
         title: "Mark an aside and the return to the main point",
@@ -440,8 +424,7 @@ const toolkit = [
     description:
       "Students may need support to distinguish a text’s main message from supporting details, examples and broader inferences.",
     status: "Draft",
-    practicalGuide:
-      "D04-S1–S6 Identifying main ideas in readings",
+    practicalGuide: "D04-S1–S6 Identifying main ideas in readings",
 
     strategies: [
       {
@@ -465,9 +448,8 @@ const toolkit = [
           }
         ],
         reviewNotes:
-          "The source recommends making reading goals clear. The subject example is toolkit-created."
+          "The source recommends making reading goals clear."
       },
-
       {
         id: "D04-S2",
         title: "Model how to identify a main idea",
@@ -490,9 +472,8 @@ const toolkit = [
           }
         ],
         reviewNotes:
-          "The source recommends modelling annotation and distinguishing what a paragraph says from what it does. The lecturer’s worked example is toolkit-developed."
+          "The source recommends modelling annotation and distinguishing what a paragraph says from what it does."
       },
-
       {
         id: "D04-S3",
         title: "Provide a short reading guide",
@@ -514,9 +495,8 @@ const toolkit = [
           }
         ],
         reviewNotes:
-          "The source recommends reading guides with key questions to help students distinguish main ideas from supporting details. The subject example is toolkit-created."
+          "The source recommends reading guides with key questions to help students distinguish main ideas from supporting details."
       },
-
       {
         id: "D04-S4",
         title: "Explain how the type of text affects where to look",
@@ -538,9 +518,8 @@ const toolkit = [
           }
         ],
         reviewNotes:
-          "The source supports the functions of sections in a scientific research article. It does not support guidance about every type of academic text. Demonstration should use discipline-appropriate extracts."
+          "The source supports the functions of sections in a scientific research article."
       },
-
       {
         id: "D04-S5",
         title: "Use section summaries to build overall understanding",
@@ -562,9 +541,8 @@ const toolkit = [
           }
         ],
         reviewNotes:
-          "The source recommends brief statements summarising main points. Combining those statements into an overall summary is a practical toolkit extension."
+          "The source recommends brief statements summarising main points."
       },
-
       {
         id: "D04-S6",
         title: "Ask students to justify their interpretation",
@@ -579,316 +557,162 @@ const toolkit = [
         example:
           "Business — Give three possible summaries of a report. Students select the best one and explain why the others are too narrow or go beyond the evidence.",
         sources: [],
-        reviewNotes:
-          "Draft. Supporting source to be confirmed."
+        reviewNotes: "Draft. Supporting source to be confirmed."
       }
     ]
   },
-    {
+
+  {
     id: "D05",
-    title: "Listening while taking notes",
-    moduleTitle: "Supporting students to listen and take notes",
+    title: "Listening for key information in seminars and discussions",
+    moduleTitle: "Supporting listening in seminars and discussion-based learning",
     description:
-      "Students may need explicit support to identify important information, record it efficiently and review their notes.",
+      "Students may need support to follow spoken interaction, identify the key point, and respond appropriately in English.",
     status: "Draft",
-    practicalGuide:
-      "D05-S1–S6 Listening while taking notes",
+    practicalGuide: "D05-S1–S4 Listening for key information in seminars and discussions",
 
     strategies: [
       {
         id: "D05-S1",
-        title: "Provide a simple note-taking framework",
+        title: "Set a listening focus",
         summary:
-          "Share a partly completed outline organised around the main topics before the lecture.",
+          "Tell students what they need to listen for before the discussion begins.",
         howTo: [
-          "Organise the outline around the main topics.",
-          "Leave space for key explanations, examples and connections.",
-          "Explain what students should add.",
-          "Show how the framework relates to the lecture structure."
+          "State the purpose of the listening task.",
+          "Identify the type of information students should catch.",
+          "Link the listening task to the lesson objective.",
+          "Check understanding before moving on."
         ],
         example:
-          "Public health — Provide headings for each intervention, with spaces for its purpose, supporting evidence and limitations.",
-        sources: [
-          {
-            text:
-              "Virginia Tech, Lecture Guides and Wrappers, Guides/Guided notes.",
-            url: ""
-          }
-        ],
-        reviewNotes:
-          "The source directly supports providing a lecture outline with spaces for key concepts, facts, definitions and relationships."
+          "Seminar — “Listen for the main argument and one example the speaker uses to support it.”",
+        sources: [],
+        reviewNotes: "Placeholder structure for D05."
       },
-
       {
         id: "D05-S2",
-        title: "Signal what is important to record",
+        title: "Use short listening checks",
         summary:
-          "Identify central points and distinguish them from illustrations or additional detail.",
+          "Pause and ask for quick evidence of understanding during spoken interaction.",
         howTo: [
-          "Explicitly identify central points.",
-          "Distinguish key ideas from examples and additional detail.",
-          "Give students time to record a point before expanding on it.",
-          "Explain what students should include in their notes."
+          "Pause after a short exchange.",
+          "Ask a focused question.",
+          "Invite one or two students to answer.",
+          "Confirm the key point before continuing."
         ],
         example:
-          "Economics — “The key relationship to record is that purchasing power falls when prices rise faster than income. I’ll now give you an example.”",
-        sources: [
-          {
-            text:
-              "University of Nebraska–Lincoln, Teaching Students to Take Better Notes, “Tell Students What to Record”.",
-            url: ""
-          }
-        ],
-        reviewNotes:
-          "The spoken signposting example is toolkit-created."
+          "“What is the speaker’s main point?” “Which example supports that idea?”",
+        sources: [],
+        reviewNotes: "Placeholder structure for D05."
       },
-
       {
         id: "D05-S3",
-        title: "Show how to turn an explanation into brief notes",
+        title: "Support note-taking during discussion",
         summary:
-          "Model how to select key information and record it using phrases, symbols or a small diagram.",
+          "Give students a simple way to capture the main point and evidence.",
         howTo: [
-          "Use a short extract from your own teaching.",
-          "Show how you select key information.",
-          "Record the information using phrases, symbols or a small diagram.",
-          "Explain any abbreviations you use.",
-          "Discourage verbatim transcription."
+          "Use a simple note-taking frame.",
+          "Encourage students to record only the key idea and one example.",
+          "Keep the note format brief and consistent.",
+          "Review the notes together after discussion."
         ],
         example:
-          "Business — Turn “Revenue increased, but profit fell because costs increased by a larger amount” into “Revenue ↑; costs ↑ more → profit ↓.”",
-        sources: [
-          {
-            text:
-              "Vermont State University, Note Taking Guidance, “How to Provide Note-taking Guidance for Students”.",
-            url: ""
-          }
-        ],
-        reviewNotes:
-          "The worked demonstration applies guidance about concise notes, abbreviations and symbols."
+          "Main idea: ___. Example: ___. Question to ask: ___.",
+        sources: [],
+        reviewNotes: "Placeholder structure for D05."
       },
-
       {
         id: "D05-S4",
-        title: "Separate listening from copying",
+        title: "Repeat and rephrase when needed",
         summary:
-          "Ask students to listen first, then pause so they can annotate a visual or complete their notes.",
+          "Clarify the key point when students may have missed it during rapid discussion.",
         howTo: [
-          "When introducing a complex idea or diagram, ask students to listen first.",
-          "Pause for students to make notes.",
-          "Leave the relevant visual visible while students work.",
-          "Provide detailed diagrams or tables that students can annotate."
+          "Repeat important points in a simpler form.",
+          "Restate the question or conclusion clearly.",
+          "Use short examples to reinforce meaning.",
+          "Check whether students can now explain the point."
         ],
         example:
-          "Engineering — Explain a circuit while students follow the displayed diagram. Then pause while they label the component responsible for the fault and note why.",
-        sources: [
-          {
-            text: "Imperial College London, Using visual aids.",
-            url: ""
-          }
-        ],
-        reviewNotes:
-          "The source supports handouts that reduce copying and pauses for completing notes. The listen-first-then-annotate sequence is a toolkit adaptation."
-      },
+          "“So the main issue is …” “In other words, the argument is …”",
+        sources: [],
+        reviewNotes: "Placeholder structure for D05."
+      }
+    ]
+  },
 
-      {
-        id: "D05-S5",
-        title: "Build in short pauses to complete notes",
-        summary:
-          "Pause after a substantial explanation and give students a specific task for completing or improving their notes.",
-        howTo: [
-          "Pause after a substantial explanation.",
-          "Ask students to finish a sentence, add a connection or mark a question.",
-          "Give a specific note-completion task.",
-          "Allow students to use familiar languages where helpful while retaining essential subject terms in English."
-        ],
-        example:
-          "Nursing — “Take a minute to record the three warning signs. Put a question mark beside anything you need me to explain again.”",
-        sources: [
-          {
-            text:
-              "University of Nebraska–Lincoln, Teaching Students to Take Better Notes, “Challenge Students to Think”.",
-            url: ""
-          }
-        ],
-        reviewNotes:
-          "The source supports pauses for paraphrasing, restating relationships and adding explanations. The suggestion about using familiar languages needs separate sourcing."
-      },
+  {
+    id: "D06",
+    title: "Participating in discussions and asking for clarification",
+    moduleTitle: "Helping students contribute in seminars and discussions",
+    description:
+      "Students may need support to join discussions, ask for clarification, and respond appropriately using concise, clear language.",
+    status: "Draft",
+    practicalGuide: "D06-S1–S4 Participating in discussions and asking for clarification",
 
+    strategies: [
       {
-        id: "D05-S6",
-        title: "Help students check and improve their notes",
+        id: "D06-S1",
+        title: "Give sentence starters",
         summary:
-          "Ask pairs to compare notes against a focused question, then provide an outline for checking gaps.",
+          "Provide short, useful phrases to help students contribute in a structured way.",
         howTo: [
-          "Ask pairs to compare notes against a focused question.",
-          "Ask students to identify missing or contradictory information.",
-          "Display a brief outline of the essential content.",
-          "Allow students to correct gaps or misunderstandings.",
-          "Explain that wording and layout can vary."
+          "Model phrases for agreeing, disagreeing, and clarifying.",
+          "Keep the stems short and practical.",
+          "Encourage students to use them naturally in discussion.",
+          "Gradually reduce reliance on the stems."
         ],
         example:
-          "Environmental science — “Compare your notes: have you captured the difference between mitigation and adaptation, with one example of each?”",
-        sources: [
-          {
-            text:
-              "University of Nebraska–Lincoln, Reviewing and Comparing Lecture Notes.",
-            url: ""
-          }
+          "“I think the main point is …” “Can you explain …?” “I agree because …”",
+        sources: [],
+        reviewNotes: "Placeholder structure for D06."
+      },
+      {
+        id: "D06-S2",
+        title: "Ask for clarification politely",
+        summary:
+          "Teach students how to request repetition, examples, or definitions without interrupting the flow of discussion.",
+        howTo: [
+          "Model polite clarification questions.",
+          "Teach short phrases for asking for a repeat or explanation.",
+          "Encourage students to ask one specific question at a time.",
+          "Use the reply to continue the discussion."
         ],
-        reviewNotes:
-          "The teacher’s comparison outline is an additional toolkit element."
+        example:
+          "“Could you repeat that?” “Could you give an example?” “What do you mean by …?”",
+        sources: [],
+        reviewNotes: "Placeholder structure for D06."
+      },
+      {
+        id: "D06-S3",
+        title: "Support short responses",
+        summary:
+          "Help students build confidence by letting them contribute brief but useful answers.",
+        howTo: [
+          "Encourage short, relevant contributions.",
+          "Allow students to respond with a single point and example.",
+          "Praise clear, concise participation.",
+          "Build toward longer responses over time."
+        ],
+        example:
+          "“I think the key difference is …” “For example, …”",
+        sources: [],
+        reviewNotes: "Placeholder structure for D06."
+      },
+      {
+        id: "D06-S4",
+        title: "Use discussion norms",
+        summary:
+          "Set clear expectations for turn-taking, listening, and respectful participation.",
+        howTo: [
+          "Set ground rules for speaking and listening.",
+          "State how students should respond to others.",
+          "Model respectful disagreement and clarification.",
+          "Review discussion moves after the activity."
+        ],
+        example:
+          "“One person speaks at a time. Use one main point and one example.”",
+        sources: [],
+        reviewNotes: "Placeholder structure for D06."
       }
     ]
   }
-  ];
-  toolkit.push({
-  id: "D06",
-  title: "Answering questions spontaneously",
-  moduleTitle: "Helping students respond to questions in class",
-  description:
-    "Give students time and practical support to formulate answers while preserving the subject thinking required.",
-  status: "Draft",
-  practicalGuide:
-    "D06-S1–S6 Helping students respond to questions in class",
-
-  strategies: [
-    {
-      id: "D06-S1",
-      title: "Ask one clear question at a time",
-      summary:
-        "Use direct wording and introduce follow-up questions separately.",
-      howTo: [
-        "Use direct wording and retain essential subject terms.",
-        "Avoid combining several questions.",
-        "Ask the first question, hear responses, then introduce a follow-up."
-      ],
-      example:
-        "Business: Ask “Which pricing strategy would you choose?” Then follow with “What is your main reason?”",
-      sources: [
-        {
-          text:
-            "Washington University in St. Louis — Asking Questions to Improve Learning, General Strategies. Supports direct, specific questions and asking one question at a time.",
-          url: ""
-        }
-      ],
-      reviewNotes:
-        "Toolkit-created subject example. Local validation pending."
-    },
-    {
-      id: "D06-S2",
-      title: "Allow thinking time",
-      summary:
-        "Pause after asking a question so students can formulate a response.",
-      howTo: [
-        "After asking, pause silently for several seconds.",
-        "Allow longer for questions requiring analysis.",
-        "Avoid immediately rephrasing the question or answering it yourself.",
-        "Tell students that you are giving everyone time to think."
-      ],
-      example:
-        "Engineering: “Which component is most likely to have failed? Take a moment to examine the diagram before answering.”",
-      sources: [
-        {
-          text:
-            "University of Waterloo — Question Strategies, Wait for the answer and Reach non-responsive students with wait times. Recommends waiting five to ten seconds and allowing longer reflection where appropriate.",
-          url: ""
-        }
-      ],
-      reviewNotes:
-        "Toolkit-created subject example. Local validation pending."
-    },
-    {
-      id: "D06-S3",
-      title: "Give brief preparation before public responses",
-      summary:
-        "Allow students to note or discuss an idea before answering publicly.",
-      howTo: [
-        "For a demanding question, ask everyone to jot down a key point.",
-        "Alternatively, allow brief discussion with a partner before inviting answers.",
-        "Students can use keywords rather than full sentences."
-      ],
-      example:
-        "Public health: Give students a minute to select an intervention and note one reason before sharing their choice.",
-      sources: [
-        {
-          text:
-            "Northeastern University — Active Question and Answer Techniques, Think-Pair-Share. Describes individual thinking or writing followed by peer discussion before whole-class contributions.",
-          url: ""
-        }
-      ],
-      reviewNotes:
-        "Toolkit-created subject example. Local validation pending."
-    },
-    {
-      id: "D06-S4",
-      title: "Offer simple ways to begin an answer",
-      summary:
-        "Provide optional sentence openings suited to the subject task.",
-      howTo: [
-        "Display a few optional sentence openings suited to the task.",
-        "Explain their purpose and model one response.",
-        "Keep them short enough to use while thinking."
-      ],
-      example:
-        "Economics: “The main cause is… because…”; “One possible explanation is…”; “This depends on…”",
-      sources: [
-        {
-          text:
-            "University of Minnesota — Teaching Support, Group Work. Supports providing language for discussion functions. Applying sentence openings to answers to lecturer questions is a toolkit adaptation.",
-          url: ""
-        }
-      ],
-      reviewNotes:
-        "Partial source support. Phrases and classroom application developed for the toolkit."
-    },
-    {
-      id: "D06-S5",
-      title: "Make invitations to answer predictable",
-      summary:
-        "Explain how contributions will be invited and allow preparation time.",
-      howTo: [
-        "Explain how you will invite contributions.",
-        "Ask the question before selecting a respondent.",
-        "Allow thinking time.",
-        "Offer an opportunity to return to a student after another contribution."
-      ],
-      example:
-        "Nursing: “Everyone, consider which action should come first. I’ll give you thinking time, then invite a few people to explain their choice.”",
-      sources: [
-        {
-          text:
-            "University of Waterloo — Question Strategies, Establish expectations early. Supports explaining participation arrangements and reasonable opportunities to opt out. Returning to a student is a toolkit suggestion.",
-          url: ""
-        }
-      ],
-      reviewNotes:
-        "Toolkit-created implementation and subject example. Local validation pending."
-    },
-    {
-      id: "D06-S6",
-      title: "Help students develop an initial response",
-      summary:
-        "Listen, clarify meaning and use a focused follow-up to develop reasoning.",
-      howTo: [
-        "Let students finish.",
-        "If an answer is incomplete, acknowledge the relevant idea and ask one focused follow-up.",
-        "If the meaning is unclear, check your interpretation before evaluating it."
-      ],
-      example:
-        "Environmental science: Student: “Less water… crops.” Teacher: “Are you saying that reduced rainfall lowers crop yields?” After confirmation: “What happens to the plants when water is limited?”",
-      sources: [
-        {
-          text:
-            "University of Waterloo — Question Strategies, Listening actively. Supports avoiding interruptions, restating contributions, inviting elaboration and asking for clarification.",
-          url: ""
-        }
-      ],
-      reviewNotes:
-        "Toolkit-created subject example. Local validation pending."
-    }
-  ],
-
-  checklist: [],
-  moduleSources: []
-});
+];
