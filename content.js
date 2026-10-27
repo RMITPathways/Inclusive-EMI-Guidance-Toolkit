@@ -1760,3 +1760,159 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D14",
+  title: "Accessing and using digital resources",
+  moduleTitle: "Helping students access and use digital course resources",
+  description:
+    "Check access, demonstrate unfamiliar tools and provide clear instructions and workable alternatives.",
+  status: "Draft",
+  practicalGuide:
+    "D14 Accessing and using digital resources",
+
+  strategies: [
+    {
+      id: "D14-S1",
+      title: "Check access before requiring a resource",
+      summary:
+        "Check that students can access a resource before learning or assessment depends on it.",
+      howTo: [
+        "Ask students to test the required resource early.",
+        "Check device compatibility, account permissions and connection requirements.",
+        "Provide a private route for reporting difficulties.",
+        "Arrange campus access or an appropriate alternative with relevant support staff."
+      ],
+      example:
+        "Engineering: Before a simulation task, ask students to open a practice activity. Arrange a supported campus session or an equivalent activity if their device cannot run it.",
+      sources: [
+        {
+          text:
+            "UC Davis — Create an inclusive class climate online, Get to know your students. Supports surveying technology access, considering connectivity, identifying campus support and offering alternatives.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The resource-specific access check and subject example are toolkit applications."
+    },
+    {
+      id: "D14-S2",
+      title: "Make resources easy to locate",
+      summary:
+        "Use predictable organisation and descriptive names for course resources.",
+      howTo: [
+        "Use a predictable course location and descriptive resource names.",
+        "Group related materials by topic or week.",
+        "Distinguish essential resources from optional materials.",
+        "Check links and permissions using the platform’s student view where available."
+      ],
+      example:
+        "Business: Under “Week 4 preparation”, link the case, data file and preparation questions with a short description of each.",
+      sources: [
+        {
+          text:
+            "SUNY OSCQR — Standard 16. Supports consistent organisation, grouping related content and using descriptive headings and links.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Direct support for predictable navigation. Identifying essential resources and checking permissions are toolkit additions."
+    },
+    {
+      id: "D14-S3",
+      title: "Demonstrate the steps needed for the task",
+      summary:
+        "Show the process and provide a small practice task before substantial or assessed use.",
+      howTo: [
+        "Demonstrate the actual task using the relevant tool.",
+        "Explain your actions as you work.",
+        "Provide numbered instructions and labelled screenshots where useful.",
+        "Give students a small practice task and check completion."
+      ],
+      example:
+        "Economics: Demonstrate opening the dataset, selecting variables and producing a graph. Students create a practice graph and check its labels and values.",
+      sources: [
+        {
+          text:
+            "SUNY OSCQR — Standard 12. Supports technology orientation, how-to documentation and opportunities to practise before assessed use.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The numbered screenshot guide and subject practice task apply this guidance."
+    },
+    {
+      id: "D14-S4",
+      title: "Explain unfamiliar digital instructions and terms",
+      summary:
+        "Explain essential interface words and show how students can confirm an action succeeded.",
+      howTo: [
+        "Identify interface words students need to understand.",
+        "Show the controls those words refer to, using the wording in the actual system.",
+        "Explain the difference between saving, uploading and submitting in that platform.",
+        "Ask students to check completion status or confirmation.",
+        "Adapt instructions for different devices where necessary."
+      ],
+      example:
+        "Public health: “Attaching the file uploads it. In this system, you must also select Submit. Check the confirmation and open the submitted file to verify it is the intended version.”",
+      sources: [
+        {
+          text:
+            "SUNY OSCQR — Standard 12. Supports introducing required tools and features before students use them.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. Explaining interface vocabulary and distinguishing saving, uploading and submitting are toolkit applications requiring platform-specific checking."
+    },
+    {
+      id: "D14-S5",
+      title: "Provide accessible formats and workable alternatives",
+      summary:
+        "Make essential information available in formats students can read, navigate and use.",
+      howTo: [
+        "Use selectable text and document headings.",
+        "Provide text alternatives for meaningful images.",
+        "Provide accurate captions and, where useful, an illustrated text explanation for video.",
+        "Offer workable downloads or lower-bandwidth alternatives where possible."
+      ],
+      example:
+        "Environmental science: Alongside a process video, provide captions and a text explanation with labelled images containing the information needed for the task.",
+      sources: [
+        {
+          text:
+            "University of Michigan — Accessible Courses, Online and Hybrid Edition, Technological Accessibility. Supports considering bandwidth, offering alternative activities or representations, captions and accessible materials.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The downloadable formats and subject example are toolkit applications. Check that alternatives preserve the required learning."
+    },
+    {
+      id: "D14-S6",
+      title: "Make troubleshooting and support routes explicit",
+      summary:
+        "Explain where students can get help and what to do when an access problem affects their work.",
+      howTo: [
+        "Provide a short first-response guide.",
+        "Identify who handles technical problems and who handles subject questions.",
+        "Link to the current help service and its opening hours.",
+        "Ask students to report the resource name, device, time and error message without sharing passwords or access codes.",
+        "Explain the published process for problems affecting assessment deadlines."
+      ],
+      example:
+        "Nursing: “If the case will not open, note the error and contact technical support. Tell me promptly if preparation is affected. For assessment deadlines, follow the published reporting process.”",
+      sources: [
+        {
+          text:
+            "SUNY OSCQR — Standard 8. Supports clear technical requirements, access instructions, help-desk links and reference guides.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. Problem-report details and deadline procedures are toolkit additions requiring local checking."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
