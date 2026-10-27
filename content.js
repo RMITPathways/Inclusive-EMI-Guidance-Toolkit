@@ -274,5 +274,314 @@ const toolkit = [
     ]
   }
 ];
-  }
+  }  {
+    id: "D03",
+    title: "Following lectures and extended explanations",
+    moduleTitle: "Supporting comprehension during lectures",
+    description:
+      "Students may need explicit structure, pauses and visual support to follow extended spoken explanations in English.",
+    status: "Draft",
+    practicalGuide:
+      "D03-S1–S6 Following lectures and extended explanations",
+
+    strategies: [
+      {
+        id: "D03-S1",
+        title: "Preview and signpost the structure",
+        summary:
+          "Start with the main question and outline the structure of the explanation.",
+        howTo: [
+          "State the main question or purpose.",
+          "Give a short outline of the topics you will cover.",
+          "Explicitly mark changes of topic.",
+          "Signal causes, contrasts and conclusions as you speak.",
+          "Use an internal summary before moving to the next section."
+        ],
+        example:
+          "Business — “We’ll examine three causes of falling sales. First, pricing; second, competition; third, customer preferences.”",
+        sources: [
+          {
+            text:
+              "TAEC, EMI Handbook, sections 2.2.2–2.2.3, pp. 34–39: outlines, topic transitions and internal summaries.",
+            url: ""
+          }
+        ],
+        reviewNotes: "Draft."
+      },
+
+      {
+        id: "D03-S2",
+        title: "Break explanations into sections and check understanding",
+        summary:
+          "Pause at meaningful points so students can process and demonstrate their understanding.",
+        howTo: [
+          "Break the explanation into meaningful sections.",
+          "Pause after each important stage or idea.",
+          "Ask students to summarise, label a diagram or answer a focused question.",
+          "Check the response before continuing."
+        ],
+        example:
+          "Biology — After explaining one stage of a process, ask: “What enters this stage, and what does it produce?”",
+        sources: [
+          {
+            text:
+              "University of Minnesota, Making lectures more accessible, “Do”, item 4: regular pauses for reflection, paired discussion and checking understanding.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "Subject questions illustrate implementation."
+      },
+
+      {
+        id: "D03-S3",
+        title: "Support spoken explanations with key points and visuals",
+        summary:
+          "Pair speech with a selective outline, diagram or worked example.",
+        howTo: [
+          "Provide a short outline or relevant visual.",
+          "Use a diagram or worked example to represent the explanation.",
+          "Keep written material selective so students can listen.",
+          "Avoid requiring students to read dense slides while listening.",
+          "Reveal or build the visual as the explanation progresses."
+        ],
+        example:
+          "Engineering — Display a labelled process diagram and reveal each stage as you explain it.",
+        sources: [
+          {
+            text:
+              "University of Minnesota, Making lectures more accessible, “Do”, item 5: relevant visuals and listening guides.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The source supports relevant visuals and listening guides. Limiting slide text needs separate support or should be identified as toolkit guidance."
+      },
+
+      {
+        id: "D03-S4",
+        title: "Make references to earlier ideas explicit",
+        summary:
+          "State the relationship between ideas and name concepts clearly when references such as “this” or “it” could be ambiguous.",
+        howTo: [
+          "State whether ideas show cause, contrast, sequence or another relationship.",
+          "Name the concept rather than relying on an unclear pronoun.",
+          "Use connectors such as because, therefore, in contrast and as a result.",
+          "Repeat key terms when this helps students follow the explanation."
+        ],
+        example:
+          "Economics — “Higher demand can increase prices. This increase in demand shifts the demand curve to the right.”",
+        sources: [
+          {
+            text:
+              "TAEC, EMI Handbook, section 2.3, pp. 42–52: explicit connections between ideas.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "Original toolkit example; grammatical terminology has been simplified."
+      },
+
+      {
+        id: "D03-S5",
+        title: "Guide students through a visual",
+        summary:
+          "Explain what the axes, symbols or components represent and connect them to the subject idea.",
+        howTo: [
+          "Introduce the purpose of the visual.",
+          "Explain the axes, symbols or components.",
+          "Point to the relevant feature as you discuss it.",
+          "Explain how the feature supports the subject idea.",
+          "Ask a focused question to check interpretation."
+        ],
+        example:
+          "Public health — “The vertical axis shows cases per 100,000 people. Compare the two age groups: which has the higher rate?”",
+        sources: [
+          {
+            text:
+              "TAEC, EMI Handbook, section 2.2.3, p. 39: referring to visual material.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The source supports directing attention to visual features and explaining their relationship to the argument. The checking question is an original toolkit example."
+      },
+
+      {
+        id: "D03-S6",
+        title: "Mark an aside and the return to the main point",
+        summary:
+          "Signal when you are introducing extra context and when you return to the main explanation.",
+        howTo: [
+          "Finish the main idea before introducing an aside where possible.",
+          "Clearly signal that you are moving to additional context.",
+          "State when you are returning to the main explanation.",
+          "Briefly recap the connection between the aside and the main point."
+        ],
+        example:
+          "Business — “That gives you some background about the company. Returning to our cost comparison, the important difference is…”",
+        sources: [
+          {
+            text:
+              "TAEC, EMI Handbook, sections 2.2.3, pp. 39–40, and 2.3, p. 52: signalling departures and returns.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "Original toolkit example."
+      }
+    ]
+  },
+
+  {
+    id: "D04",
+    title: "Identifying main ideas in readings",
+    moduleTitle: "Helping students identify main ideas in readings",
+    description:
+      "Students may need support to distinguish a text’s main message from supporting details, examples and broader inferences.",
+    status: "Draft",
+    practicalGuide:
+      "D04-S1–S6 Identifying main ideas in readings",
+
+    strategies: [
+      {
+        id: "D04-S1",
+        title: "Set a clear reading purpose",
+        summary:
+          "Explain why students are reading and what they should identify.",
+        howTo: [
+          "Explain how the reading connects to the lesson or task.",
+          "Give a focused question linked to the reading purpose.",
+          "Tell students whether they should identify a claim, explanation, finding or recommendation.",
+          "Use the purpose to guide later discussion."
+        ],
+        example:
+          "Business — “Identify the author’s main explanation for falling sales. Which evidence supports that explanation?”",
+        sources: [
+          {
+            text:
+              "University of Minnesota, Teaching Support, Reading section.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The source recommends making reading goals clear. The subject example is toolkit-created."
+      },
+
+      {
+        id: "D04-S2",
+        title: "Model how to identify a main idea",
+        summary:
+          "Think aloud as you identify a central claim, distinguish supporting details and produce a brief summary.",
+        howTo: [
+          "Display a short extract.",
+          "Read the extract and identify its central claim or purpose.",
+          "Distinguish the main idea from supporting details.",
+          "Explain that the main idea is not always the first sentence.",
+          "Produce a brief summary and explain your choices."
+        ],
+        example:
+          "Public health — Highlight the author’s claim about a prevention measure, then distinguish it from the statistics and examples supporting it.",
+        sources: [
+          {
+            text:
+              "UC Davis, Strategies to Increase Engagement While Reading, Teaching Strategies.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The source recommends modelling annotation and distinguishing what a paragraph says from what it does. The lecturer’s worked example is toolkit-developed."
+      },
+
+      {
+        id: "D04-S3",
+        title: "Provide a short reading guide",
+        summary:
+          "Use a few questions to direct attention to the text’s overall message and organisation.",
+        howTo: [
+          "Give a small number of purposeful questions.",
+          "Ask about the problem, claim, evidence or recommendation.",
+          "Avoid so many detail questions that students lose sight of the main idea.",
+          "Use the answers to discuss how the text is organised."
+        ],
+        example:
+          "Engineering — “What problem does the article address? What solution is proposed? What is the main reason for choosing it?”",
+        sources: [
+          {
+            text:
+              "University of Minnesota, Teaching Support, Reading section.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The source recommends reading guides with key questions to help students distinguish main ideas from supporting details. The subject example is toolkit-created."
+      },
+
+      {
+        id: "D04-S4",
+        title: "Explain how the type of text affects where to look",
+        summary:
+          "Show how the structure of a research article, report or case study helps readers locate its purpose, findings or recommendation.",
+        howTo: [
+          "Identify the type and purpose of the text.",
+          "Explain what information readers may expect in each major section.",
+          "Show how the structure helps locate the main message.",
+          "Check the main idea against the relevant sections rather than relying only on headings."
+        ],
+        example:
+          "Science — Compare an abstract with the article’s conclusion. Ask students to identify the main finding and any qualification attached to it.",
+        sources: [
+          {
+            text:
+              "University of Illinois, Structure of an Article.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The source supports the functions of sections in a scientific research article. It does not support guidance about every type of academic text. Demonstration should use discipline-appropriate extracts."
+      },
+
+      {
+        id: "D04-S5",
+        title: "Use section summaries to build overall understanding",
+        summary:
+          "Ask students to summarise substantial sections, then connect the summaries to identify the text’s overall message.",
+        howTo: [
+          "Ask for a one-sentence summary after each substantial section.",
+          "Check that the summary captures the main point rather than a minor detail.",
+          "Ask students to connect the section summaries.",
+          "Use the connected summaries to state the text’s overall message."
+        ],
+        example:
+          "Economics — Students summarise each explanation for inflation, then identify the author’s overall argument about which explanation best fits the evidence.",
+        sources: [
+          {
+            text:
+              "UC Davis, Strategies to Increase Engagement While Reading.",
+            url: ""
+          }
+        ],
+        reviewNotes:
+          "The source recommends brief statements summarising main points. Combining those statements into an overall summary is a practical toolkit extension."
+      },
+
+      {
+        id: "D04-S6",
+        title: "Ask students to justify their interpretation",
+        summary:
+          "Have students compare summaries and identify the passages supporting their choices.",
+        howTo: [
+          "Provide two or more possible summaries where appropriate.",
+          "Ask students to select the best summary.",
+          "Ask which passages support their interpretation.",
+          "Discuss whether a summary is too narrow or goes beyond the evidence."
+        ],
+        example:
+          "Business — Give three possible summaries of a report. Students select the best one and explain why the others are too narrow or go beyond the evidence.",
+        sources: [],
+        reviewNotes:
+          "Draft. Supporting source to be confirmed."
+      }
+    ]
+  },
 ];
