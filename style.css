@@ -387,3 +387,41 @@ a:focus-visible {
     box-shadow: none;
   }
 }
+.toolkit-group {
+  margin-bottom: 16px;
+  overflow: hidden;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.toolkit-group-heading {
+  padding: 20px;
+  color: #17324d;
+  background: #eaf1f6;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.toolkit-group-heading:hover {
+  background: #dfeaf2;
+}
+
+.toolkit-group-heading:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: -3px;
+}
+
+.toolkit-group-content {
+  padding: 16px;
+}
+
+.toolkit-group-content .difficulty-card {
+  margin-bottom: 12px;
+}
+
+.toolkit-group-content .difficulty-card:last-child {
+  margin-bottom: 0;
+}
