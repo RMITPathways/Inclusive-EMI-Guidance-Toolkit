@@ -28,7 +28,7 @@ function renderDifficultyAreas(searchTerm = "") {
       .join(" ")
       .toLowerCase();
 
-    return matchingAreasIncludes(matchingAreas = areaText, query);
+    return query === "" || areaText.includes(query);
   });
 
   difficultyList.innerHTML = "";
