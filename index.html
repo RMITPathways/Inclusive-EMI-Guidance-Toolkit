@@ -461,9 +461,25 @@
             <p>${strategy.example}</p>
 
             <h4>Supporting sources</h4>
-            <div class="source">
-              ${strategy.sources.map(source => `<p>${source}</p>`).join("")}
-            </div>
+           <div class="source-box">
+  ${strategy.sources.map(source => {
+    if (source.url) {
+      return `
+        <p>
+          <a
+            href="${source.url}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ${source.text}
+          </a>
+        </p>
+      `;
+    }
+
+    return `<p>${source.text}</p>`;
+  }).join("")}
+</div>
 
             <p class="draft-note">
               Content status: draft; local validation pending.
