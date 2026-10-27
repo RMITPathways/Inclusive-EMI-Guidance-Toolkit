@@ -10,24 +10,150 @@ const closeDetails = document.getElementById("close-details");
 function renderDifficultyAreas(searchTerm = "") {
   const query = searchTerm.toLowerCase().trim();
 
+  const groups = [
+    {
+      title: "Understanding teaching and materials",
+      ids: ["D01", "D02", "D03", "D04", "D05", "D09"]
+    },
+    {
+      title: "Speaking and working with others",
+      ids: ["D06", "D07", "D08", "D11", "D18", "D19"]
+    },
+    {
+      title: "Assignments and feedback",
+      ids: ["D10", "D12"]
+    },
+    {
+      title: "Independent study and accessing support",
+      ids: ["D13", "D14", "D15", "D16", "D17"]
+    }
+  ];
+
   const matchingAreas = toolkit.filter(area => {
+    const group = groups.find(item => item.ids.includes(area.id));
+
     const areaText = [
+      group ? group.title : "",
       area.id,
       area.title,
       area.moduleTitle,
       area.description,
-      ...area.strategies.flatMap(strategy => [
+      ...(area.strategies || []).flatMap(strategy => [
         strategy.id,
         strategy.title,
         strategy.summary,
         strategy.example,
-        strategy.howTo.join(" "),
-        strategy.reviewNotes
+        (strategy.howTo || []).join(" ")
       ])
-    ]
-      .join(" ")
-      .toLowerCase();
+    ].join(" ").toLowerCase();
 
+    return query === "" || areaText.includes(query);
+  });
+
+  difficultyList.innerHTML = "";
+
+  resultsCount.textContent =
+    `${matchingAreas.length} of ${toolkit.length} difficulty areas shown`;
+
+  noResults.hidden = matchingAreas.length !== 0;
+
+  groups.forEach(group => {
+    const areas = group.ids
+      .map(id => matchingAreas.find(area => area.id === id))
+      .filter(Boolean);
+
+    if (areas.length === 0) {
+      return;
+    }
+
+    const groupSection = document.createElement("details");
+    groupSection.className = "toolkit-group";
+    groupSection.open = query !== "";
+
+    const heading = document.createElement("summary");
+    heading.className = "toolkit-group-heading";
+    heading.textContent = `${group.title} (${areas.length})`;
+
+    groupSection.appendChild(heading);
+
+    const groupContent = document.createElement("div");
+    groupContent.className = "toolkit-group-content";
+
+    areas.forEach(area => {
+      const card = document.createElement("article");
+      card.className = "difficulty-card";
+
+      card.innerHTML = `
+        <button
+          class="difficulty-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="area-${area.id}"
+        >
+          <span>
+            <span class="area-code">${area.id}</span>
+            <strong>${area.title}</strong>
+          </span>
+          <span class="arrow" aria-hidden="true">›</span>
+        </button>
+
+        <div
+          id="area-${area.id}"
+          class="difficulty-content"
+          hidden
+        >
+          <p>${area.description || ""}</p>
+
+          <p class="status">
+            Status: ${area.status || "Draft"}
+          </p>
+
+          <div class="strategy-list">
+            ${(area.strategies || []).map(strategy => `
+              <button
+                class="strategy-button"
+                type="button"
+                data-area-id="${area.id}"
+                data-strategy-id="${strategy.id}"
+              >
+                <span class="strategy-code">${strategy.id}</span>
+                <span>
+                  <strong>${strategy.title}</strong>
+                  <small>${strategy.summary || ""}</small>
+                </span>
+                <span aria-hidden="true">›</span>
+              </button>
+            `).join("")}
+          </div>
+        </div>
+      `;
+
+      const areaButton = card.querySelector(".difficulty-button");
+      const areaContent = card.querySelector(".difficulty-content");
+
+      areaButton.addEventListener("click", () => {
+        const isOpen = !areaContent.hidden;
+
+        areaContent.hidden = isOpen;
+        areaButton.setAttribute("aria-expanded", String(!isOpen));
+      });
+
+      card.querySelectorAll(".strategy-button").forEach(button => {
+        button.addEventListener("click", () => {
+          showStrategy(
+            button.dataset.areaId,
+            button.dataset.strategyId
+          );
+        });
+      });
+
+      groupContent.appendChild(card);
+    });
+
+    groupSection.appendChild(groupContent);
+    difficultyList.appendChild(groupSection);
+  });
+}
     return query === "" || areaText.includes(query);
   });
 
