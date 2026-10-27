@@ -1010,3 +1010,151 @@ toolkit.push({
   checklist: [],
   moduleSources: []
 });
+toolkit.push({
+  id: "D09",
+  title: "Understanding unfamiliar examples or references",
+  moduleTitle: "Making examples and references accessible",
+  description:
+    "Provide the background students need to understand an example and make its connection to the subject concept clear.",
+  status: "Draft",
+  practicalGuide:
+    "D09-S1–S6 Making examples and references accessible",
+
+  strategies: [
+    {
+      id: "D09-S1",
+      title: "Identify background knowledge the example requires",
+      summary:
+        "Check what an example assumes students already know.",
+      howTo: [
+        "Before teaching, check whether an example assumes knowledge of a particular place, institution, practice or event.",
+        "Briefly establish what students already know.",
+        "Avoid singling out individuals by background."
+      ],
+      example:
+        "Business: Before discussing a supermarket loyalty scheme, ask students what such schemes do and explain any features needed for the case.",
+      sources: [
+        {
+          text:
+            "Carnegie Mellon University — Assessing Prior Knowledge. Supports checking existing knowledge and using the results to plan teaching.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. Checking the assumptions within a particular example is a toolkit application."
+    },
+    {
+      id: "D09-S2",
+      title: "Provide the context needed to understand",
+      summary:
+        "Briefly explain the setting or practice needed for the subject task.",
+      howTo: [
+        "Give a short explanation of the people, setting or practice involved.",
+        "Use an image, diagram or brief description where helpful.",
+        "Include the information students need for the subject task."
+      ],
+      example:
+        "Public policy: Before analysing a US school-funding example, explain which levels of government fund schools and why local property taxes matter in this case.",
+      sources: [
+        {
+          text:
+            "Carnegie Mellon University — Assessing Prior Knowledge. Supports identifying gaps in background knowledge and adjusting teaching.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. The context explanation, visual support and subject example are toolkit applications."
+    },
+    {
+      id: "D09-S3",
+      title: "Make the connection to the subject concept explicit",
+      summary:
+        "Explain what the example illustrates and identify the limits of an analogy.",
+      howTo: [
+        "Explain what the example illustrates.",
+        "Show how its features connect to the subject concept.",
+        "For analogies, identify where the comparison stops being useful."
+      ],
+      example:
+        "Engineering: When comparing electrical flow with water flow, explain which features represent current and resistance, and clarify the limits of the analogy.",
+      sources: [
+        {
+          text:
+            "Brown and Salter — Analogies in science and science teaching. Supports explaining an analogy’s components and limitations.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "The source supports the analogy element. It is a scholarly article rather than a short teacher resource."
+    },
+    {
+      id: "D09-S4",
+      title: "Use contrasting examples from different contexts",
+      summary:
+        "Illustrate the same concept in different settings.",
+      howTo: [
+        "Present the same concept through more than one setting.",
+        "Invite students to suggest examples while providing alternatives yourself.",
+        "Avoid assuming that one example is familiar to everyone."
+      ],
+      example:
+        "Economics: Illustrate opportunity cost through a business investment decision and a student’s choice between paid work and study time.",
+      sources: [
+        {
+          text:
+            "Carnegie Mellon University — Strategies for addressing gaps in prior knowledge, Use multiple representations. Supports examples and analogies across different cultural and social contexts.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Inviting student-generated examples is an additional toolkit suggestion. Subject examples are toolkit-created."
+    },
+    {
+      id: "D09-S5",
+      title: "Explain references, idioms and humour that carry meaning",
+      summary:
+        "Explain important expressions and replace incidental references where useful.",
+      howTo: [
+        "If a reference or expression is important to the explanation, state its meaning directly.",
+        "Replace incidental references when explaining them would distract from the learning goal.",
+        "Retain and explain expressions that are essential subject terminology."
+      ],
+      example:
+        "Business: Replace “This product is the company’s cash cow” with “This product generates a steady surplus of cash”, then explain the technical category if it is part of the course.",
+      sources: [
+        {
+          text:
+            "University of Minnesota — Teaching Support, Lecture Comprehension. Supports explaining idioms and metaphors and providing context for humour and cultural references.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Replacing incidental references is a practical toolkit extension."
+    },
+    {
+      id: "D09-S6",
+      title: "Check that students can apply the underlying idea",
+      summary:
+        "Use another case to check understanding of the concept.",
+      howTo: [
+        "Ask students to explain the connection between the example and the concept.",
+        "Alternatively, ask students to apply the concept to another case.",
+        "If they struggle, check whether the difficulty concerns the example’s context or the subject concept."
+      ],
+      example:
+        "Marketing: After explaining a celebrity endorsement case, give a different advertising example and ask students to identify how credibility is being used.",
+      sources: [
+        {
+          text:
+            "Yale University — Transfer of Knowledge to New Contexts, Provide comparative scenarios. Supports applying common knowledge or approaches across different scenarios.",
+          url: ""
+        }
+      ],
+      reviewNotes:
+        "Partial source support. Separately checking contextual and conceptual understanding is a toolkit diagnostic suggestion."
+    }
+  ],
+
+  checklist: [],
+  moduleSources: []
+});
