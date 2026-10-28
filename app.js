@@ -7,27 +7,27 @@ const detailPanel = document.getElementById("detail-panel");
 const detailContent = document.getElementById("detail-content");
 const closeDetails = document.getElementById("close-details");
 
+const groups = [
+  {
+    title: "Understanding teaching and materials",
+    ids: ["D01", "D02", "D03", "D04", "D05", "D09"]
+  },
+  {
+    title: "Speaking and working with others",
+    ids: ["D06", "D07", "D08", "D11", "D18", "D19"]
+  },
+  {
+    title: "Assignments and feedback",
+    ids: ["D10", "D12"]
+  },
+  {
+    title: "Independent study and accessing support",
+    ids: ["D13", "D14", "D15", "D16", "D17"]
+  }
+];
+
 function renderDifficultyAreas(searchTerm = "") {
   const query = searchTerm.toLowerCase().trim();
-
-  const groups = [
-    {
-      title: "Understanding teaching and materials",
-      ids: ["D01", "D02", "D03", "D04", "D05", "D09"]
-    },
-    {
-      title: "Speaking and working with others",
-      ids: ["D06", "D07", "D08", "D11", "D18", "D19"]
-    },
-    {
-      title: "Assignments and feedback",
-      ids: ["D10", "D12"]
-    },
-    {
-      title: "Independent study and accessing support",
-      ids: ["D13", "D14", "D15", "D16", "D17"]
-    }
-  ];
 
   const matchingAreas = toolkit.filter(area => {
     const group = groups.find(item => item.ids.includes(area.id));
@@ -154,91 +154,6 @@ function renderDifficultyAreas(searchTerm = "") {
     difficultyList.appendChild(groupSection);
   });
 }
-    return query === "" || areaText.includes(query);
-  });
-
-  difficultyList.innerHTML = "";
-
-  resultsCount.textContent =
-    `${matchingAreas.length} of ${toolkit.length} difficulty areas shown`;
-
-  noResults.hidden = matchingAreas.length !== 0;
-
-  matchingAreas.forEach(area => {
-    const card = document.createElement("article");
-    card.className = "difficulty-card";
-
-    card.innerHTML = `
-      <button
-        class="difficulty-button"
-        type="button"
-        aria-expanded="false"
-        aria-controls="area-${area.id}"
-      >
-        <span>
-          <span class="area-code">${area.id}</span>
-          <strong>${area.title}</strong>
-        </span>
-        <span class="arrow" aria-hidden="true">›</span>
-      </button>
-
-      <div
-        id="area-${area.id}"
-        class="difficulty-content"
-        hidden
-      >
-        <p>${area.description}</p>
-
-        <p class="status">
-          Status: ${area.status || "Draft"}
-        </p>
-
-        <div class="strategy-list">
-          ${area.strategies.map(strategy => `
-            <button
-              class="strategy-button"
-              type="button"
-              data-area-id="${area.id}"
-              data-strategy-id="${strategy.id}"
-            >
-              <span class="strategy-code">${strategy.id}</span>
-              <span>
-                <strong>${strategy.title}</strong>
-                <small>${strategy.summary}</small>
-              </span>
-              <span aria-hidden="true">›</span>
-            </button>
-          `).join("")}
-        </div>
-      </div>
-    `;
-
-    const areaButton = card.querySelector(".difficulty-button");
-    const areaContent = card.querySelector(".difficulty-content");
-
-    areaButton.addEventListener("click", () => {
-      const isOpen = !areaContent.hidden;
-
-      areaContent.hidden = isOpen;
-      areaButton.setAttribute("aria-expanded", String(!isOpen));
-    });
-
-    card.querySelectorAll(".strategy-button").forEach(button => {
-      button.addEventListener("click", () => {
-        showStrategy(
-          button.dataset.areaId,
-          button.dataset.strategyId
-        );
-      });
-    });
-
-    difficultyList.appendChild(card);
-  });
-}
-
-function matchingAreasIncludes(matchingAreas, query) {
-  return query === "" || matchingAreas.includes(query);
-}
 
 function showStrategy(areaId, strategyId) {
   const area = toolkit.find(item => item.id === areaId);
@@ -247,7 +162,7 @@ function showStrategy(areaId, strategyId) {
     return;
   }
 
-  const strategy = area.strategies.find(
+  const strategy = (area.strategies || []).find(
     item => item.id === strategyId
   );
 
@@ -310,6 +225,7 @@ function showStrategy(areaId, strategyId) {
   `;
 
   detailPanel.hidden = false;
+
   detailPanel.scrollIntoView({
     behavior: "smooth",
     block: "start"
