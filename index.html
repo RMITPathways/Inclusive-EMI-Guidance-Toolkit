@@ -6,75 +6,204 @@
 
   <title>Inclusive EMI Guidance Toolkit</title>
 
+  <meta
+    name="description"
+    content="Practical guidance for inclusive English-medium instruction in Vietnamese higher education, with particular consideration of ethnic-minority students."
+  >
+
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    .homepage-introduction {
+      max-width: 850px;
+      margin-bottom: 3rem;
+    }
+
+    .homepage-introduction h2 {
+      margin-top: 2rem;
+      color: var(--navy);
+    }
+
+    .homepage-introduction p {
+      font-size: 1.05rem;
+    }
+
+    .explore-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.9rem 1.3rem;
+      border-radius: 7px;
+      color: var(--white);
+      background: var(--navy);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .explore-link:hover {
+      background: var(--dark-blue);
+    }
+
+    #educator-guidance {
+      scroll-margin-top: 1.5rem;
+    }
+
+    @media print {
+      .explore-link {
+        display: none;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <header class="site-header">
     <div class="container">
-      <p class="eyebrow">Inclusive EMI Guidance Toolkit</p>
+      <p class="eyebrow">Vietnamese higher education</p>
 
-      <h1>Supporting students in English-medium instruction</h1>
+      <h1>Inclusive EMI Guidance Toolkit</h1>
 
       <p class="intro-text">
-        Explore common student difficulties and practical strategies for
-        Vietnamese higher-education educators teaching through English.
+        Practical support for inclusive teaching and learning
+        through English.
       </p>
     </div>
   </header>
 
   <main class="container">
-    <section class="welcome-panel">
-      <h2>Explore the toolkit</h2>
+    <section
+      class="homepage-introduction"
+      aria-labelledby="about-heading"
+    >
+      <h2 id="about-heading">Why this toolkit was developed</h2>
 
       <p>
-        Select a difficulty area to view associated teaching strategies,
-        practical guidance, subject examples and supporting sources.
+        This toolkit began with a request to support educators teaching
+        ethnic-minority students through English in Vietnamese higher
+        education.
       </p>
 
-      <p class="draft-notice">
-        This toolkit is a developing draft. Content and sources should be
-        locally reviewed before formal publication.
+      <p>
+        The needs analysis highlighted a need for practical guidance on
+        making mainstream English-medium instruction (EMI) more accessible.
+        It also highlighted the importance of considering students’
+        varied educational experiences, languages and access to support,
+        rather than assuming that ethnic-minority students share the
+        same needs.
       </p>
-    </section>
 
-    <section aria-labelledby="search-heading" class="search-section">
-      <h2 id="search-heading">Find guidance</h2>
-
-      <label for="search-input">Search by difficulty, strategy or subject</label>
-
-      <input
-        id="search-input"
-        type="search"
-        placeholder="For example: group work, vocabulary or engineering"
-      >
-    </section>
-
-    <section aria-labelledby="areas-heading">
-      <div class="section-heading">
-        <h2 id="areas-heading">Student difficulty areas</h2>
-
-        <p id="results-count"></p>
-      </div>
-
-      <div id="difficulty-list" class="difficulty-list"></div>
-
-      <p id="no-results" class="no-results" hidden>
-        No matching difficulty areas or strategies were found.
+      <p>
+        The toolkit therefore supports subject lecturers working with
+        students from varied English-language backgrounds, with particular
+        consideration of ethnic-minority students. Its strategies help
+        students participate in learning and demonstrate their subject
+        knowledge while maintaining the same learning outcomes and
+        academic expectations.
       </p>
+
+      <h2>Who it is for</h2>
+
+      <p>
+        The educator guidance is designed for subject lecturers who teach
+        through English. You do not need to be a language teacher to use
+        it. Practical steps and subject examples explain how to apply
+        each strategy in your teaching.
+      </p>
+
+      <p>
+        Educator guidance is the strand currently available. Student
+        and institutional guidance are planned as part of the wider
+        toolkit.
+      </p>
+
+      <h2>How to use it</h2>
+
+      <p>
+        Start with a teaching situation or difficulty you have observed.
+        Explore the four groups below, or search for a topic, strategy
+        or subject. Select a difficulty, then choose a strategy to see
+        practical steps, a subject example and supporting guidance.
+      </p>
+
+      <p>
+        Choose strategies according to the task and the students you
+        teach. Check what is causing a difficulty before deciding how
+        to respond, and adapt the guidance to your course and
+        institutional requirements.
+      </p>
+
+      <a class="explore-link" href="#educator-guidance">
+        Explore educator guidance
+      </a>
     </section>
 
     <section
-      id="detail-panel"
-      class="detail-panel"
-      aria-live="polite"
-      hidden
+      id="educator-guidance"
+      aria-labelledby="guidance-heading"
     >
-      <button id="close-details" class="close-button" type="button">
-        Close details
-      </button>
+      <div class="welcome-panel">
+        <h2 id="guidance-heading">Educator guidance</h2>
 
-      <div id="detail-content"></div>
+        <p>
+          Explore practical strategies for understanding teaching and
+          materials, speaking and working with others, assignments and
+          feedback, and independent study and accessing support.
+        </p>
+
+        <p class="draft-notice">
+          This toolkit is a developing draft. Content, source mapping
+          and local applicability remain under review.
+        </p>
+      </div>
+
+      <section
+        aria-labelledby="search-heading"
+        class="search-section"
+      >
+        <h2 id="search-heading">Find guidance</h2>
+
+        <label for="search-input">
+          Search by difficulty, strategy or subject
+        </label>
+
+        <input
+          id="search-input"
+          type="search"
+          placeholder="For example: group work, vocabulary or engineering"
+        >
+      </section>
+
+      <section aria-labelledby="areas-heading">
+        <div class="section-heading">
+          <h2 id="areas-heading">Explore by teaching area</h2>
+
+          <p id="results-count" aria-live="polite"></p>
+        </div>
+
+        <div id="difficulty-list" class="difficulty-list"></div>
+
+        <p id="no-results" class="no-results" hidden>
+          No matching difficulty areas or strategies were found.
+          Try another search term.
+        </p>
+      </section>
+
+      <section
+        id="detail-panel"
+        class="detail-panel"
+        aria-label="Selected teaching strategy"
+        aria-live="polite"
+        hidden
+      >
+        <button
+          id="close-details"
+          class="close-button"
+          type="button"
+        >
+          Close details
+        </button>
+
+        <div id="detail-content"></div>
+      </section>
     </section>
   </main>
 
