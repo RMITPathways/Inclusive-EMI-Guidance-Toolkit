@@ -183,23 +183,35 @@ function showStrategy(areaId, strategyId) {
   }
 
   const sourceHTML = (strategy.sources || []).map(source => {
-    if (source.url) {
-      return `
-        <li>
-          <a
-            href="${source.url}"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ${source.text}
-          </a>
-        </li>
-      `;
-    }
+  // Keeps existing sources working until they are reformatted.
+  if (!source.title) {
+    return `
+      <li>
+        ${source.url
+          ? `<a href="${source.url}"
+                target="_blank"
+                rel="noopener noreferrer">${source.text}</a>`
+          : source.text}
+      </li>
+    `;
+  }
 
-    return `<li>${source.text}</li>`;
-  }).join("");
+  const titleHTML = source.url
+    ? `<a href="${source.url}"
+          target="_blank"
+          rel="noopener noreferrer"><em>${source.title}</em></a>`
+    : `<em>${source.title}</em>`;
 
+  return `
+    <li>
+      ${source.author} (${source.year || "n.d."}).
+      ${titleHTML}.
+      ${source.locator
+        ? `<span class="source-locator">${source.locator}</span>`
+        : ""}
+    </li>
+  `;
+}).join("");
   detailContent.innerHTML = `
     <p class="area-code">${strategy.id}</p>
 
