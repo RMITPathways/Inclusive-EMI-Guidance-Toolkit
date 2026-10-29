@@ -218,7 +218,16 @@ function showStrategy(areaId, strategyId) {
     <div class="example-box">
       <p>${strategy.example || "No example provided yet."}</p>
     </div>
-
+${area.practicalGuideUrl ? `
+  <h3>Practical guide</h3>
+  <p>
+    <a href="${area.practicalGuideUrl}"
+       target="_blank"
+       rel="noopener noreferrer">
+      ${area.practicalGuide || "Download practical guide"}
+    </a>
+  </p>
+` : ""}
     <h3>Supporting sources</h3>
 
     <ul class="sources">
