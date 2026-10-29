@@ -131,8 +131,12 @@ ${area.practicalGuideUrl ? `
                 </span>
                 <span aria-hidden="true">›</span>
               </button>
-            `).join("")}
+             `).join("")}
           </div>
+
+          <p class="back-link">
+            <a href="#areas-heading">↑ Back to teaching areas</a>
+          </p>
         </div>
       `;
 
