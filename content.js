@@ -49,7 +49,7 @@ const toolkit = [
            "For a longer activity, explain the overall purpose first, then give detailed instructions at each stage. Use the same wording when referring back to a step."
         ],
         example:
-          "Engineering — \n1. Examine the diagram. \n2. Identify the fault. \n3. Explain its likely cause. \nWork in pairs; write three sentences.",
+          "Engineering — \n1. Examine the diagram. \n2. Identify the fault. \n3. Explain its likely cause. \n4. Work in pairs; write three sentences.",
         sources:[
           {
             text: "British Council, Communicate clearly, section 4.",
