@@ -516,7 +516,6 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
 
       },
       {
-     {
   id: "D04-S5",
   title: "Use section summaries to build overall understanding",
   summary:
