@@ -102,7 +102,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
           {
             text:
               "British Council, Communicate clearly, section 4, checking instructions.",
-            url: ""
+            url: "https://africa.teachingenglish.org.uk/skills/educate-other-teachers/communicate-information-instructions"
           },
           {
             text:
@@ -128,8 +128,8 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
         sources: [
           {
             text:
-              "British Council, Communicate clearly, section 4, checking participants are on task.",
-            url: ""
+              "British Council, Communicate clearly, section 5, How will you know everybody understands the new information.",
+            url: "https://africa.teachingenglish.org.uk/skills/educate-other-teachers/communicate-information-instructions"
           }
         ],
 
