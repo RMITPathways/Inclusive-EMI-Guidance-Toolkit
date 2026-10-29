@@ -206,12 +206,11 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
         sources: [
           {
             text:
-              "Victorian Department of Education, Introducing scientific language.",
-            url: ""
+              "School-science guidance that can be adapted to a university context - Faculty of Education, Monash University & Victorian Department of Education and Training , Introducing scientific language.",
+            url: "https://www.monash.edu/__data/assets/pdf_file/0011/3399680/Introducing-scientific-language.pdf"
           }
         ],
-        reviewNotes:
-          "School-science guidance adapted to a university context."
+
       },
       {
         id: "D02-S3",
@@ -254,7 +253,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
         sources: [
           {
             text: "Paul Nation, The principles of vocabulary learning.",
-            url: ""
+            url: "https://www.tesolanz.org.nz/resources/paul-nation-the-principles-of-vocabulary-learning"
           }
         ],
         reviewNotes:
@@ -465,7 +464,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
           {
             text:
               "UC Davis, Strategies to Increase Engagement While Reading, Teaching Strategies.",
-            url: ""
+            url: "https://cee.ucdavis.edu/strategies-increase-engagement-while-reading"
           }
         ],
         reviewNotes:
@@ -511,11 +510,10 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
           {
             text:
               "University of Illinois, Structure of an Article.",
-            url: ""
+            url: "https://guides.library.illinois.edu/c.php?g=348214&p=2346645"
           }
         ],
-        reviewNotes:
-          "The source supports the functions of sections in a scientific research article."
+
       },
       {
         id: "D04-S5",
@@ -534,7 +532,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
           {
             text:
               "UC Davis, Strategies to Increase Engagement While Reading.",
-            url: ""
+            url: ""https://cee.ucdavis.edu/strategies-increase-engagement-while-reading""
           }
         ],
         reviewNotes:
@@ -782,7 +780,7 @@ toolkit.push({
         {
           text:
             "University of Nebraska–Lincoln — Muddiest Point. Describes collecting unclear points through paper slips or anonymous online surveys, then addressing common difficulties.",
-          url: ""
+          url: "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/notetaking/"
         }
       ],
       reviewNotes:
@@ -827,7 +825,7 @@ toolkit.push({
         {
           text:
             "University of Waterloo — Question Strategies, Listening actively. Supports acknowledging contributions, avoiding interruption, asking for clarification and inviting elaboration.",
-          url: ""
+          url: "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/question-strategies"
         }
       ],
       reviewNotes:
@@ -887,7 +885,7 @@ toolkit.push({
         {
           text:
             "University of Waterloo — Implementing Group Work in the Classroom, Introducing the Group Activity. Supports explaining the task and final output, providing written or visual instructions and including time estimates.",
-          url: ""
+          url: "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/implementing-group-work-classroom"
         }
       ],
       reviewNotes:
@@ -909,7 +907,7 @@ toolkit.push({
         {
           text:
             "Northeastern University — Active Question and Answer Techniques, Think-Pair-Share. Describes individual thinking or writing before comparing ideas with peers.",
-          url: ""
+          url: "https://learning.northeastern.edu/active-question-and-answer-approaches"
         }
       ],
       reviewNotes:
@@ -932,7 +930,7 @@ toolkit.push({
         {
           text:
             "University of Waterloo — Types of Small Groups, Circle of Voices. Describes preparation followed by uninterrupted turns before open discussion.",
-          url: ""
+          url: "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/group-work-classroom-types-small-groups"
         }
       ],
       reviewNotes:
@@ -955,7 +953,7 @@ toolkit.push({
         {
           text:
             "University of Waterloo — Group Work: Assignment of Roles. Explains specific responsibilities for group roles and suggests rotating roles periodically.",
-          url: ""
+          url: "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/group-work-assignment-roles"
         }
       ],
       reviewNotes:
@@ -999,7 +997,7 @@ toolkit.push({
         {
           text:
             "University of Waterloo — Implementing Group Work in the Classroom, Monitoring the Group Task and Ending the Group Task. Supports circulating, listening, facilitating without taking over and reflection on group functioning.",
-          url: ""
+          url: "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/implementing-group-work-classroom"
         }
       ],
       reviewNotes:
@@ -1037,7 +1035,7 @@ toolkit.push({
         {
           text:
             "Carnegie Mellon University — Assessing Prior Knowledge. Supports checking existing knowledge and using the results to plan teaching.",
-          url: ""
+          url: "https://www.cmu.edu/teaching/designteach/teach/priorknowledge.html"
         }
       ],
       reviewNotes:
@@ -1059,7 +1057,7 @@ toolkit.push({
         {
           text:
             "Carnegie Mellon University — Assessing Prior Knowledge. Supports identifying gaps in background knowledge and adjusting teaching.",
-          url: ""
+          url: "https://www.cmu.edu/teaching/designteach/teach/priorknowledge.html"
         }
       ],
       reviewNotes:
@@ -1081,7 +1079,7 @@ toolkit.push({
         {
           text:
             "Brown and Salter — Analogies in science and science teaching. Supports explaining an analogy’s components and limitations.",
-          url: ""
+          url: "https://journals.physiology.org/doi/full/10.1152/advan.00022.2010"
         }
       ],
       reviewNotes:
@@ -1103,7 +1101,7 @@ toolkit.push({
         {
           text:
             "Carnegie Mellon University — Strategies for addressing gaps in prior knowledge, Use multiple representations. Supports examples and analogies across different cultural and social contexts.",
-          url: ""
+          url: "https://www.cmu.edu/teaching/solveproblem/strat-dontparticipate/dontparticipate-06.htm"
         }
       ],
       reviewNotes:
@@ -1147,7 +1145,7 @@ toolkit.push({
         {
           text:
             "Yale University — Transfer of Knowledge to New Contexts, Provide comparative scenarios. Supports applying common knowledge or approaches across different scenarios.",
-          url: ""
+          url: "https://poorvucenter.yale.edu/transfer-of-knowledge-to-new-contexts"
         }
       ],
       reviewNotes:
@@ -1185,7 +1183,7 @@ toolkit.push({
         {
           text:
             "TILT Higher Ed — Transparent Assignment Template. Organises guidance around purpose, task and criteria for success. Supports explaining learning benefits, required activities and relevant steps.",
-          url: ""
+          url: "https://bdl2jezatgadvbda.public.blob.vercel-storage.com/pdf/faculty-6YQhaXfOUNimlKZ12rnnZZK57z86f5.pdf"
         }
       ],
       reviewNotes:
