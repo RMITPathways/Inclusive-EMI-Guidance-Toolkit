@@ -6,8 +6,8 @@ const toolkit = [
     description:
       "Students need to understand what a task requires before they can demonstrate their subject knowledge. These strategies help make instructions accessible while preserving the learning outcome and academic challenge. Select those appropriate to the task and your students.",
     
-    practicalGuide: "D01-S1–S5 Giving clear instructions in EMI",
-
+    practicalGuide: "Download practical guide: Giving clear instructions (PDF)",
+practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
     strategies: [
       {
         id: "D01-S1",
