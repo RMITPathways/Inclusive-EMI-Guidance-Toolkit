@@ -107,7 +107,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
           {
             text:
               "English in Action, Instruction-and-Concept-Checking Questions.",
-            url: ""
+            url: "https://englishinaction.com/blog/wp-content/uploads/2022/01/Instruction-and-Concept-Checking-Questions.pdf"
           }
         ],
 
@@ -184,7 +184,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
         sources: [
           {
             text: "University of Minnesota, Teaching Support: vocabulary.",
-            url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
+            : "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
         reviewNotes:
@@ -232,7 +232,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
           {
             text:
               "TAEC, EMI Handbook, “Course glossary”, pp. 69–71.",
-            url: ""
+            url: "https://iris.univr.it/retrieve/0658cfde-65fa-4f2c-bb0d-977da2732457/TAEC_EMI_Handbook_JUNE_2020_NoEdit.pdf"
           }
         ],
         reviewNotes:
@@ -290,7 +290,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
           {
             text:
               "TAEC, EMI Handbook, sections 2.2.2–2.2.3, pp. 34–39: outlines, topic transitions and internal summaries.",
-            url: ""
+            url: "https://iris.univr.it/retrieve/0658cfde-65fa-4f2c-bb0d-977da2732457/TAEC_EMI_Handbook_JUNE_2020_NoEdit.pdf"
           }
         ],
         reviewNotes: "Draft."
@@ -359,7 +359,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
           {
             text:
               "TAEC, EMI Handbook, section 2.3, pp. 42–52: explicit connections between ideas.",
-            url: ""
+            url: "https://iris.univr.it/retrieve/0658cfde-65fa-4f2c-bb0d-977da2732457/TAEC_EMI_Handbook_JUNE_2020_NoEdit.pdf"
           }
         ],
         reviewNotes:
@@ -383,7 +383,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
           {
             text:
               "TAEC, EMI Handbook, section 2.2.3, p. 39: referring to visual material.",
-            url: ""
+            url: "https://iris.univr.it/retrieve/0658cfde-65fa-4f2c-bb0d-977da2732457/TAEC_EMI_Handbook_JUNE_2020_NoEdit.pdf"
           }
         ],
         reviewNotes:
@@ -406,7 +406,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
           {
             text:
               "TAEC, EMI Handbook, sections 2.2.3, pp. 39–40, and 2.3, p. 52: signalling departures and returns.",
-            url: ""
+            url: "https://iris.univr.it/retrieve/0658cfde-65fa-4f2c-bb0d-977da2732457/TAEC_EMI_Handbook_JUNE_2020_NoEdit.pdf"
           }
         ],
         reviewNotes:
