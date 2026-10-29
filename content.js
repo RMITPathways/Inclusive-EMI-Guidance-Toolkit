@@ -48,7 +48,7 @@ const toolkit = [
           "Keep the steps visible while students work."
         ],
         example:
-          "Engineering — 1. Examine the diagram. 2. Identify the fault. 3. Explain its likely cause. Work in pairs; write three sentences.",
+          "Engineering — \n1. Examine the diagram. \n2. Identify the fault. \n3. Explain its likely cause. \nWork in pairs; write three sentences.",
         sources: [
           {
             text: "British Council, Communicate clearly, section 4.",
@@ -75,7 +75,7 @@ const toolkit = [
           "Ask students to identify the first step they will use."
         ],
         example:
-          "Accounting — Show how to classify one transaction, explaining which information determines its category.",
+          "Accounting — <em>Show how to classify one transaction, explaining which information determines its category."<em>,
         sources: [
           {
             text:
@@ -97,7 +97,7 @@ const toolkit = [
           "Ask several students rather than relying on a chorus of “yes”."
         ],
         example:
-          "“How many options will you compare?” “Will you work alone?” “What will you submit?”",
+          "<em>“How many options will you compare?” “Will you work alone?” “What will you submit?”<em>",
         sources: [
           {
             text:
@@ -124,7 +124,7 @@ const toolkit = [
           "Avoid repeating the whole instruction if only one detail is unclear."
         ],
         example:
-          "Ask pairs to show the two variables they selected before they begin calculating.",
+          <em>"Ask pairs to show the two variables they selected before they begin calculating."<em>,
         sources: [
           {
             text:
