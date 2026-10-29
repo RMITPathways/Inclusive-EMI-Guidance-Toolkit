@@ -4,7 +4,7 @@ const toolkit = [
     title: "Understanding task instructions",
     moduleTitle: "Giving clear instructions in EMI",
     description:
-      "Students need to understand what a task requires before they can demonstrate their subject knowledge.",
+      "Students need to understand what a task requires before they can demonstrate their subject knowledge. These strategies help make instructions accessible while preserving the learning outcome and academic challenge. Select those appropriate to the task and your students.",
     status: "Draft",
     practicalGuide: "D01-S1–S5 Giving clear instructions in EMI",
 
