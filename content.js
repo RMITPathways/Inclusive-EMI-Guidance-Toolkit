@@ -167,29 +167,29 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
     practicalGuide: "D02-S1–S4 Helping students understand and use subject vocabulary",
 
     strategies: [
-      {
-        id: "D02-S1",
-        title: "Select and explain essential terms",
-        summary:
-          "Identify the terms needed for the lesson and explain them using examples or visuals.",
-        howTo: [
-          "Identify terms needed for the lesson and task.",
-          "Display and say each term.",
-          "Explain the meaning in the subject context.",
-          "Illustrate the term with an example or visual.",
-          "Check understanding through a new example."
-        ],
-        example:
-          "Economics — <em>Explain opportunity cost using a business choosing between a delivery vehicle and production equipment. Give another decision and ask students to identify the next-best alternative.</em>",
-        sources: [
-          {
-            text: "University of Minnesota, Teaching Support: vocabulary.",
-            : url:"https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
-          }
-        ],
-        reviewNotes:
-          "Source supports selecting important terms and providing definitions. Teaching sequence and subject example developed for the toolkit."
-      },
+     {
+  id: "D02-S1",
+  title: "Select and explain essential terms",
+  summary:
+    "Identify the terms needed for the lesson and explain them using examples or visuals.",
+  howTo: [
+    "Identify terms needed for the lesson and task.",
+    "Display and say each term.",
+    "Explain the meaning in the subject context.",
+    "Illustrate the term with an example or visual.",
+    "Check understanding through a new example."
+  ],
+  example:
+    "Economics — <em>Explain opportunity cost using a business choosing between a delivery vehicle and production equipment. Give another decision and ask students to identify the next-best alternative.</em>",
+  sources: [
+    {
+      text: "University of Minnesota, Teaching Support: vocabulary.",
+      url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
+    }
+  ],
+  reviewNotes:
+    "Source supports selecting important terms and providing definitions. Teaching sequence and subject example developed for the toolkit."
+},
       {
         id: "D02-S2",
         title: "Distinguish subject and everyday meanings",
@@ -516,28 +516,28 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
 
       },
       {
-        id: "D04-S5",
-        title: "Use section summaries to build overall understanding",
-        summary:
-          "Ask students to summarise substantial sections, then connect the summaries to identify the text’s overall message.",
-        howTo: [
-          "Ask for a one-sentence summary after each substantial section.",
-          "Check that the summary captures the main point rather than a minor detail.",
-          "Ask students to connect the section summaries.",
-          "Use the connected summaries to state the text’s overall message."
-        ],
-        example:
-          "Economics — Students summarise each explanation for inflation, then identify the author’s overall argument about which explanation best fits the evidence.",
-        sources: [
-          {
-            text:
-              "UC Davis, Strategies to Increase Engagement While Reading.",
-            url: "https://cee.ucdavis.edu/strategies-increase-engagement-while-reading"
-          }
-        ],
-        reviewNotes:
-          "The source recommends brief statements summarising main points."
-      },
+     {
+  id: "D04-S5",
+  title: "Use section summaries to build overall understanding",
+  summary:
+    "Ask students to summarise substantial sections, then connect the summaries to identify the text’s overall message.",
+  howTo: [
+    "Ask for a one-sentence summary after each substantial section.",
+    "Check that the summary captures the main point rather than a minor detail.",
+    "Ask students to connect the section summaries.",
+    "Use the connected summaries to state the text’s overall message."
+  ],
+  example:
+    "Economics — Students summarise each explanation for inflation, then identify the author’s overall argument about which explanation best fits the evidence.",
+  sources: [
+    {
+      text: "UC Davis, Strategies to Increase Engagement While Reading.",
+      url: "https://cee.ucdavis.edu/strategies-increase-engagement-while-reading"
+    }
+  ],
+  reviewNotes:
+    "The source recommends brief statements summarising main points."
+},
       {
         id: "D04-S6",
         title: "Ask students to justify their interpretation",
