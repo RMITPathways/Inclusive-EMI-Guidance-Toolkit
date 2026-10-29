@@ -83,7 +83,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
             url: "https://www.csusb.edu/english-language-support-center/faculty/strategies-inclusive-teaching"
           }
         ],
-        reviewNotes: "Draft."
+
       },
       {
         id: "D01-S4",
@@ -110,7 +110,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
             url: ""
           }
         ],
-        reviewNotes: "Draft."
+
       },
       {
         id: "D01-S5",
@@ -132,7 +132,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
             url: ""
           }
         ],
-        reviewNotes: "Draft."
+
       }
     ],
     checklist: [
@@ -163,7 +163,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
     moduleTitle: "Helping students understand and use subject vocabulary",
     description:
       "Students may need explicit support to understand and use discipline-specific vocabulary.",
-    status: "Draft",
+  
     practicalGuide: "D02-S1–S4 Helping students understand and use subject vocabulary",
 
     strategies: [
