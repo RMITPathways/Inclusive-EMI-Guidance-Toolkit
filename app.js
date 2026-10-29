@@ -243,6 +243,10 @@ ${area.practicalGuideUrl ? `
     <p>
       ${strategy.reviewNotes || "No review notes provided."}
     </p>
+
+    <p class="back-link">
+      <a href="#areas-heading">↑ Back to teaching areas</a>
+    </p>
   `;
 
   detailPanel.hidden = false;
