@@ -49,15 +49,15 @@ const toolkit = [
         ],
         example:
           "Engineering — \n1. Examine the diagram. \n2. Identify the fault. \n3. Explain its likely cause. \nWork in pairs; write three sentences.",
-        sources: [
+        sources:\n For a longer activity, explain the purpose firtst, then give detailed instructions at each stage. Use the same wording when referring back to a step.[
           {
             text: "British Council, Communicate clearly, section 4.",
-            url: ""
+            url: "https://africa.teachingenglish.org.uk/skills/educate-other-teachers/communicate-information-instructions"
           },
           {
             text:
               "CSUSB, Strategies for Inclusive Teaching, “Use Multiple Modes”.",
-            url: ""
+            url: "https://www.csusb.edu/english-language-support-center/faculty/strategies-inclusive-teaching"
           }
         ],
         reviewNotes: "Draft."
@@ -80,7 +80,7 @@ const toolkit = [
           {
             text:
               "CSUSB, Strategies for Inclusive Teaching, “Use Multiple Modes”.",
-            url: ""
+            url: "https://www.csusb.edu/english-language-support-center/faculty/strategies-inclusive-teaching"
           }
         ],
         reviewNotes: "Draft."
@@ -184,7 +184,7 @@ const toolkit = [
         sources: [
           {
             text: "University of Minnesota, Teaching Support: vocabulary.",
-            url: ""
+            url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
         reviewNotes:
@@ -312,7 +312,7 @@ const toolkit = [
           {
             text:
               "University of Minnesota, Making lectures more accessible, “Do”, item 4: regular pauses for reflection, paired discussion and checking understanding.",
-            url: ""
+            url: "https://ccaps.umn.edu/classroom-dei/supporting-and-engaging-multilingual-students-by-making-content-and-lectures-more-accessible"
           }
         ],
         reviewNotes:
@@ -336,7 +336,7 @@ const toolkit = [
           {
             text:
               "University of Minnesota, Making lectures more accessible, “Do”, item 5: relevant visuals and listening guides.",
-            url: ""
+            url: "https://ccaps.umn.edu/classroom-dei/supporting-and-engaging-multilingual-students-by-making-content-and-lectures-more-accessible"
           }
         ],
         reviewNotes:
@@ -441,7 +441,7 @@ const toolkit = [
           {
             text:
               "University of Minnesota, Teaching Support, Reading section.",
-            url: ""
+            url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
         reviewNotes:
@@ -488,7 +488,7 @@ const toolkit = [
           {
             text:
               "University of Minnesota, Teaching Support, Reading section.",
-            url: ""
+            url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
         reviewNotes:
@@ -738,7 +738,7 @@ toolkit.push({
         {
           text:
             "University of Minnesota — Teaching Support, Lecture Comprehension: Withholding questions. Recommends encouraging questions, explaining office hours, providing time after class and allowing written questions.",
-          url: ""
+          url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
         }
       ],
       reviewNotes:
@@ -760,7 +760,7 @@ toolkit.push({
         {
           text:
             "University of Minnesota — Teaching Support, Lecture Comprehension: Withholding questions. Supports encouraging questions. The focused uncertainty prompt is a toolkit adaptation.",
-          url: ""
+          url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
         }
       ],
       reviewNotes:
@@ -804,7 +804,7 @@ toolkit.push({
         {
           text:
             "University of Minnesota — Discussions, How to ask for clarification and How to ask for more information. Provides phrases for identifying unclear points, requesting explanations and asking for examples.",
-          url: ""
+          url: "https://ccaps.umn.edu/esl-resources/students/speaking/discussions"
         }
       ],
       reviewNotes:
@@ -977,7 +977,7 @@ toolkit.push({
         {
           text:
             "University of Minnesota — Teaching Support, Group Work: Navigating group miscommunications. Recommends providing examples of discussion language for different functions.",
-          url: ""
+          url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
         }
       ],
       reviewNotes:
@@ -1125,7 +1125,7 @@ toolkit.push({
         {
           text:
             "University of Minnesota — Teaching Support, Lecture Comprehension. Supports explaining idioms and metaphors and providing context for humour and cultural references.",
-          url: ""
+          url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
         }
       ],
       reviewNotes:
@@ -1358,7 +1358,7 @@ toolkit.push({
         {
           text:
             "University of Minnesota — Supporting Multilingual Learners, As You’re Creating a Writing Assignment. Recommends annotated models and sample extracts that highlight valued writing features.",
-          url: ""
+          url: "https://wac.umn.edu/tww-program/teaching-resources/supporting-multilingual-learners"
         }
       ],
       reviewNotes:
@@ -1448,7 +1448,7 @@ toolkit.push({
         {
           text:
             "University of Minnesota — Supporting Multilingual Learners, As Students are Completing a Writing Assignment. Supports prioritising content and organisation, giving instructive draft feedback and addressing language selectively.",
-          url: ""
+          url: "https://wac.umn.edu/tww-program/teaching-resources/supporting-multilingual-learners"
         }
       ],
       reviewNotes:
@@ -1574,7 +1574,7 @@ toolkit.push({
         {
           text:
             "University of Minnesota — Creating Revision Plans and Revision Memos. Supports feedback followed by planned revision, including repeated or developing assignments.",
-          url: ""
+          url: "https://wac.umn.edu/tww-program/teaching-writing-blog/creating-revision-plans-and-revision-memos-moving-feedback"
         }
       ],
       reviewNotes:
@@ -1596,7 +1596,7 @@ toolkit.push({
         {
           text:
             "University of Minnesota — Creating Revision Plans and Revision Memos, Revision memos. Supports summarising feedback, describing changes and explaining decisions to leave elements unchanged.",
-          url: ""
+          url: "https://wac.umn.edu/tww-program/teaching-writing-blog/creating-revision-plans-and-revision-memos-moving-feedback"
         }
       ],
       reviewNotes:
@@ -1658,7 +1658,7 @@ toolkit.push({
         {
           text:
             "University of Minnesota — Teaching Support, Reading: Taking extra time to read in a second language. Recommends providing time estimates for readings.",
-          url: ""
+          url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
         }
       ],
       reviewNotes:
