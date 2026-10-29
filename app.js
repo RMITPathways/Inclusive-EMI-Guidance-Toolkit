@@ -103,7 +103,15 @@ function renderDifficultyAreas(searchTerm = "") {
           hidden
         >
           <p>${area.description || ""}</p>
-
+${area.practicalGuideUrl ? `
+  <p>
+    <a href="${area.practicalGuideUrl}"
+       target="_blank"
+       rel="noopener noreferrer">
+      ${area.practicalGuide || "Download practical guide"}
+    </a>
+  </p>
+` : ""}
           <p class="status">
             Status: ${area.status || "Draft"}
           </p>
