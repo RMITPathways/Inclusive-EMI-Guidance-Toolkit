@@ -456,3 +456,27 @@ a:focus-visible {
     display: none;
   }
 }
+.sources {
+  list-style: none;
+  padding: 0;
+  background: transparent;
+}
+
+.sources li {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--border);
+}
+
+.sources a {
+  font-weight: normal;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.source-locator {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
