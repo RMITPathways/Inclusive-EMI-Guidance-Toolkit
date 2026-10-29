@@ -75,7 +75,7 @@ const toolkit = [
           "Ask students to identify the first step they will use."
         ],
         example:
-          "Accounting — <em>Show how to classify one transaction, explaining which information determines its category."<em>,
+          "Accounting — <em>Show how to classify one transaction, explaining which information determines its category.<em>",
         sources: [
           {
             text:
@@ -124,7 +124,7 @@ const toolkit = [
           "Avoid repeating the whole instruction if only one detail is unclear."
         ],
         example:
-          <em>"Ask pairs to show the two variables they selected before they begin calculating."<em>,
+         "<em>Ask pairs to show the two variables they selected before they begin calculating.<em>",
         sources: [
           {
             text:
