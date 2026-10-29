@@ -428,3 +428,31 @@ a:focus-visible {
 .example-box p {
   white-space: pre-line;
 }
+.back-link {
+  margin-top: 1.5rem;
+}
+
+.back-link a {
+  display: inline-block;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--navy);
+  background: var(--light-blue);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.back-link a:hover {
+  background: #dceef8;
+}
+
+#areas-heading {
+  scroll-margin-top: 1.5rem;
+}
+
+@media print {
+  .back-link {
+    display: none;
+  }
+}
