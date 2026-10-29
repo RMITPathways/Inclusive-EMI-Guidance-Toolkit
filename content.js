@@ -184,7 +184,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
         sources: [
           {
             text: "University of Minnesota, Teaching Support: vocabulary.",
-            : "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
+            : url:"https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
         reviewNotes:
@@ -532,7 +532,7 @@ practicalGuideUrl: "guides/D01_Giving_clear_instructions.pdf",
           {
             text:
               "UC Davis, Strategies to Increase Engagement While Reading.",
-            url: ""https://cee.ucdavis.edu/strategies-increase-engagement-while-reading""
+            url: "https://cee.ucdavis.edu/strategies-increase-engagement-while-reading"
           }
         ],
         reviewNotes:
