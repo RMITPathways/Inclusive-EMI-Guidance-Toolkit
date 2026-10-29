@@ -23,7 +23,7 @@ const toolkit = [
           "Preserve the thinking required by the learning outcome."
         ],
         example:
-          "Business — Before: “Undertake a comparative evaluation of the two proposed pricing strategies, identifying the relative merits and limitations of each.” Clearer: “Compare the two proposed pricing strategies and identify the advantages and disadvantages of each.”",
+          "Business: \nBefore: “Undertake a comparative evaluation of the two proposed pricing strategies, identifying the relative merits and limitations of each.” \nClearer: “Compare the two proposed pricing strategies and identify the advantages and disadvantages of each.”",
         sources: [
           {
             text:
