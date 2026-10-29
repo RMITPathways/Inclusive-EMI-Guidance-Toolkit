@@ -21,12 +21,15 @@ const toolkit = [
           "Preserve the thinking required by the learning outcome."
         ],
         "example": "Business:\nBefore: <em>“Undertake a comparative evaluation of the two proposed pricing strategies, identifying the relative merits and limitations of each.”</em>\nClearer: <em>“Compare the two proposed pricing strategies and identify the advantages and disadvantages of each.”</em>",
-        "sources": [
-          {
-            "text": "University of Minnesota, Communication Tips, particularly “Speak more effectively” and “Navigate communication styles”.",
-            "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/communication-tips"
-          }
-        ]
+       sources: [
+  {
+    author: "University of Minnesota",
+    year: "n.d.",
+    title: "Communication tips",
+    locator: "Relevant sections: “Speak more effectively” and “Navigate communication styles”.",
+    url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/communication-tips"
+  }
+],
       },
       {
         "id": "D01-S2",
