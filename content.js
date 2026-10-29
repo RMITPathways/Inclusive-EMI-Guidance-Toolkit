@@ -5,7 +5,7 @@ const toolkit = [
     moduleTitle: "Giving clear instructions in EMI",
     description:
       "Students need to understand what a task requires before they can demonstrate their subject knowledge. These strategies help make instructions accessible while preserving the learning outcome and academic challenge. Select those appropriate to the task and your students.",
-    status: "Draft",
+    
     practicalGuide: "D01-S1–S5 Giving clear instructions in EMI",
 
     strategies: [
@@ -32,8 +32,7 @@ const toolkit = [
               "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/communication-tips"
           }
         ],
-        reviewNotes:
-          "Toolkit-created example. General higher-education guidance; local validation pending."
+
       },
       {
         id: "D01-S2",
@@ -61,7 +60,7 @@ const toolkit = [
             url: "https://www.csusb.edu/english-language-support-center/faculty/strategies-inclusive-teaching"
           }
         ],
-        reviewNotes: "Draft."
+
       },
       {
         id: "D01-S3",
