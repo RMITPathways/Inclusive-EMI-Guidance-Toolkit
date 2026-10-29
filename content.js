@@ -75,7 +75,7 @@ const toolkit = [
           "Ask students to identify the first step they will use."
         ],
         example:
-          "Accounting — <em>Show how to classify one transaction, explaining which information determines its category.<em>",
+          "Accounting — Show how to classify one transaction, explaining which information determines its category.",
         sources: [
           {
             text:
@@ -180,7 +180,7 @@ const toolkit = [
           "Check understanding through a new example."
         ],
         example:
-          "Economics — Explain opportunity cost using a business choosing between a delivery vehicle and production equipment. Give another decision and ask students to identify the next-best alternative.",
+          "Economics — <em>Explain opportunity cost using a business choosing between a delivery vehicle and production equipment. Give another decision and ask students to identify the next-best alternative.<em>",
         sources: [
           {
             text: "University of Minnesota, Teaching Support: vocabulary.",
@@ -227,7 +227,7 @@ const toolkit = [
           "Check selected entries for accuracy."
         ],
         example:
-          "Business — Record opportunity cost, its definition, the phrase “opportunity cost of a decision” and a sentence applying it to a business choice.",
+          "Business — <em>Record opportunity cost, its definition, the phrase “opportunity cost of a decision” and a sentence applying it to a business choice.<em>",
         sources: [
           {
             text:
@@ -285,7 +285,7 @@ const toolkit = [
           "Use an internal summary before moving to the next section."
         ],
         example:
-          "Business — “We’ll examine three causes of falling sales. First, pricing; second, competition; third, customer preferences.”",
+          "Business — <em>“We’ll examine three causes of falling sales. First, pricing; second, competition; third, customer preferences.”<em>",
         sources: [
           {
             text:
@@ -307,7 +307,7 @@ const toolkit = [
           "Check the response before continuing."
         ],
         example:
-          "Biology — After explaining one stage of a process, ask: “What enters this stage, and what does it produce?”",
+          "Biology — After explaining one stage of a process, ask: <em>“What enters this stage, and what does it produce?”<em>",
         sources: [
           {
             text:
@@ -354,7 +354,7 @@ const toolkit = [
           "Repeat key terms when this helps students follow the explanation."
         ],
         example:
-          "Economics — “Higher demand can increase prices. This increase in demand shifts the demand curve to the right.”",
+          "Economics — <em>“Higher demand can increase prices. This increase in demand shifts the demand curve to the right.”<em>",
         sources: [
           {
             text:
@@ -378,7 +378,7 @@ const toolkit = [
           "Ask a focused question to check interpretation."
         ],
         example:
-          "Public health — “The vertical axis shows cases per 100,000 people. Compare the two age groups: which has the higher rate?”",
+          "Public health — <em>“The vertical axis shows cases per 100,000 people. Compare the two age groups: which has the higher rate?”<em>",
         sources: [
           {
             text:
@@ -401,7 +401,7 @@ const toolkit = [
           "Briefly recap the connection between the aside and the main point."
         ],
         example:
-          "Business — “That gives you some background about the company. Returning to our cost comparison, the important difference is…”",
+          "Business — <em>“That gives you some background about the company. Returning to our cost comparison, the important difference is…”<em>",
         sources: [
           {
             text:
@@ -436,7 +436,7 @@ const toolkit = [
           "Use the purpose to guide later discussion."
         ],
         example:
-          "Business — “Identify the author’s main explanation for falling sales. Which evidence supports that explanation?”",
+          "Business — <em>“Identify the author’s main explanation for falling sales. Which evidence supports that explanation?”<em>",
         sources: [
           {
             text:
@@ -483,7 +483,7 @@ const toolkit = [
           "Use the answers to discuss how the text is organised."
         ],
         example:
-          "Engineering — “What problem does the article address? What solution is proposed? What is the main reason for choosing it?”",
+          "Engineering — <em>“What problem does the article address? What solution is proposed? What is the main reason for choosing it?”<em>",
         sources: [
           {
             text:
@@ -580,7 +580,7 @@ const toolkit = [
           "Check understanding before moving on."
         ],
         example:
-          "Seminar — “Listen for the main argument and one example the speaker uses to support it.”",
+          "Seminar — <em>“Listen for the main argument and one example the speaker uses to support it.”<em>",
         sources: [],
         reviewNotes: "Placeholder structure for D05."
       },
@@ -596,7 +596,7 @@ const toolkit = [
           "Confirm the key point before continuing."
         ],
         example:
-          "“What is the speaker’s main point?” “Which example supports that idea?”",
+          "<em>“What is the speaker’s main point?” “Which example supports that idea?”<em>",
         sources: [],
         reviewNotes: "Placeholder structure for D05."
       },
@@ -628,7 +628,7 @@ const toolkit = [
           "Check whether students can now explain the point."
         ],
         example:
-          "“So the main issue is …” “In other words, the argument is …”",
+          "<em>“So the main issue is …” “In other words, the argument is …”<em>",
         sources: [],
         reviewNotes: "Placeholder structure for D05."
       }
@@ -656,7 +656,7 @@ const toolkit = [
           "Gradually reduce reliance on the stems."
         ],
         example:
-          "“I think the main point is …” “Can you explain …?” “I agree because …”",
+          "<em>“I think the main point is …” “Can you explain …?” “I agree because …”<em>",
         sources: [],
         reviewNotes: "Placeholder structure for D06."
       },
@@ -672,7 +672,7 @@ const toolkit = [
           "Use the reply to continue the discussion."
         ],
         example:
-          "“Could you repeat that?” “Could you give an example?” “What do you mean by …?”",
+          "<em>“Could you repeat that?” “Could you give an example?” “What do you mean by …?”<em>",
         sources: [],
         reviewNotes: "Placeholder structure for D06."
       },
@@ -688,7 +688,7 @@ const toolkit = [
           "Build toward longer responses over time."
         ],
         example:
-          "“I think the key difference is …” “For example, …”",
+          "<em>“I think the key difference is …” “For example, …”<em>",
         sources: [],
         reviewNotes: "Placeholder structure for D06."
       },
@@ -704,7 +704,7 @@ const toolkit = [
           "Review discussion moves after the activity."
         ],
         example:
-          "“One person speaks at a time. Use one main point and one example.”",
+          "<em>“One person speaks at a time. Use one main point and one example.”<em>",
         sources: [],
         reviewNotes: "Placeholder structure for D06."
       }
@@ -733,7 +733,7 @@ toolkit.push({
         "Remind students of these options during teaching."
       ],
       example:
-        "Engineering: “If a step in the calculation is unclear, raise your hand straight away. We can clarify it before building on it.”",
+        "Engineering: <em>“If a step in the calculation is unclear, raise your hand straight away. We can clarify it before building on it.”<em>",
       sources: [
         {
           text:
@@ -750,12 +750,12 @@ toolkit.push({
       summary:
         "Invite questions about a particular concept, step or distinction.",
       howTo: [
-        "Replace a general “Any questions?” with a prompt about a particular concept, step or distinction.",
+        "Replace a general <em>“Any questions?”<em> with a prompt about a particular concept, step or distinction.",
         "Allow thinking time before inviting responses.",
         "Use responses to identify what needs further explanation."
       ],
       example:
-        "Accounting: “Which part of deciding whether this is an asset or an expense needs another explanation?”",
+        "Accounting: <em>“Which part of deciding whether this is an asset or an expense needs another explanation?”<em>",
       sources: [
         {
           text:
@@ -799,7 +799,7 @@ toolkit.push({
         "Include ways to identify the exact point of confusion."
       ],
       example:
-        "Economics: “I understand…, but I’m not clear about…”; “Could you explain why…?”; “Could you show another example of…?”",
+        "Economics: <em>“I understand…, but I’m not clear about…”; “Could you explain why…?”; “Could you show another example of…?”<em>",
       sources: [
         {
           text:
@@ -822,7 +822,7 @@ toolkit.push({
         "Check understanding through a small application task."
       ],
       example:
-        "Nursing: “Let’s separate those two terms.” Explain the distinction, then ask students to apply it to a new case.",
+        "Nursing: <em>“Let’s separate those two terms.”<em> Explain the distinction, then ask students to apply it to a new case.",
       sources: [
         {
           text:
@@ -844,7 +844,7 @@ toolkit.push({
         "Use responses to decide what to revisit."
       ],
       example:
-        "Environmental science: “Write one difference between mitigation and adaptation, with an example. Add a question if any part remains unclear.”",
+        "Environmental science: <em>“Write one difference between mitigation and adaptation, with an example. Add a question if any part remains unclear.”<em>",
       sources: [
         {
           text:
@@ -882,7 +882,7 @@ toolkit.push({
         "Display the instructions so students can refer back to them."
       ],
       example:
-        "Business: “Compare the two proposals and recommend one. Each person should contribute one strength or limitation. Submit a shared recommendation with two reasons.”",
+        "Business: <em>“Compare the two proposals and recommend one. Each person should contribute one strength or limitation. Submit a shared recommendation with two reasons.”<em>",
       sources: [
         {
           text:
@@ -972,7 +972,7 @@ toolkit.push({
         "Demonstrate a short exchange using course content."
       ],
       example:
-        "Economics: “Can I add a point?”; “What evidence supports that?”; “I see your point, but…”; “Do you mean that…?”",
+        "Economics: <em>“Can I add a point?”; “What evidence supports that?”; “I see your point, but…”; “Do you mean that…?”<em>",
       sources: [
         {
           text:
@@ -994,7 +994,7 @@ toolkit.push({
         "Finish with a brief reflection on what helped members contribute."
       ],
       example:
-        "Nursing: “Pause and summarise the options so far. Give everyone a moment to review them, then invite any additional concerns before deciding.”",
+        "Nursing: <em>“Pause and summarise the options so far. Give everyone a moment to review them, then invite any additional concerns before deciding.”<em>",
       sources: [
         {
           text:
@@ -1120,7 +1120,7 @@ toolkit.push({
         "Retain and explain expressions that are essential subject terminology."
       ],
       example:
-        "Business: Replace “This product is the company’s cash cow” with “This product generates a steady surplus of cash”, then explain the technical category if it is part of the course.",
+        "Business: Replace <em>“This product is the company’s cash cow”<em> with <em>“This product generates a steady surplus of cash”<em>, then explain the technical category if it is part of the course.",
       sources: [
         {
           text:
@@ -1180,7 +1180,7 @@ toolkit.push({
         "Include the audience, format, length and other requirements in one accessible brief."
       ],
       example:
-        "Business: “Write a 1,500-word report recommending one of the two expansion options. Address the management team and use evidence from the case.”",
+        "Business: <em>“Write a 1,500-word report recommending one of the two expansion options. Address the management team and use evidence from the case.”<em>",
       sources: [
         {
           text:
@@ -1202,7 +1202,7 @@ toolkit.push({
         "Illustrate the difference between describing information and using it to develop an argument."
       ],
       example:
-        "Public health: “‘Evaluate’ means judging the intervention’s effectiveness using evidence, including its strengths and limitations. Listing its features is not enough.”",
+        "Public health: <em>“‘Evaluate’ means judging the intervention’s effectiveness using evidence, including its strengths and limitations. Listing its features is not enough.”<em>",
       sources: [
         {
           text:
@@ -1331,7 +1331,7 @@ toolkit.push({
         "For example, ask what happens, why it happens and what evidence supports the explanation."
       ],
       example:
-        "Engineering: “Identify the fault → explain how it affects the circuit → support your explanation with the test results.”",
+        "Engineering: <em>“Identify the fault → explain how it affects the circuit → support your explanation with the test results.”<em>",
       sources: [
         {
           text:
@@ -1375,7 +1375,7 @@ toolkit.push({
         "Keep the focus on accurate meaning."
       ],
       example:
-        "Environmental science: “This leads to… because…”; “In contrast…”; “This is likely when…”",
+        "Environmental science: <em>“This leads to… because…”; “In contrast…”; “This is likely when…”<em>",
       sources: [
         {
           text:
@@ -1443,7 +1443,7 @@ toolkit.push({
         "Ask the student to revise the explanation."
       ],
       example:
-        "Public health: “You have identified the association. Now clarify whether the evidence establishes a cause, and adjust your wording to match.”",
+        "Public health: <em>“You have identified the association. Now clarify whether the evidence establishes a cause, and adjust your wording to match.”<em>",
       sources: [
         {
           text:
@@ -1481,7 +1481,7 @@ toolkit.push({
         "Unpack terms such as “critical”, “unclear” or “develop” rather than using them alone."
       ],
       example:
-        "Business: Replace “Needs more analysis” with “You have listed the risks. Explain how each risk could affect the expansion decision, using the case data.”",
+        "Business: Replace <em>“Needs more analysis”<em> with <em>“You have listed the risks. Explain how each risk could affect the expansion decision, using the case data.”<em>",
       sources: [
         {
           text:
@@ -1525,7 +1525,7 @@ toolkit.push({
         "Explain why those changes matter."
       ],
       example:
-        "Public health: “First, check whether your conclusion matches the evidence. Next, organise the supporting points. Then address the wording marked in the final paragraph.”",
+        "Public health: <em>“First, check whether your conclusion matches the evidence. Next, organise the supporting points. Then address the wording marked in the final paragraph.”<em>",
       sources: [
         {
           text:
@@ -1547,7 +1547,7 @@ toolkit.push({
         "Provide an opportunity to clarify uncertainty before they revise."
       ],
       example:
-        "Economics: “What does my comment about the missing mechanism mean? Show me where you will explain how the interest-rate change affects borrowing.”",
+        "Economics: <em>“What does my comment about the missing mechanism mean? Show me where you will explain how the interest-rate change affects borrowing.”<em>",
       sources: [
         {
           text:
@@ -1591,7 +1591,7 @@ toolkit.push({
         "Invite students to explain their reasoning if they choose a different response."
       ],
       example:
-        "Nursing: “Feedback: the care priority lacked justification. Action: added a reason linked to the patient information. Location: paragraph two.”",
+        "Nursing: <em>“Feedback: the care priority lacked justification. Action: added a reason linked to the patient information. Location: paragraph two.”<em>",
       sources: [
         {
           text:
@@ -1630,7 +1630,7 @@ toolkit.push({
         "Distinguish essential preparation from optional extension."
       ],
       example:
-        "Business: “Read the case and identify two risks, with supporting evidence. Bring your notes to use in the group recommendation task.”",
+        "Business: <em>“Read the case and identify two risks, with supporting evidence. Bring your notes to use in the group recommendation task.”<em>",
       sources: [
         {
           text:
