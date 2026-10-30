@@ -356,7 +356,8 @@ const toolkit = [
     "moduleTitle": "Helping students identify main ideas in readings",
     "description": "Students may need support to distinguish a text’s main message from supporting details, examples and broader inferences.",
     "status": "Draft",
-    "practicalGuide": "D04-S1–S6 Identifying main ideas in readings",
+    "practicalGuide": "Download practical guide: Identifying main ideas in readings (PDF)",
+"practicalGuideUrl": "guides/D04_Identifying_main_ideas_in_readings.pdf",
     "strategies": [
       {
         "id": "D04-S1",
