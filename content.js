@@ -140,7 +140,7 @@ const toolkit = [
     "moduleTitle": "Helping students understand and use subject vocabulary",
     "description": "Students need to understand subject terminology and use it accurately when explaining ideas, discussing problems and completing assessments. These strategies can be incorporated into ordinary subject teaching.",
    "practicalGuide": "Download practical guide: Helping students understand and use subject vocabulary (PDF)",
-"practicalGuideUrl": "guides/D02_Helping_students_understand_and_use_subject_vocabulary.pdf",,
+"practicalGuideUrl": "guides/D02_Helping_students_understand_and_use_subject_vocabulary.pdf",
     "strategies": [
       {
         "id": "D02-S1",
