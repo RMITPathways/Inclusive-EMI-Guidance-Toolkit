@@ -569,12 +569,14 @@ const toolkit = [
         "example": "Seminar — <em>“Listen for the main argument and one example the speaker uses to support it.”</em>",
         "sources": [
           {
-            "author": "Virginia Tech, Center for Excellence in Teaching and Learning.",
+            "author": "Virginia Tech, Center for Excellence in Teaching and Learning",
             "year": "n.d.",
             "title": "Lecture guides and wrappers",
             "locator": "Relevant sections: “Guides/Guided notes”.",
             "url": "https://teaching.vt.edu/teachingresources/adjustinginstruction/lectureguides.html"
-          }        "reviewNotes": "Placeholder structure for D05."
+          }
+        ],
+        "reviewNotes": "Placeholder structure for D05."
       },
       {
         "id": "D05-S2",
@@ -591,10 +593,12 @@ const toolkit = [
           {
             "author": "University of Nebraska–Lincoln, Graduate Studies",
             "year": "n.d.",
-            "title": "Teaching students to take better notes: Notes on notetaking.",
+            "title": "Teaching students to take better notes: Notes on notetaking",
              "locator": "Relevant sections: “Tell Students What to Record” and “Challenge Students to Think”.",
             "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/notetaking"
-              },
+          }
+        ]
+      },
       {
         "id": "D05-S3",
         "title": "Support note-taking during discussion",
@@ -608,11 +612,13 @@ const toolkit = [
         "example": "Main idea: ___. Example: ___. Question to ask: ___.",
        "sources": [
           {
-            "author": "Vermont State University, Center for Teaching & Learning Innovation.",
+            "author": "Vermont State University, Center for Teaching & Learning Innovation",
             "year": "n.d.",
-            "title": "Note taking guideance.",
+            "title": "Note taking guidance",
              "locator": "Relevant sections: “How to Provide Note-taking Guidance for Students”.",
             "url": "https://ctli.vermontstate.edu/teaching-effectiveness-framework/instructional-strategies/note-taking-guidance"
+          }
+        ],
         "reviewNotes": "Placeholder structure for D05."
       },
       {
@@ -628,11 +634,13 @@ const toolkit = [
         "example": "<em>“So the main issue is …” “In other words, the argument is …”</em>",
          "sources": [
           {
-            "author": "Imperial College London.",
+            "author": "Imperial College London",
             "year": "n.d.",
-            "title": "Using visual aids.",
+            "title": "Using visual aids",
                     "url": "https://www.imperial.ac.uk/staff/educational-development/teaching-toolkit/inclusive-learning-and-teaching/managing-inclusive-learning-environments/using-visual-aids"
-               "reviewNotes": "Placeholder structure for D05."
+          }
+        ],
+        "reviewNotes": "Placeholder structure for D05."
       }
     ]
   },
