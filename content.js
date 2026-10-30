@@ -1046,7 +1046,8 @@ const toolkit = [
     "moduleTitle": "Making examples and references accessible",
     "description": "Provide the background students need to understand an example and make its connection to the subject concept clear.",
     "status": "Draft",
-    "practicalGuide": "D09-S1–S6 Making examples and references accessible",
+    "practicalGuide": "Download practical guide: Making examples and references accessible (PDF)",
+    "practicalGuideUrl": "guides/D09_Making_examples_and_references_accessible",
     "strategies": [
       {
         "id": "D09-S1",
