@@ -1167,8 +1167,10 @@ const toolkit = [
             "locator": "",
             "url": "https://poorvucenter.yale.edu/transfer-of-knowledge-to-new-contexts"
           }
-        ],
-          ],
+        ]
+      }
+    ],
+    "checklist": [],
     "checklist": [],
     "moduleSources": []
   },
