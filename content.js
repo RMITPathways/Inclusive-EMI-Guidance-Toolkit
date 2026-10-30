@@ -130,7 +130,7 @@ const toolkit = [
       },
       {
         "text": "TAEC Erasmus+ project (2017–2020), EMI Handbook, section 1.4.1, “Giving directions”, pp. 19–20.",
-        "url": "guides/TAEC_EMI_Handbook.pdf#page=19"
+        "url": "guides/TAEC_EMI_Handbook.pdf#page=20"
       }
     ]
   },
@@ -196,7 +196,7 @@ const toolkit = [
         "sources": [
           {
             "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, “2.6.8 Key words and the creation of a course glossary”, pp. 69–71.",
-            "url": "guides/TAEC_EMI_Handbook.pdf#page=69"
+            "url": "guides/TAEC_EMI_Handbook.pdf#page=70"
           }
         ],
         "reviewNotes": "Glossary content is source-supported. Optional multilingual field and subject example developed for the toolkit."
@@ -245,7 +245,7 @@ const toolkit = [
         "sources": [
           {
             "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, section 2.2, pp. 33–42: Structuring.",
-            "url": "guides/TAEC_EMI_Handbook.pdf#page=33"
+            "url": "guides/TAEC_EMI_Handbook.pdf#page=34"
           }
         ],
         "reviewNotes": "Draft."
@@ -303,7 +303,7 @@ const toolkit = [
         "sources": [
           {
             "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, section 2.3, pp. 42–52: Cohesion.",
-           "url": "guides/TAEC_EMI_Handbook.pdf#page=20"
+           "url": "guides/TAEC_EMI_Handbook.pdf#page=43"
           }
         ],
         "reviewNotes": "Original toolkit example; grammatical terminology has been simplified."
@@ -323,7 +323,7 @@ const toolkit = [
         "sources": [
           {
             "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, section 2.2.3, p. 39: The core of the lecture - referring to visual material.",
-           "url": "guides/TAEC_EMI_Handbook.pdf#page=39"
+           "url": "guides/TAEC_EMI_Handbook.pdf#page=40"
           }
         ],
         "reviewNotes": "The source supports directing attention to visual features and explaining their relationship to the argument."
@@ -342,7 +342,7 @@ const toolkit = [
         "sources": [
           {
             "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, sections 2.2.3, pp. 39–40 Digressions, and 2.3, p. 52: Tips - avoid mid-sentence digressions",
-            "url": "guides/TAEC_EMI_Handbook.pdf#page=39"
+            "url": "guides/TAEC_EMI_Handbook.pdf#page=40"
           }
         ],
         "reviewNotes": "Original toolkit example."
