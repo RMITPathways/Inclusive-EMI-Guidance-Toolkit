@@ -1089,8 +1089,7 @@ const toolkit = [
             "url": "https://www.cmu.edu/teaching/designteach/teach/priorknowledge.html"
           }
         ],
-        "reviewNotes": "Partial source support. The context explanation, visual support and subject example are toolkit applications. Source mapping retained from the draft: Carnegie Mellon University — Assessing Prior Knowledge. Supports identifying gaps in background knowledge and adjusting teaching."
-      },
+            },
       {
         "id": "D09-S3",
         "title": "Make the connection to the subject concept explicit",
@@ -1110,7 +1109,6 @@ const toolkit = [
             "url": "https://doi.org/10.1152/advan.00022.2010"
           }
         ],
-        "reviewNotes": "The source supports the analogy element. It is a scholarly article rather than a short teacher resource. Source mapping retained from the draft: Brown and Salter — Analogies in science and science teaching. Supports explaining an analogy’s components and limitations."
       },
       {
         "id": "D09-S4",
@@ -1131,9 +1129,7 @@ const toolkit = [
             "url": "https://www.cmu.edu/teaching/solveproblem/strat-dontparticipate/dontparticipate-06.html"
           }
         ],
-        "reviewNotes": "Inviting student-generated examples is an additional toolkit suggestion. Subject examples are toolkit-created. Source mapping retained from the draft: Carnegie Mellon University — Strategies for addressing gaps in prior knowledge, Use multiple representations. Supports examples and analogies across different cultural and social contexts."
-      },
-      {
+            {
         "id": "D09-S5",
         "title": "Explain references, idioms and humour that carry meaning",
         "summary": "Explain important expressions and replace incidental references where useful.",
@@ -1152,7 +1148,6 @@ const toolkit = [
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
-        "reviewNotes": "Replacing incidental references is a practical toolkit extension. Source mapping retained from the draft: University of Minnesota — Teaching Support, Lecture Comprehension. Supports explaining idioms and metaphors and providing context for humour and cultural references."
       },
       {
         "id": "D09-S6",
@@ -1173,9 +1168,7 @@ const toolkit = [
             "url": "https://poorvucenter.yale.edu/transfer-of-knowledge-to-new-contexts"
           }
         ],
-        "reviewNotes": "Partial source support. Separately checking contextual and conceptual understanding is a toolkit diagnostic suggestion. Source mapping retained from the draft: Yale University — Transfer of Knowledge to New Contexts, Provide comparative scenarios. Supports applying common knowledge or approaches across different scenarios."
-      }
-    ],
+          ],
     "checklist": [],
     "moduleSources": []
   },
