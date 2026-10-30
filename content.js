@@ -130,7 +130,7 @@ const toolkit = [
       },
       {
         "text": "TAEC Erasmus+ project (2017–2020), EMI Handbook, section 1.4.1, “Giving directions”, pp. 19–20.",
-        "url": "https://cip.ku.dk/english/projects-and-collaborations/taec/TAEC_Handbook_FEB_2020_NoEdit.pdf"
+        "url": "guides/TAEC_EMI_Handbook.pdf#page=19"
       }
     ]
   },
@@ -195,8 +195,8 @@ const toolkit = [
         "example": "Business — <em>Record opportunity cost, its definition, the phrase “opportunity cost of a decision” and a sentence applying it to a business choice.</em>",
         "sources": [
           {
-            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, “Course glossary”, pp. 69–71.",
-            "url": "https://cip.ku.dk/english/projects-and-collaborations/taec/TAEC_Handbook_FEB_2020_NoEdit.pdf"
+            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, “2.6.8 Key words and the creation of a course glossary”, pp. 69–71.",
+            "url": "guides/TAEC_EMI_Handbook.pdf#page=69"
           }
         ],
         "reviewNotes": "Glossary content is source-supported. Optional multilingual field and subject example developed for the toolkit."
@@ -244,8 +244,8 @@ const toolkit = [
         "example": "Business — <em>“We’ll examine three causes of falling sales. First, pricing; second, competition; third, customer preferences.”</em>",
         "sources": [
           {
-            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, sections 2.2.2–2.2.3, pp. 34–39: outlines, topic transitions and internal summaries.",
-            "url": "https://cip.ku.dk/english/projects-and-collaborations/taec/TAEC_Handbook_FEB_2020_NoEdit.pdf"
+            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, section 2.2, pp. 33–42: Structuring.",
+            "url": "guides/TAEC_EMI_Handbook.pdf#page=33"
           }
         ],
         "reviewNotes": "Draft."
@@ -302,8 +302,8 @@ const toolkit = [
         "example": "Economics — <em>“Higher demand can increase prices. This increase in demand shifts the demand curve to the right.”</em>",
         "sources": [
           {
-            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, section 2.3, pp. 42–52: explicit connections between ideas.",
-            "url": "https://cip.ku.dk/english/projects-and-collaborations/taec/TAEC_Handbook_FEB_2020_NoEdit.pdf"
+            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, section 2.3, pp. 42–52: Cohesion.",
+           "url": "guides/TAEC_EMI_Handbook.pdf#page=20"
           }
         ],
         "reviewNotes": "Original toolkit example; grammatical terminology has been simplified."
@@ -322,8 +322,8 @@ const toolkit = [
         "example": "Public health — <em>“The vertical axis shows cases per 100,000 people. Compare the two age groups: which has the higher rate?”</em>",
         "sources": [
           {
-            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, section 2.2.3, p. 39: referring to visual material.",
-            "url": "https://cip.ku.dk/english/projects-and-collaborations/taec/TAEC_Handbook_FEB_2020_NoEdit.pdf"
+            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, section 2.2.3, p. 39: The core of the lecture - referring to visual material.",
+           "url": "guides/TAEC_EMI_Handbook.pdf#page=39"
           }
         ],
         "reviewNotes": "The source supports directing attention to visual features and explaining their relationship to the argument."
@@ -341,8 +341,8 @@ const toolkit = [
         "example": "Business — <em>“That gives you some background about the company. Returning to our cost comparison, the important difference is…”</em>",
         "sources": [
           {
-            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, sections 2.2.3, pp. 39–40, and 2.3, p. 52: signalling departures and returns.",
-            "url": "https://cip.ku.dk/english/projects-and-collaborations/taec/TAEC_Handbook_FEB_2020_NoEdit.pdf"
+            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, sections 2.2.3, pp. 39–40 Digressions, and 2.3, p. 52: Tips - avoid mid-sentence digressions",
+            "url": "guides/TAEC_EMI_Handbook.pdf#page=39"
           }
         ],
         "reviewNotes": "Original toolkit example."
