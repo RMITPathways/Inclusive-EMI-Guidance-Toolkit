@@ -627,8 +627,13 @@ const toolkit = [
           "Check whether students can now explain the point."
         ],
         "example": "<em>“So the main issue is …” “In other words, the argument is …”</em>",
-        "sources": [],
-        "reviewNotes": "Placeholder structure for D05."
+         "sources": [
+          {
+            "author": "Imperial College London.",
+            "year": "n.d.",
+            "title": "Using visual aids.",
+                    "url": "https://www.imperial.ac.uk/staff/educational-development/teaching-toolkit/inclusive-learning-and-teaching/managing-inclusive-learning-environments/using-visual-aids"
+               "reviewNotes": "Placeholder structure for D05."
       }
     ]
   },
