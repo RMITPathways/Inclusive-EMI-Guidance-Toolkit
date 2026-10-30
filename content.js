@@ -1,4 +1,4 @@
-// Inclusive EMI Guidance Toolkit — source entries standardised 29 October 2026.
+// Inclusive EMI Guidance Toolkit — supporting sources formatted consistently.
 const toolkit = [
   {
     "id": "D01",
@@ -21,15 +21,15 @@ const toolkit = [
           "Preserve the thinking required by the learning outcome."
         ],
         "example": "Business:\nBefore: <em>“Undertake a comparative evaluation of the two proposed pricing strategies, identifying the relative merits and limitations of each.”</em>\nClearer: <em>“Compare the two proposed pricing strategies and identify the advantages and disadvantages of each.”</em>",
-       sources: [
-  {
-    author: "University of Minnesota",
-    year: "n.d.",
-    title: "Communication tips",
-    locator: "Relevant sections: “Speak more effectively” and “Navigate communication styles”.",
-    url: "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/communication-tips"
-  }
-],
+        "sources": [
+          {
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Communication tips",
+            "locator": "Relevant sections: “Speak more effectively” and “Navigate communication styles”.",
+            "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/communication-tips"
+          }
+        ]
       },
       {
         "id": "D01-S2",
@@ -46,11 +46,17 @@ const toolkit = [
         "example": "Engineering — \n1. Examine the diagram. \n2. Identify the fault. \n3. Explain its likely cause. \n4. Work in pairs; write three sentences.",
         "sources": [
           {
-            "text": "British Council, Communicate clearly, section 4.",
+            "author": "British Council",
+            "year": "n.d.",
+            "title": "Communicate clearly to present new information or give instructions",
+            "locator": "Relevant section: Section 4.",
             "url": "https://africa.teachingenglish.org.uk/skills/educate-other-teachers/communicate-information-instructions"
           },
           {
-            "text": "California State University, San Bernardino — Strategies for Inclusive Teaching, “Use Multiple Modes”.",
+            "author": "California State University, San Bernardino",
+            "year": "n.d.",
+            "title": "Strategies for inclusive teaching",
+            "locator": "Relevant section: “Use Multiple Modes”.",
             "url": "https://www.csusb.edu/english-language-support-center/faculty/strategies-inclusive-teaching"
           }
         ]
@@ -69,7 +75,10 @@ const toolkit = [
         "example": "Accounting — Show how to classify one transaction, explaining which information determines its category.",
         "sources": [
           {
-            "text": "California State University, San Bernardino — Strategies for Inclusive Teaching, “Use Multiple Modes”.",
+            "author": "California State University, San Bernardino",
+            "year": "n.d.",
+            "title": "Strategies for inclusive teaching",
+            "locator": "Relevant section: “Use Multiple Modes”.",
             "url": "https://www.csusb.edu/english-language-support-center/faculty/strategies-inclusive-teaching"
           }
         ]
@@ -87,11 +96,17 @@ const toolkit = [
         "example": "<em>“How many options will you compare?” “Will you work alone?” “What will you submit?”</em>",
         "sources": [
           {
-            "text": "British Council, Communicate clearly, section 4, checking instructions.",
+            "author": "British Council",
+            "year": "n.d.",
+            "title": "Communicate clearly to present new information or give instructions",
+            "locator": "Relevant section: Section 4: checking instructions.",
             "url": "https://africa.teachingenglish.org.uk/skills/educate-other-teachers/communicate-information-instructions"
           },
           {
-            "text": "English in Action, Instruction-and-Concept-Checking Questions.",
+            "author": "English in Action",
+            "year": "n.d.",
+            "title": "Instruction and concept checking questions",
+            "locator": "",
             "url": "https://englishinaction.com/blog/wp-content/uploads/2022/01/Instruction-and-Concept-Checking-Questions.pdf"
           }
         ]
@@ -109,7 +124,10 @@ const toolkit = [
         "example": "<em>Ask pairs to show the two variables they selected before they begin calculating.</em>",
         "sources": [
           {
-            "text": "British Council, Communicate clearly, section 5, How will you know everybody understands the new information.",
+            "author": "British Council",
+            "year": "n.d.",
+            "title": "Communicate clearly to present new information or give instructions",
+            "locator": "Relevant section: Section 5: checking that everyone understands the new information.",
             "url": "https://africa.teachingenglish.org.uk/skills/educate-other-teachers/communicate-information-instructions"
           }
         ]
@@ -125,11 +143,17 @@ const toolkit = [
     ],
     "moduleSources": [
       {
-        "text": "University of Minnesota, Communication Tips, particularly “Speak more effectively” and “Navigate communication styles”.",
+        "author": "University of Minnesota",
+        "year": "n.d.",
+        "title": "Communication tips",
+        "locator": "Relevant sections: “Speak more effectively” and “Navigate communication styles”.",
         "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/communication-tips"
       },
       {
-        "text": "TAEC Erasmus+ project (2017–2020), EMI Handbook, section 1.4.1, “Giving directions”, pp. 19–20.",
+        "author": "TAEC Erasmus+ project (2017–2020)",
+        "year": "2019",
+        "title": "EMI handbook",
+        "locator": "Relevant section: Section 1.4.1, “Giving directions”, pp. 19–20.",
         "url": "guides/TAEC_EMI_Handbook.pdf#page=20"
       }
     ]
@@ -139,8 +163,8 @@ const toolkit = [
     "title": "Understanding academic or technical vocabulary",
     "moduleTitle": "Helping students understand and use subject vocabulary",
     "description": "Students need to understand subject terminology and use it accurately when explaining ideas, discussing problems and completing assessments. These strategies can be incorporated into ordinary subject teaching.",
-   "practicalGuide": "Download practical guide: Helping students understand and use subject vocabulary (PDF)",
-"practicalGuideUrl": "guides/D02_Helping_students_understand_and_use_subject_vocabulary.pdf",
+    "practicalGuide": "Download practical guide: Helping students understand and use subject vocabulary (PDF)",
+    "practicalGuideUrl": "guides/D02_Helping_students_understand_and_use_subject_vocabulary.pdf",
     "strategies": [
       {
         "id": "D02-S1",
@@ -156,7 +180,10 @@ const toolkit = [
         "example": "Economics — <em>Explain opportunity cost using a business choosing between a delivery vehicle and production equipment. Give another decision and ask students to identify the next-best alternative.</em>",
         "sources": [
           {
-            "text": "University of Minnesota, Teaching Support: vocabulary.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Teaching support",
+            "locator": "Relevant section: Vocabulary.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
@@ -175,7 +202,10 @@ const toolkit = [
         "example": "Physics — Contrast everyday work meaning effort with mechanical work involving force and displacement. Ask whether holding a bag stationary involves mechanical work on the bag.",
         "sources": [
           {
-            "text": "Faculty of Education, Monash University & Victorian Department of Education and Training , Introducing scientific language.",
+            "author": "Monash University, Faculty of Education, & Victorian Department of Education and Training",
+            "year": "n.d.",
+            "title": "Introducing scientific language",
+            "locator": "",
             "url": "https://www.monash.edu/__data/assets/pdf_file/0011/3399680/Introducing-scientific-language.pdf"
           }
         ]
@@ -195,7 +225,10 @@ const toolkit = [
         "example": "Business — <em>Record opportunity cost, its definition, the phrase “opportunity cost of a decision” and a sentence applying it to a business choice.</em>",
         "sources": [
           {
-            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, “2.6.8 Key words and the creation of a course glossary”, pp. 69–71.",
+            "author": "TAEC Erasmus+ project (2017–2020)",
+            "year": "2019",
+            "title": "EMI handbook",
+            "locator": "Relevant sections: Section 2.6.8, “Key words and the creation of a course glossary”, pp. 69–71.",
             "url": "guides/TAEC_EMI_Handbook.pdf#page=70"
           }
         ],
@@ -214,7 +247,10 @@ const toolkit = [
         "example": "Economics — In a later lesson, ask students to explain opportunity cost from memory, check their explanation and apply it to a new investment decision.",
         "sources": [
           {
-            "text": "Nation, P. (2022) — The principles of vocabulary learning.",
+            "author": "Nation, P.",
+            "year": "2022",
+            "title": "The principles of vocabulary learning (and any other kind of learning)",
+            "locator": "",
             "url": "https://www.tesolanz.org.nz/resources/paul-nation-the-principles-of-vocabulary-learning/"
           }
         ],
@@ -228,8 +264,8 @@ const toolkit = [
     "moduleTitle": "Supporting comprehension during lectures",
     "description": "Students listening in English need to follow the language, understand the subject ideas and recognise how those ideas connect. They may also be interpreting slides and taking notes. Make the organisation visible and give students opportunities to process and check the explanation.",
     "status": "Draft",
-   "practicalGuide": "Download practical guide: Following lectures and extended explanations (PDF)",
-"practicalGuideUrl": "guides/D03_Following_lectures_and_extended_explanations.pdf",
+    "practicalGuide": "Download practical guide: Following lectures and extended explanations (PDF)",
+    "practicalGuideUrl": "guides/D03_Following_lectures_and_extended_explanations.pdf",
     "strategies": [
       {
         "id": "D03-S1",
@@ -245,7 +281,10 @@ const toolkit = [
         "example": "Business — <em>“We’ll examine three causes of falling sales. First, pricing; second, competition; third, customer preferences.”</em>",
         "sources": [
           {
-            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, section 2.2, pp. 33–42: Structuring.",
+            "author": "TAEC Erasmus+ project (2017–2020)",
+            "year": "2019",
+            "title": "EMI handbook",
+            "locator": "Relevant section: Section 2.2, “Structuring”, pp. 33–42.",
             "url": "guides/TAEC_EMI_Handbook.pdf#page=34"
           }
         ],
@@ -264,7 +303,10 @@ const toolkit = [
         "example": "Biology — After explaining one stage of a process, ask: <em>“What enters this stage, and what does it produce?”</em>",
         "sources": [
           {
-            "text": "University of Minnesota, Making lectures more accessible, “Do”, item 4: regular pauses for reflection, paired discussion and checking understanding.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Supporting and engaging multilingual students by making content and lectures more accessible",
+            "locator": "Relevant sections: “Do”, item 4: regular pauses for reflection, paired discussion and checking understanding.",
             "url": "https://ccaps.umn.edu/classroom-dei/supporting-and-engaging-multilingual-students-by-making-content-and-lectures-more-accessible"
           }
         ],
@@ -284,7 +326,10 @@ const toolkit = [
         "example": "Engineering — Display a labelled process diagram and reveal each stage as you explain it.",
         "sources": [
           {
-            "text": "University of Minnesota, Making lectures more accessible, “Do”, item 5: relevant visuals and listening guides.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Supporting and engaging multilingual students by making content and lectures more accessible",
+            "locator": "Relevant sections: “Do”, item 5: relevant visuals and listening guides.",
             "url": "https://ccaps.umn.edu/classroom-dei/supporting-and-engaging-multilingual-students-by-making-content-and-lectures-more-accessible"
           }
         ],
@@ -303,8 +348,11 @@ const toolkit = [
         "example": "Economics — <em>“Higher demand can increase prices. This increase in demand shifts the demand curve to the right.”</em>",
         "sources": [
           {
-            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, section 2.3, pp. 42–52: Cohesion.",
-           "url": "guides/TAEC_EMI_Handbook.pdf#page=43"
+            "author": "TAEC Erasmus+ project (2017–2020)",
+            "year": "2019",
+            "title": "EMI handbook",
+            "locator": "Relevant section: Section 2.3, “Cohesion”, pp. 42–52.",
+            "url": "guides/TAEC_EMI_Handbook.pdf#page=43"
           }
         ],
         "reviewNotes": "Original toolkit example; grammatical terminology has been simplified."
@@ -323,8 +371,11 @@ const toolkit = [
         "example": "Public health — <em>“The vertical axis shows cases per 100,000 people. Compare the two age groups: which has the higher rate?”</em>",
         "sources": [
           {
-            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, section 2.2.3, p. 39: The core of the lecture - referring to visual material.",
-           "url": "guides/TAEC_EMI_Handbook.pdf#page=40"
+            "author": "TAEC Erasmus+ project (2017–2020)",
+            "year": "2019",
+            "title": "EMI handbook",
+            "locator": "Relevant section: Section 2.2.3, “The core of the lecture”: referring to visual material, p. 39.",
+            "url": "guides/TAEC_EMI_Handbook.pdf#page=40"
           }
         ],
         "reviewNotes": "The source supports directing attention to visual features and explaining their relationship to the argument."
@@ -342,7 +393,10 @@ const toolkit = [
         "example": "Business — <em>“That gives you some background about the company. Returning to our cost comparison, the important difference is…”</em>",
         "sources": [
           {
-            "text": "TAEC Erasmus+ project (2017–2020) — EMI handbook, sections 2.2.3, pp. 39–40 Digressions, and 2.3, p. 52: Tips - avoid mid-sentence digressions",
+            "author": "TAEC Erasmus+ project (2017–2020)",
+            "year": "2019",
+            "title": "EMI handbook",
+            "locator": "Relevant sections: Section 2.2.3, “Digressions”, pp. 39–40; section 2.3, “Tips”, p. 52.",
             "url": "guides/TAEC_EMI_Handbook.pdf#page=40"
           }
         ],
@@ -357,7 +411,7 @@ const toolkit = [
     "description": "Students may need support to distinguish a text’s main message from supporting details, examples and broader inferences.",
     "status": "Draft",
     "practicalGuide": "Download practical guide: Identifying main ideas in readings (PDF)",
-"practicalGuideUrl": "guides/D04_Identifying_main_ideas_in_readings.pdf",
+    "practicalGuideUrl": "guides/D04_Identifying_main_ideas_in_readings.pdf",
     "strategies": [
       {
         "id": "D04-S1",
@@ -372,7 +426,10 @@ const toolkit = [
         "example": "Business — <em>“Identify the author’s main explanation for falling sales. Which evidence supports that explanation?”</em>",
         "sources": [
           {
-            "text": "University of Minnesota, Teaching Support, Reading section.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Teaching support",
+            "locator": "Relevant section: Reading.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
@@ -392,7 +449,10 @@ const toolkit = [
         "example": "Public health — Highlight the author’s claim about a prevention measure, then distinguish it from the statistics and examples supporting it.",
         "sources": [
           {
-            "text": "UC Davis, Strategies to Increase Engagement While Reading, Teaching Strategies.",
+            "author": "University of California, Davis, Center for Educational Effectiveness",
+            "year": "n.d.",
+            "title": "Strategies to increase engagement while reading",
+            "locator": "Relevant section: Teaching strategies.",
             "url": "https://cee.ucdavis.edu/strategies-increase-engagement-while-reading"
           }
         ],
@@ -411,7 +471,10 @@ const toolkit = [
         "example": "Engineering — <em>“What problem does the article address? What solution is proposed? What is the main reason for choosing it?”</em>",
         "sources": [
           {
-            "text": "University of Minnesota, Teaching Support, Reading section.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Teaching support",
+            "locator": "Relevant section: Reading.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
@@ -430,7 +493,10 @@ const toolkit = [
         "example": "Science — Compare an abstract with the article’s conclusion. Ask students to identify the main finding and any qualification attached to it.",
         "sources": [
           {
-            "text": "University of Illinois, Structure of an Article.",
+            "author": "University of Illinois Urbana-Champaign, University Library",
+            "year": "n.d.",
+            "title": "How to read a scientific paper: Structure of an article",
+            "locator": "",
             "url": "https://guides.library.illinois.edu/c.php?g=348214&p=2346645"
           }
         ]
@@ -448,7 +514,10 @@ const toolkit = [
         "example": "Economics — Students summarise each explanation for inflation, then identify the author’s overall argument about which explanation best fits the evidence.",
         "sources": [
           {
-            "text": "UC Davis, Strategies to Increase Engagement While Reading.",
+            "author": "University of California, Davis, Center for Educational Effectiveness",
+            "year": "n.d.",
+            "title": "Strategies to increase engagement while reading",
+            "locator": "",
             "url": "https://cee.ucdavis.edu/strategies-increase-engagement-while-reading"
           }
         ],
@@ -466,15 +535,15 @@ const toolkit = [
         ],
         "example": "Business — Give three possible summaries of a report. Students select the best one and explain why the others are too narrow or go beyond the evidence.",
         "sources": [
-  {
-    "author": "University of Cincinnati, Learning Commons",
-    "year": "n.d.",
-    "title": "Reading for main ideas vs. details",
-    "locator": "Relevant sections: “Reading with a Purpose” and “Additional Exercises”.",
-    "url": "https://www.uc.edu/campus-life/learning-commons/learning-resources/notetaking-resources/main-ideas-vs-details.html"
-  }
-],
-"reviewNotes": "Source supports identifying main claims and checking them against textual evidence. Comparing alternative summaries, discussing their limitations and the Business example are toolkit-created adaptations."
+          {
+            "author": "University of Cincinnati, Learning Commons",
+            "year": "n.d.",
+            "title": "Reading for main ideas vs. details",
+            "locator": "Relevant sections: “Reading with a Purpose” and “Additional Exercises”.",
+            "url": "https://www.uc.edu/campus-life/learning-commons/learning-resources/notetaking-resources/main-ideas-vs-details.html"
+          }
+        ],
+        "reviewNotes": "Source supports identifying main claims and checking them against textual evidence. Comparing alternative summaries, discussing their limitations and the Business example are toolkit-created adaptations."
       }
     ]
   },
@@ -630,7 +699,10 @@ const toolkit = [
         "example": "Engineering: <em>“If a step in the calculation is unclear, raise your hand straight away. We can clarify it before building on it.”</em>",
         "sources": [
           {
-            "text": "University of Minnesota — Teaching Support, Lecture Comprehension: Withholding questions.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Teaching support",
+            "locator": "Relevant section: Lecture comprehension: withholding questions.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
@@ -648,7 +720,10 @@ const toolkit = [
         "example": "Accounting: <em>“Which part of deciding whether this is an asset or an expense needs another explanation?”</em>",
         "sources": [
           {
-            "text": "University of Minnesota — Teaching Support, Lecture Comprehension: Withholding questions.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Teaching support",
+            "locator": "Relevant section: Lecture comprehension: withholding questions.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
@@ -666,7 +741,10 @@ const toolkit = [
         "example": "Public health: Students submit the point they most want clarified. The lecturer addresses common questions at the start of the next class.",
         "sources": [
           {
-            "text": "University of Nebraska–Lincoln — Muddiest Point.",
+            "author": "University of Nebraska–Lincoln, Graduate Studies",
+            "year": "n.d.",
+            "title": "Muddiest point",
+            "locator": "",
             "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/muddy/"
           }
         ],
@@ -684,7 +762,10 @@ const toolkit = [
         "example": "Economics: <em>“I understand…, but I’m not clear about…”; “Could you explain why…?”; “Could you show another example of…?”</em>",
         "sources": [
           {
-            "text": "University of Minnesota — Discussions, How to ask for clarification and How to ask for more information.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Discussions",
+            "locator": "Relevant sections: “How to ask for clarification” and “How to ask for more information”.",
             "url": "https://ccaps.umn.edu/esl-resources/students/speaking/discussions"
           }
         ],
@@ -703,7 +784,10 @@ const toolkit = [
         "example": "Nursing: <em>“Let’s separate those two terms.”</em> Explain the distinction, then ask students to apply it to a new case.",
         "sources": [
           {
-            "text": "University of Waterloo — Question Strategies, Listening actively.",
+            "author": "University of Waterloo, Centre for Teaching Excellence",
+            "year": "n.d.",
+            "title": "Question strategies",
+            "locator": "Relevant section: “Listening actively”.",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/question-strategies"
           }
         ],
@@ -721,7 +805,10 @@ const toolkit = [
         "example": "Environmental science: <em>“Write one difference between mitigation and adaptation, with an example. Add a question if any part remains unclear.”</em>",
         "sources": [
           {
-            "text": "University of Nebraska–Lincoln — Muddiest Point.",
+            "author": "University of Nebraska–Lincoln, Graduate Studies",
+            "year": "n.d.",
+            "title": "Muddiest point",
+            "locator": "",
             "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/muddy/"
           }
         ],
@@ -751,7 +838,10 @@ const toolkit = [
         "example": "Business: <em>“Compare the two proposals and recommend one. Each person should contribute one strength or limitation. Submit a shared recommendation with two reasons.”</em>",
         "sources": [
           {
-            "text": "University of Waterloo — Implementing Group Work in the Classroom, Introducing the Group Activity.",
+            "author": "University of Waterloo, Centre for Teaching Excellence",
+            "year": "n.d.",
+            "title": "Implementing group work in the classroom",
+            "locator": "Relevant section: “Introducing the Group Activity”.",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/implementing-group-work-classroom"
           }
         ],
@@ -769,7 +859,10 @@ const toolkit = [
         "example": "Public health: Each student identifies one benefit and one limitation of an intervention before the group evaluates it.",
         "sources": [
           {
-            "text": "Northeastern University — Active Question and Answer Techniques, Think-Pair-Share.",
+            "author": "Northeastern University",
+            "year": "n.d.",
+            "title": "Active question and answer techniques",
+            "locator": "Relevant section: Think-pair-share.",
             "url": "https://learning.northeastern.edu/active-question-and-answer-approaches/"
           }
         ],
@@ -788,7 +881,10 @@ const toolkit = [
         "example": "Engineering: Each member suggests a possible cause of a fault. The group then compares the suggestions against the evidence.",
         "sources": [
           {
-            "text": "University of Waterloo — Group work in the classroom: Types of small groups, “Circle of Voices”.",
+            "author": "University of Waterloo, Centre for Teaching Excellence",
+            "year": "n.d.",
+            "title": "Group work in the classroom: Types of small groups",
+            "locator": "Relevant section: “Circle of Voices”.",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/group-work-classroom-types-small-groups"
           }
         ],
@@ -807,7 +903,10 @@ const toolkit = [
         "example": "Environmental science: A facilitator invites views; an evidence checker asks which data support claims; a recorder captures the decision. Roles change next task.",
         "sources": [
           {
-            "text": "University of Waterloo — Group Work: Assignment of Roles.",
+            "author": "University of Waterloo, Centre for Teaching Excellence",
+            "year": "n.d.",
+            "title": "Group work: Assignment of roles",
+            "locator": "",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/group-work-assignment-roles"
           }
         ],
@@ -825,7 +924,10 @@ const toolkit = [
         "example": "Economics: <em>“Can I add a point?”; “What evidence supports that?”; “I see your point, but…”; “Do you mean that…?”</em>",
         "sources": [
           {
-            "text": "University of Minnesota — Teaching Support, Group Work: Navigating group miscommunications.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Teaching support",
+            "locator": "Relevant section: Group work: navigating group miscommunications.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
@@ -843,7 +945,10 @@ const toolkit = [
         "example": "Nursing: <em>“Pause and summarise the options so far. Give everyone a moment to review them, then invite any additional concerns before deciding.”</em>",
         "sources": [
           {
-            "text": "University of Waterloo — Implementing Group Work in the Classroom, Monitoring the Group Task and Ending the Group Task.",
+            "author": "University of Waterloo, Centre for Teaching Excellence",
+            "year": "n.d.",
+            "title": "Implementing group work in the classroom",
+            "locator": "Relevant sections: “Monitoring the Group Task” and “Ending the Group Task”.",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/implementing-group-work-classroom"
           }
         ],
@@ -873,7 +978,10 @@ const toolkit = [
         "example": "Business: Before discussing a supermarket loyalty scheme, ask students what such schemes do and explain any features needed for the case.",
         "sources": [
           {
-            "text": "Carnegie Mellon University — Assessing Prior Knowledge.",
+            "author": "Carnegie Mellon University, Eberly Center",
+            "year": "n.d.",
+            "title": "Assessing prior knowledge",
+            "locator": "",
             "url": "https://www.cmu.edu/teaching/designteach/teach/priorknowledge.html"
           }
         ],
@@ -891,7 +999,10 @@ const toolkit = [
         "example": "Public policy: Before analysing a US school-funding example, explain which levels of government fund schools and why local property taxes matter in this case.",
         "sources": [
           {
-            "text": "Carnegie Mellon University — Assessing Prior Knowledge.",
+            "author": "Carnegie Mellon University, Eberly Center",
+            "year": "n.d.",
+            "title": "Assessing prior knowledge",
+            "locator": "",
             "url": "https://www.cmu.edu/teaching/designteach/teach/priorknowledge.html"
           }
         ],
@@ -909,7 +1020,10 @@ const toolkit = [
         "example": "Engineering: When comparing electrical flow with water flow, explain which features represent current and resistance, and clarify the limits of the analogy.",
         "sources": [
           {
-            "text": "Brown and Salter — Analogies in science and science teaching.",
+            "author": "Brown, S., & Salter, S.",
+            "year": "2010",
+            "title": "Analogies in science and science teaching",
+            "locator": "",
             "url": "https://doi.org/10.1152/advan.00022.2010"
           }
         ],
@@ -927,7 +1041,10 @@ const toolkit = [
         "example": "Economics: Illustrate opportunity cost through a business investment decision and a student’s choice between paid work and study time.",
         "sources": [
           {
-            "text": "Carnegie Mellon University — Strategies for addressing gaps in prior knowledge, Use multiple representations.",
+            "author": "Carnegie Mellon University, Eberly Center",
+            "year": "n.d.",
+            "title": "My students don’t participate in discussion: Students may not have the general background knowledge to participate",
+            "locator": "Relevant section: “Use multiple representations”.",
             "url": "https://www.cmu.edu/teaching/solveproblem/strat-dontparticipate/dontparticipate-06.html"
           }
         ],
@@ -945,7 +1062,10 @@ const toolkit = [
         "example": "Business: Replace <em>“This product is the company’s cash cow”</em> with <em>“This product generates a steady surplus of cash”</em>, then explain the technical category if it is part of the course.",
         "sources": [
           {
-            "text": "University of Minnesota — Teaching Support, Lecture Comprehension.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Teaching support",
+            "locator": "Relevant section: Lecture comprehension.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
@@ -963,7 +1083,10 @@ const toolkit = [
         "example": "Marketing: After explaining a celebrity endorsement case, give a different advertising example and ask students to identify how credibility is being used.",
         "sources": [
           {
-            "text": "Yale University — Transfer of Knowledge to New Contexts,.",
+            "author": "Yale University, Poorvu Center for Teaching and Learning",
+            "year": "n.d.",
+            "title": "Transfer of knowledge to new contexts",
+            "locator": "",
             "url": "https://poorvucenter.yale.edu/transfer-of-knowledge-to-new-contexts"
           }
         ],
@@ -993,7 +1116,10 @@ const toolkit = [
         "example": "Business: <em>“Write a 1,500-word report recommending one of the two expansion options. Address the management team and use evidence from the case.”</em>",
         "sources": [
           {
-            "text": "Winkelmes, M.-A. (2013), TILT Higher Ed — Transparent Assignment Template.",
+            "author": "Winkelmes, M.-A.",
+            "year": "2013",
+            "title": "Transparent assignment template",
+            "locator": "",
             "url": "https://tilthighered.com/assets/pdffiles/faculty.pdf"
           }
         ],
@@ -1011,7 +1137,10 @@ const toolkit = [
         "example": "Public health: <em>“‘Evaluate’ means judging the intervention’s effectiveness using evidence, including its strengths and limitations. Listing its features is not enough.”</em>",
         "sources": [
           {
-            "text": "University of Waterloo — Language for Effectively Communicating Assignments.",
+            "author": "University of Waterloo, Centre for Teaching Excellence",
+            "year": "n.d.",
+            "title": "Language for effectively communicating assignments",
+            "locator": "",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/language-effectively-communicating-assignments"
           }
         ],
@@ -1029,7 +1158,10 @@ const toolkit = [
         "example": "Engineering: For “justification of design decisions”, show how a decision should be supported by calculations, relevant standards or test results.",
         "sources": [
           {
-            "text": "Winkelmes, M.-A. (2013), TILT Higher Ed — Transparent Assignment Template, Criteria for Success.",
+            "author": "Winkelmes, M.-A.",
+            "year": "2013",
+            "title": "Transparent assignment template",
+            "locator": "Relevant section: “Criteria for Success”.",
             "url": "https://tilthighered.com/assets/pdffiles/faculty.pdf"
           }
         ],
@@ -1048,7 +1180,10 @@ const toolkit = [
         "example": "Economics: Compare two short explanations: one states a trend; the other explains it using a relevant concept and evidence. Discuss how each meets the criteria.",
         "sources": [
           {
-            "text": "Winkelmes, M.-A. (2013), TILT Higher Ed — Transparent Assignment Template, Criteria for Success.",
+            "author": "Winkelmes, M.-A.",
+            "year": "2013",
+            "title": "Transparent assignment template",
+            "locator": "Relevant section: “Criteria for Success”.",
             "url": "https://tilthighered.com/assets/pdffiles/faculty.pdf"
           }
         ],
@@ -1067,7 +1202,10 @@ const toolkit = [
         "example": "Science: Explain what belongs in the results and discussion sections, how sources should be acknowledged, and which forms of assistance are permitted.",
         "sources": [
           {
-            "text": "Procter, M., University of Toronto — Designing Assignments and Presenting Them to Students, Assignment Prompts and Presenting Assignments.",
+            "author": "Procter, M.",
+            "year": "n.d.",
+            "title": "Designing assignments and presenting them to students",
+            "locator": "Relevant sections: “Assignment Prompts” and “Presenting Assignments”.",
             "url": "https://writing.utoronto.ca/teaching-resources/designing-assignments/"
           }
         ],
@@ -1086,7 +1224,10 @@ const toolkit = [
         "example": "Public policy: Ask students to submit their proposed recommendation, two criteria for judging the options and the evidence they intend to use. Clarify any mismatch with the task.",
         "sources": [
           {
-            "text": "TILT Higher Ed — Frequently Asked Questions, What if I don’t have time to be transparent in my teaching?.",
+            "author": "TILT Higher Ed",
+            "year": "n.d.",
+            "title": "Frequently asked questions",
+            "locator": "Relevant section: “What if I don’t have time to be transparent in my teaching?”",
             "url": "https://www.tilthighered.org/faq"
           }
         ],
@@ -1116,7 +1257,10 @@ const toolkit = [
         "example": "Engineering: <em>“Identify the fault → explain how it affects the circuit → support your explanation with the test results.”</em>",
         "sources": [
           {
-            "text": "Procter, M., University of Toronto — Designing Assignments and Presenting Them to Students, Presenting Assignments, points 2–3.",
+            "author": "Procter, M.",
+            "year": "n.d.",
+            "title": "Designing assignments and presenting them to students",
+            "locator": "Relevant section: “Presenting Assignments”, points 2–3.",
             "url": "https://writing.utoronto.ca/teaching-resources/designing-assignments/"
           }
         ],
@@ -1134,7 +1278,10 @@ const toolkit = [
         "example": "Economics: Highlight where an explanation identifies a price change, explains the mechanism and uses data to support it.",
         "sources": [
           {
-            "text": "University of Minnesota — Supporting Multilingual Learners, As You’re Creating a Writing Assignment.",
+            "author": "University of Minnesota, Writing Across the Curriculum",
+            "year": "n.d.",
+            "title": "Supporting multilingual learners",
+            "locator": "Relevant section: “As You’re Creating a Writing Assignment”.",
             "url": "https://wac.umn.edu/tww-program/teaching-resources/supporting-multilingual-learners"
           }
         ],
@@ -1152,7 +1299,10 @@ const toolkit = [
         "example": "Environmental science: <em>“This leads to… because…”; “In contrast…”; “This is likely when…”</em>",
         "sources": [
           {
-            "text": "University of Manchester — Academic Phrasebank, Explaining causality.",
+            "author": "University of Manchester",
+            "year": "n.d.",
+            "title": "Academic Phrasebank: Explaining causality",
+            "locator": "",
             "url": "https://www.phrasebank.manchester.ac.uk/explaining-cause-and-effect/"
           }
         ],
@@ -1170,7 +1320,10 @@ const toolkit = [
         "example": "Biology: Students annotate a process diagram, then use it to explain the sequence and why each stage occurs.",
         "sources": [
           {
-            "text": "UCL — Develop understanding, Concept maps.",
+            "author": "University College London",
+            "year": "n.d.",
+            "title": "Develop understanding: Concept maps",
+            "locator": "",
             "url": "https://www.ucl.ac.uk/short-courses/staff-resources/course-design/design-learning-activities/develop-understanding-concept-maps"
           }
         ],
@@ -1189,7 +1342,10 @@ const toolkit = [
         "example": "Business: Students explain why profit fell despite higher revenue. Their partner checks whether the explanation connects revenue, costs and profit.",
         "sources": [
           {
-            "text": "Northeastern University — Active Question and Answer Techniques, Think-Pair-Share.",
+            "author": "Northeastern University",
+            "year": "n.d.",
+            "title": "Active question and answer techniques",
+            "locator": "Relevant section: Think-pair-share.",
             "url": "https://learning.northeastern.edu/active-question-and-answer-approaches/"
           }
         ],
@@ -1208,7 +1364,10 @@ const toolkit = [
         "example": "Public health: <em>“You have identified the association. Now clarify whether the evidence establishes a cause, and adjust your wording to match.”</em>",
         "sources": [
           {
-            "text": "University of Minnesota — Supporting Multilingual Learners, As Students are Completing a Writing Assignment.",
+            "author": "University of Minnesota, Writing Across the Curriculum",
+            "year": "n.d.",
+            "title": "Supporting multilingual learners",
+            "locator": "Relevant section: “As Students are Completing a Writing Assignment”.",
             "url": "https://wac.umn.edu/tww-program/teaching-resources/supporting-multilingual-learners"
           }
         ],
@@ -1238,7 +1397,10 @@ const toolkit = [
         "example": "Business: Replace <em>“Needs more analysis”</em> with <em>“You have listed the risks. Explain how each risk could affect the expansion decision, using the case data.”</em>",
         "sources": [
           {
-            "text": "University of Bath — Actionable Feedback, Breaking it down and Worked examples.",
+            "author": "University of Bath",
+            "year": "n.d.",
+            "title": "Actionable feedback",
+            "locator": "Relevant sections: “Breaking it down” and “Worked examples”.",
             "url": "https://teachinghub.bath.ac.uk/guide/actionable-feedback/"
           }
         ],
@@ -1256,7 +1418,10 @@ const toolkit = [
         "example": "Engineering: Connect “justify your choice” to the design criterion, then show how a different example uses test results to support a decision.",
         "sources": [
           {
-            "text": "King’s College London — How can I help students engage with feedback?, Methods.",
+            "author": "King’s College London",
+            "year": "n.d.",
+            "title": "How can I help students engage with feedback?",
+            "locator": "Relevant section: Methods.",
             "url": "https://blogs.kcl.ac.uk/aflkings/students-directing-their-own-learning/helping-students-engage-with-feedback/how-can-i-help-students-engage-with-feedback/"
           }
         ],
@@ -1274,7 +1439,10 @@ const toolkit = [
         "example": "Public health: <em>“First, check whether your conclusion matches the evidence. Next, organise the supporting points. Then address the wording marked in the final paragraph.”</em>",
         "sources": [
           {
-            "text": "University of Michigan — Giving Feedback on Student Writing, Strategy #1: Overview Notes and Marginal Comments.",
+            "author": "University of Michigan, Sweetland Center for Writing",
+            "year": "n.d.",
+            "title": "Giving feedback on student writing",
+            "locator": "Relevant sections: “Strategy #1: Overview Notes and Marginal Comments”.",
             "url": "https://lsa.umich.edu/sweetland/instructors/guides-to-teaching-writing/giving-feedback-on-student-writing.html"
           }
         ],
@@ -1292,7 +1460,10 @@ const toolkit = [
         "example": "Economics: <em>“What does my comment about the missing mechanism mean? Show me where you will explain how the interest-rate change affects borrowing.”</em>",
         "sources": [
           {
-            "text": "University of Glasgow — Respond to feedback, How.",
+            "author": "University of Glasgow",
+            "year": "n.d.",
+            "title": "Respond to feedback",
+            "locator": "Relevant section: “How”.",
             "url": "https://www.gla.ac.uk/schools/business/informationforstaff/teachingexcellence/theoryandprinciples/respondtofeedback/"
           }
         ],
@@ -1310,7 +1481,10 @@ const toolkit = [
         "example": "Environmental science: Students revise an explanation of a causal relationship, then apply the same feedback when explaining a different environmental process.",
         "sources": [
           {
-            "text": "Emery, D., University of Minnesota — Creating Revision Plans and Revision Memos.",
+            "author": "Emery, D.",
+            "year": "n.d.",
+            "title": "Creating revision plans and revision memos: Moving from feedback, to planning, to action",
+            "locator": "",
             "url": "https://wac.umn.edu/tww-program/teaching-writing-blog/creating-revision-plans-and-revision-memos-moving-feedback"
           }
         ],
@@ -1328,7 +1502,10 @@ const toolkit = [
         "example": "Nursing: <em>“Feedback: the care priority lacked justification. Action: added a reason linked to the patient information. Location: paragraph two.”</em>",
         "sources": [
           {
-            "text": "Emery, D., University of Minnesota — Creating Revision Plans and Revision Memos, Revision memos.",
+            "author": "Emery, D.",
+            "year": "n.d.",
+            "title": "Creating revision plans and revision memos: Moving from feedback, to planning, to action",
+            "locator": "Relevant section: Revision memos.",
             "url": "https://wac.umn.edu/tww-program/teaching-writing-blog/creating-revision-plans-and-revision-memos-moving-feedback"
           }
         ],
@@ -1359,7 +1536,10 @@ const toolkit = [
         "example": "Business: <em>“Read the case and identify two risks, with supporting evidence. Bring your notes to use in the group recommendation task.”</em>",
         "sources": [
           {
-            "text": "University of Denver — Motivating Students to Come to Class Prepared, Adjust your teaching practices and Use guides/prompts/reflections.",
+            "author": "University of Denver, Office of Teaching and Learning",
+            "year": "n.d.",
+            "title": "Motivating students to come to class prepared",
+            "locator": "Relevant sections: “Adjust your teaching practices” and “Use guides/prompts/reflections”.",
             "url": "https://www.du.edu/otl/plan-a-course/teaching-resources/motivating-students-to-come-to-class-prepared"
           }
         ],
@@ -1378,7 +1558,10 @@ const toolkit = [
         "example": "Engineering: “Before Thursday: review the worked example, attempt two problems and note where you get stuck. Allow around an hour initially.”",
         "sources": [
           {
-            "text": "University of Minnesota — Teaching Support, Reading: Taking extra time to read in a second language.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Teaching support",
+            "locator": "Relevant section: Reading: taking extra time to read in a second language.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
@@ -1397,7 +1580,10 @@ const toolkit = [
         "example": "Biology: Close the notes, sketch the process from memory, then check the sequence and add missing relationships in another colour.",
         "sources": [
           {
-            "text": "Australian Education Research Organisation — Spacing and retrieval practice guide, Key practice 2.",
+            "author": "Australian Education Research Organisation",
+            "year": "n.d.",
+            "title": "Spacing and retrieval practice guide",
+            "locator": "Relevant section: Key practice 2.",
             "url": "https://www.edresearch.edu.au/guides-resources/practice-guides/spacing-and-retrieval-practice-guide-full-publication"
           }
         ],
@@ -1416,7 +1602,10 @@ const toolkit = [
         "example": "Public health: Initially provide prompts for identifying a study’s question, findings and limitations. Later, ask students to generate their own reading questions.",
         "sources": [
           {
-            "text": "Northern Illinois University — Instructional Scaffolding to Improve Learning.",
+            "author": "Northern Illinois University",
+            "year": "n.d.",
+            "title": "Instructional scaffolding to improve learning",
+            "locator": "",
             "url": "https://www.niu.edu/citl/resources/guides/instructional-guide/instructional-scaffolding-to-improve-learning.shtml"
           }
         ],
@@ -1434,7 +1623,10 @@ const toolkit = [
         "example": "Economics: Students compare their interpretations of a graph, clarify differences, then use it to explain a policy scenario.",
         "sources": [
           {
-            "text": "University of Denver — Motivating Students to Come to Class Prepared, Adjust your teaching practices and Use guides/prompts/reflections.",
+            "author": "University of Denver, Office of Teaching and Learning",
+            "year": "n.d.",
+            "title": "Motivating students to come to class prepared",
+            "locator": "Relevant sections: “Adjust your teaching practices” and “Use guides/prompts/reflections”.",
             "url": "https://www.du.edu/otl/plan-a-course/teaching-resources/motivating-students-to-come-to-class-prepared"
           }
         ],
@@ -1453,7 +1645,10 @@ const toolkit = [
         "example": "Environmental science: “Which part took longer than expected? What caused the difficulty? What will you change for the next reading, and what support do you need?”",
         "sources": [
           {
-            "text": "University of Waterloo — Teaching Metacognitive Skills, Strategies for Assignments.",
+            "author": "University of Waterloo, Centre for Teaching Excellence",
+            "year": "n.d.",
+            "title": "Teaching metacognitive skills",
+            "locator": "Relevant section: “Strategies for Assignments”.",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/teaching-metacognitive-skills"
           }
         ],
@@ -1484,7 +1679,10 @@ const toolkit = [
         "example": "Engineering: Before a simulation task, ask students to open a practice activity. Arrange a supported campus session or an equivalent activity if their device cannot run it.",
         "sources": [
           {
-            "text": "UC Davis — Create an inclusive class climate online, Get to know your students.",
+            "author": "University of California, Davis",
+            "year": "n.d.",
+            "title": "Create an inclusive class climate online",
+            "locator": "Relevant section: “Get to know your students”.",
             "url": "https://keepteaching.ucdavis.edu/teach/create-inclusive-class-environment-online"
           }
         ],
@@ -1503,7 +1701,10 @@ const toolkit = [
         "example": "Business: Under “Week 4 preparation”, link the case, data file and preparation questions with a short description of each.",
         "sources": [
           {
-            "text": "SUNY OSCQR — Standard 16.",
+            "author": "SUNY Online",
+            "year": "n.d.",
+            "title": "OSCQR – Standard #16",
+            "locator": "",
             "url": "https://oscqr.suny.edu/standard16/"
           }
         ],
@@ -1522,7 +1723,10 @@ const toolkit = [
         "example": "Economics: Demonstrate opening the dataset, selecting variables and producing a graph. Students create a practice graph and check its labels and values.",
         "sources": [
           {
-            "text": "SUNY OSCQR — Standard 12.",
+            "author": "SUNY Online",
+            "year": "n.d.",
+            "title": "OSCQR – Standard #12",
+            "locator": "",
             "url": "https://oscqr.suny.edu/standard12/"
           }
         ],
@@ -1542,7 +1746,10 @@ const toolkit = [
         "example": "Public health: “Attaching the file uploads it. In this system, you must also select Submit. Check the confirmation and open the submitted file to verify it is the intended version.”",
         "sources": [
           {
-            "text": "SUNY OSCQR — Standard 12.",
+            "author": "SUNY Online",
+            "year": "n.d.",
+            "title": "OSCQR – Standard #12",
+            "locator": "",
             "url": "https://oscqr.suny.edu/standard12/"
           }
         ],
@@ -1561,7 +1768,10 @@ const toolkit = [
         "example": "Environmental science: Alongside a process video, provide captions and a text explanation with labelled images containing the information needed for the task.",
         "sources": [
           {
-            "text": "University of Michigan — Accessible Courses, Online and Hybrid Edition, Technological Accessibility.",
+            "author": "University of Michigan",
+            "year": "2020",
+            "title": "Accessible courses, online and hybrid edition",
+            "locator": "Relevant section: “Technological Accessibility”.",
             "url": "https://sites.lsa.umich.edu/learningteachingconsulting/2020/11/05/accessible-courses-online-and-hybrid-edition/"
           }
         ],
@@ -1581,7 +1791,10 @@ const toolkit = [
         "example": "Nursing: “If the case will not open, note the error and contact technical support. Tell me promptly if preparation is affected. For assessment deadlines, follow the published reporting process.”",
         "sources": [
           {
-            "text": "SUNY OSCQR — Standard 8.",
+            "author": "SUNY Online",
+            "year": "n.d.",
+            "title": "OSCQR – Standard #8",
+            "locator": "",
             "url": "https://oscqr.suny.edu/standard8/"
           }
         ],
@@ -1615,7 +1828,10 @@ const toolkit = [
         "example": "Ask students to find the submission route, feedback arrangements and process for asking about an assignment. Then ask: “Where would you look for feedback?” and “What would you do if two deadlines appear different?”",
         "sources": [
           {
-            "text": "Briggs, N. B., University of Illinois Chicago — First Day of Class, Introduce the Syllabus (Actively!).",
+            "author": "Briggs, N. B.",
+            "year": "n.d.",
+            "title": "First day of class",
+            "locator": "Relevant section: “Introduce the Syllabus (Actively!)”.",
             "url": "https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/first-day-of-class/"
           }
         ],
@@ -1649,7 +1865,10 @@ const toolkit = [
         "example": "Ask: “Which types of tasks have you done before?” “What is one strength you bring to this course?” “What helps you understand a difficult explanation?” If several students report little experience reading research articles, model how to identify an article’s question, method and findings.",
         "sources": [
           {
-            "text": "Briggs, N. B., University of Illinois Chicago — First Day of Class, Create Classroom Community.",
+            "author": "Briggs, N. B.",
+            "year": "n.d.",
+            "title": "First day of class",
+            "locator": "Relevant section: “Create Classroom Community”.",
             "url": "https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/first-day-of-class/"
           }
         ],
@@ -1683,7 +1902,10 @@ const toolkit = [
         "example": "“Your evidence is relevant. The links between your points are unclear. A writing consultation could help you work on those connections. Bring this draft and the assignment brief. Let’s look at the booking page together.”",
         "sources": [
           {
-            "text": "University of Minnesota — Student Referral Best Practices.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Student referral best practices",
+            "locator": "",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support/student-referrals"
           }
         ],
@@ -1717,7 +1939,10 @@ const toolkit = [
         "example": "Economics: “Do you mean the increase is temporary because supply will adjust, or are you suggesting another explanation?” After confirmation: “What conditions would allow firms to increase supply, and how quickly could that happen?”",
         "sources": [
           {
-            "text": "University of Minnesota — Communication Tips, Check comprehension and Give feedback.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Communication tips",
+            "locator": "Relevant sections: “Check comprehension” and “Give feedback”.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/communication-tips"
           }
         ],
@@ -1752,7 +1977,10 @@ const toolkit = [
         "example": "“You may make private notes using any languages that help you think. For this group task, explain your reasoning in English so everyone can discuss it. Include key subject terms and a diagram if useful. The group’s final recommendation must be in English.”",
         "sources": [
           {
-            "text": "University of Minnesota — Fostering a Linguistically Inclusive and Asset-Based Classroom, Helpful Tips.",
+            "author": "University of Minnesota",
+            "year": "n.d.",
+            "title": "Fostering a linguistically inclusive and asset-based classroom",
+            "locator": "Relevant section: “Helpful Tips”.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/fostering-linguistically-inclusive-and-asset-based-classroom"
           }
         ],
