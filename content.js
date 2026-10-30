@@ -1066,9 +1066,8 @@ const toolkit = [
             "title": "Assessing prior knowledge",
             "locator": "",
             "url": "https://www.cmu.edu/teaching/designteach/teach/priorknowledge.html"
-          }
-        ],
-        "reviewNotes": "Partial source support. Checking the assumptions within a particular example is a toolkit application. Source mapping retained from the draft: Carnegie Mellon University — Assessing Prior Knowledge. Supports checking existing knowledge and using the results to plan teaching."
+         }
+        ]
       },
       {
         "id": "D09-S2",
@@ -1087,9 +1086,9 @@ const toolkit = [
             "title": "Assessing prior knowledge",
             "locator": "",
             "url": "https://www.cmu.edu/teaching/designteach/teach/priorknowledge.html"
-          }
-        ],
-            },
+        }
+        ]
+      },
       {
         "id": "D09-S3",
         "title": "Make the connection to the subject concept explicit",
@@ -1107,8 +1106,8 @@ const toolkit = [
             "title": "Analogies in science and science teaching",
             "locator": "",
             "url": "https://doi.org/10.1152/advan.00022.2010"
-          }
-        ],
+         }
+        ]
       },
       {
         "id": "D09-S4",
@@ -1128,8 +1127,9 @@ const toolkit = [
             "locator": "Relevant section: “Use multiple representations”.",
             "url": "https://www.cmu.edu/teaching/solveproblem/strat-dontparticipate/dontparticipate-06.html"
           }
-        ],
-            {
+        ]
+      },
+      {
         "id": "D09-S5",
         "title": "Explain references, idioms and humour that carry meaning",
         "summary": "Explain important expressions and replace incidental references where useful.",
