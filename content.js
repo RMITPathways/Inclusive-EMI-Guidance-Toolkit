@@ -465,8 +465,16 @@ const toolkit = [
           "Discuss whether a summary is too narrow or goes beyond the evidence."
         ],
         "example": "Business — Give three possible summaries of a report. Students select the best one and explain why the others are too narrow or go beyond the evidence.",
-        "sources": [],
-        "reviewNotes": "Draft. Supporting source to be confirmed."
+        "sources": [
+  {
+    "author": "University of Cincinnati, Learning Commons",
+    "year": "n.d.",
+    "title": "Reading for main ideas vs. details",
+    "locator": "Relevant sections: “Reading with a Purpose” and “Additional Exercises”.",
+    "url": "https://www.uc.edu/campus-life/learning-commons/learning-resources/notetaking-resources/main-ideas-vs-details.html"
+  }
+],
+"reviewNotes": "Source supports identifying main claims and checking them against textual evidence. Comparing alternative summaries, discussing their limitations and the Business example are toolkit-created adaptations."
       }
     ]
   },
