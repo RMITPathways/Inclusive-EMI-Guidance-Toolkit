@@ -574,8 +574,7 @@ const toolkit = [
             "title": "Lecture guides and wrappers",
             "locator": "Relevant sections: “Guides/Guided notes”.",
             "url": "https://teaching.vt.edu/teachingresources/adjustinginstruction/lectureguides.html"
-          }
-        "reviewNotes": "Placeholder structure for D05."
+          }        "reviewNotes": "Placeholder structure for D05."
       },
       {
         "id": "D05-S2",
