@@ -553,7 +553,8 @@ const toolkit = [
     "moduleTitle": "Supporting listening in seminars and discussion-based learning",
     "description": "Students may need support to follow spoken interaction, identify the key point, and respond appropriately in English.",
     "status": "Draft",
-    "practicalGuide": "D05-S1–S4 Listening for key information in seminars and discussions",
+ "practicalGuide": "Download practical guide: Listening while taking notes (PDF)",
+    "practicalGuideUrl": "guides/D05_Listening_while_taking_notes.pdf",
     "strategies": [
       {
         "id": "D05-S1",
@@ -566,7 +567,14 @@ const toolkit = [
           "Check understanding before moving on."
         ],
         "example": "Seminar — <em>“Listen for the main argument and one example the speaker uses to support it.”</em>",
-        "sources": [],
+        "sources": [
+          {
+            "author": "Virginia Tech, Center for Excellence in Teaching and Learning.",
+            "year": "n.d.",
+            "title": "Lecture guides and wrappers",
+            "locator": "Relevant sections: “Guides/Guided notes”.",
+            "url": "https://teaching.vt.edu/teachingresources/adjustinginstruction/lectureguides.html"
+          }
         "reviewNotes": "Placeholder structure for D05."
       },
       {
@@ -580,9 +588,14 @@ const toolkit = [
           "Confirm the key point before continuing."
         ],
         "example": "<em>“What is the speaker’s main point?” “Which example supports that idea?”</em>",
-        "sources": [],
-        "reviewNotes": "Placeholder structure for D05."
-      },
+        "sources": [
+          {
+            "author": "University of Nebraska–Lincoln, Graduate Studies",
+            "year": "n.d.",
+            "title": "Teaching students to take better notes: Notes on notetaking.",
+             "locator": "Relevant sections: “Tell Students What to Record” and “Challenge Students to Think”.",
+            "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/notetaking"
+              },
       {
         "id": "D05-S3",
         "title": "Support note-taking during discussion",
@@ -594,7 +607,13 @@ const toolkit = [
           "Review the notes together after discussion."
         ],
         "example": "Main idea: ___. Example: ___. Question to ask: ___.",
-        "sources": [],
+       "sources": [
+          {
+            "author": "Vermont State University, Center for Teaching & Learning Innovation.",
+            "year": "n.d.",
+            "title": "Note taking guideance.",
+             "locator": "Relevant sections: “How to Provide Note-taking Guidance for Students”.",
+            "url": "https://ctli.vermontstate.edu/teaching-effectiveness-framework/instructional-strategies/note-taking-guidance"
         "reviewNotes": "Placeholder structure for D05."
       },
       {
