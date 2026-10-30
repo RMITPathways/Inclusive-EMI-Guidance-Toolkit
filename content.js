@@ -228,7 +228,8 @@ const toolkit = [
     "moduleTitle": "Supporting comprehension during lectures",
     "description": "Students may need explicit structure, pauses and visual support to follow extended spoken explanations in English.",
     "status": "Draft",
-    "practicalGuide": "D03-S1–S6 Following lectures and extended explanations",
+   "practicalGuide": "Download practical guide: Following lectures and extended explanations (PDF)",
+"practicalGuideUrl": "guides/D03_Following_lectures_and_extended_explanations.pdf",
     "strategies": [
       {
         "id": "D03-S1",
