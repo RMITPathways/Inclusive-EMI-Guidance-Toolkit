@@ -549,98 +549,149 @@ const toolkit = [
   },
   {
     "id": "D05",
-    "title": "Listening for key information in seminars and discussions",
-    "moduleTitle": "Supporting listening in seminars and discussion-based learning",
-    "description": "Students may need support to follow spoken interaction, identify the key point, and respond appropriately in English.",
+    "title": "Listening while taking notes",
+    "moduleTitle": "Helping students listen while taking notes",
+    "description": "Listening, understanding subject ideas and writing notes at the same time can place competing demands on students’ attention. Help students identify what matters, record it concisely and check their notes while preserving the subject learning required.",
     "status": "Draft",
- "practicalGuide": "Download practical guide: Listening while taking notes (PDF)",
+    "practicalGuide": "Download practical guide: Listening while taking notes (PDF)",
     "practicalGuideUrl": "guides/D05_Listening_while_taking_notes.pdf",
     "strategies": [
       {
         "id": "D05-S1",
-        "title": "Set a listening focus",
-        "summary": "Tell students what they need to listen for before the discussion begins.",
+        "title": "Provide a simple lecture outline or note-taking frame",
+        "summary": "Give students a structure that helps them record key ideas and relationships.",
         "howTo": [
-          "State the purpose of the listening task.",
-          "Identify the type of information students should catch.",
-          "Link the listening task to the lesson objective.",
-          "Check understanding before moving on."
+          "Prepare a short outline using the headings you will follow in the lecture.",
+          "Leave spaces for key concepts, definitions, examples or relationships.",
+          "Explain what students should add in each space.",
+          "Keep the amount of writing manageable and pause when students need to complete a section.",
+          "Adjust the level of detail as students become more confident taking notes."
         ],
-        "example": "Seminar — <em>“Listen for the main argument and one example the speaker uses to support it.”</em>",
+        "example": "Business — Provide headings for three causes of falling sales, with space under each for a short explanation and one example.",
         "sources": [
           {
             "author": "Virginia Tech, Center for Excellence in Teaching and Learning",
             "year": "n.d.",
             "title": "Lecture guides and wrappers",
-            "locator": "Relevant sections: “Guides/Guided notes”.",
+            "locator": "Relevant section: “Guides/Guided notes”.",
             "url": "https://teaching.vt.edu/teachingresources/adjustinginstruction/lectureguides.html"
           }
         ],
-        "reviewNotes": "Placeholder structure for D05."
+        "reviewNotes": "Source supports instructor-prepared outlines with spaces for key information. The Business example and adjustments to the level of support are toolkit-created applications."
       },
       {
         "id": "D05-S2",
-        "title": "Use short listening checks",
-        "summary": "Pause and ask for quick evidence of understanding during spoken interaction.",
+        "title": "Signal what students should record",
+        "summary": "Make important ideas and their relationships clear as you speak.",
         "howTo": [
-          "Pause after a short exchange.",
-          "Ask a focused question.",
-          "Invite one or two students to answer.",
-          "Confirm the key point before continuing."
+          "Explain what useful notes should include in your subject, such as key ideas, explanations, worked steps or examples.",
+          "Use clear spoken signals when introducing an important point.",
+          "Distinguish the main idea from an illustration or additional detail.",
+          "Allow time to record the point before moving on."
         ],
-        "example": "<em>“What is the speaker’s main point?” “Which example supports that idea?”</em>",
+        "example": "Economics — <em>“Record this relationship: when demand increases and supply stays the same, price tends to rise. The coffee example illustrates this relationship; you do not need to copy every detail.”</em>",
         "sources": [
           {
             "author": "University of Nebraska–Lincoln, Graduate Studies",
             "year": "n.d.",
             "title": "Teaching students to take better notes: Notes on notetaking",
-             "locator": "Relevant sections: “Tell Students What to Record” and “Challenge Students to Think”.",
-            "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/notetaking"
+            "locator": "Relevant section: “Tell Students What to Record”.",
+            "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/notetaking/"
           }
-        ]
+        ],
+        "reviewNotes": "Source supports explaining what students should record; the same page also recommends spoken signalling. The Economics wording is toolkit-created."
       },
       {
         "id": "D05-S3",
-        "title": "Support note-taking during discussion",
-        "summary": "Give students a simple way to capture the main point and evidence.",
+        "title": "Demonstrate how to take concise notes",
+        "summary": "Show how to turn a short explanation into useful notes without copying every word.",
         "howTo": [
-          "Use a simple note-taking frame.",
-          "Encourage students to record only the key idea and one example.",
-          "Keep the note format brief and consistent.",
-          "Review the notes together after discussion."
+          "Display or read a short subject explanation.",
+          "Show the notes you would make and explain why you selected those ideas.",
+          "Use short phrases, indentation, arrows or familiar abbreviations where they preserve meaning.",
+          "Explain any symbols or abbreviations you introduce.",
+          "Ask students to try another short example and discuss whether their notes preserve the key relationship."
         ],
-        "example": "Main idea: ___. Example: ___. Question to ask: ___.",
-       "sources": [
+        "example": "Biology — From “Enzyme activity increases with temperature up to an optimum, but falls at higher temperatures as the enzyme denatures”, model: “Temp ↑ → activity ↑ to optimum; above optimum → denaturation → activity ↓.” Explain each arrow.",
+        "sources": [
           {
             "author": "Vermont State University, Center for Teaching & Learning Innovation",
             "year": "n.d.",
             "title": "Note taking guidance",
-             "locator": "Relevant sections: “How to Provide Note-taking Guidance for Students”.",
-            "url": "https://ctli.vermontstate.edu/teaching-effectiveness-framework/instructional-strategies/note-taking-guidance"
+            "locator": "Relevant section: “How to Provide Note-taking Guidance for Students”.",
+            "url": "https://ctli.vermontstate.edu/teaching-effectiveness-framework/instructional-strategies/note-taking-guidance/"
           }
         ],
-        "reviewNotes": "Placeholder structure for D05."
+        "reviewNotes": "Source supports sharing examples, concise notes and symbols, and discouraging verbatim transcription. The worked demonstration and Biology example are toolkit-created applications."
       },
       {
         "id": "D05-S4",
-        "title": "Repeat and rephrase when needed",
-        "summary": "Clarify the key point when students may have missed it during rapid discussion.",
+        "title": "Separate listening from copying or annotating",
+        "summary": "Give students time to understand a visual before asking them to add notes.",
         "howTo": [
-          "Repeat important points in a simpler form.",
-          "Restate the question or conclusion clearly.",
-          "Use short examples to reinforce meaning.",
-          "Check whether students can now explain the point."
+          "Provide the diagram, table or essential slide content in advance where practical.",
+          "Direct students to listen and look while you explain the relevant feature.",
+          "Pause before asking them to add labels, calculations or annotations.",
+          "State what they should add and allow enough time.",
+          "Check that students have finished before continuing the explanation."
         ],
-        "example": "<em>“So the main issue is …” “In other words, the argument is …”</em>",
-         "sources": [
+        "example": "Engineering — Give students the circuit diagram. Explain the current path while they listen and follow the diagram. Pause, then ask them to mark the path and add a short explanation.",
+        "sources": [
           {
             "author": "Imperial College London",
             "year": "n.d.",
             "title": "Using visual aids",
-                    "url": "https://www.imperial.ac.uk/staff/educational-development/teaching-toolkit/inclusive-learning-and-teaching/managing-inclusive-learning-environments/using-visual-aids"
+            "locator": "",
+            "url": "https://www.imperial.ac.uk/staff/educational-development/teaching-toolkit/inclusive-learning-and-teaching/managing-inclusive-learning-environments/using-visual-aids/"
           }
         ],
-        "reviewNotes": "Placeholder structure for D05."
+        "reviewNotes": "Source supports reducing copying through handouts and pausing for students to complete notes. The “listen first, then annotate” sequence and Engineering example are toolkit adaptations."
+      },
+      {
+        "id": "D05-S5",
+        "title": "Pause for students to process and complete notes",
+        "summary": "Build in short pauses for students to restate ideas and fill gaps.",
+        "howTo": [
+          "Pause after a meaningful section of the explanation.",
+          "Ask students to check their notes and restate the main relationship in their own words.",
+          "Invite them to add a brief explanation or question where meaning is unclear.",
+          "Ask a focused subject question or invite a short explanation to check understanding.",
+          "Clarify common misunderstandings before moving on."
+        ],
+        "example": "Public health — <em>“Take a minute to explain in your notes why a higher number of cases does not necessarily mean a higher rate. What other information do we need?”</em>",
+        "sources": [
+          {
+            "author": "University of Nebraska–Lincoln, Graduate Studies",
+            "year": "n.d.",
+            "title": "Teaching students to take better notes: Notes on notetaking",
+            "locator": "Relevant section: “Challenge Students to Think”.",
+            "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/notetaking/"
+          }
+        ],
+        "reviewNotes": "Source supports pauses for paraphrasing, restating relationships and adding explanations. The Public health example is toolkit-created."
+      },
+      {
+        "id": "D05-S6",
+        "title": "Give students time to compare and correct notes",
+        "summary": "Use peer comparison to identify missing information and clarify misunderstandings.",
+        "howTo": [
+          "After a topic, give pairs a few minutes to compare notes.",
+          "Ask them to identify missing points, differences or explanations they cannot follow.",
+          "Have students check differences against the lecture materials and raise unresolved questions.",
+          "Clarify important discrepancies and allow students to correct or expand their notes.",
+          "Where useful, provide a short outline of the essential points for a final check."
+        ],
+        "example": "Business — After explaining three pricing approaches, ask pairs to check that their notes include the purpose, one advantage and one limitation of each. Discuss any conflicting explanations before students revise their notes.",
+        "sources": [
+          {
+            "author": "University of Nebraska–Lincoln, Center for Transformative Teaching",
+            "year": "n.d.",
+            "title": "Reviewing and comparing lecture notes",
+            "locator": "",
+            "url": "https://teaching.unl.edu/resources/interactive-lecture/reviewing-and-comparing-lecture-notes/"
+          }
+        ],
+        "reviewNotes": "Source supports peer comparison to identify missing or contradictory information and correct or expand notes. The teacher’s comparison outline and Business example are toolkit-created applications."
       }
     ]
   },
