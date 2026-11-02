@@ -855,9 +855,8 @@ const toolkit = [
             "locator": "Relevant section: Lecture comprehension: withholding questions.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
-        ],
-        "reviewNotes": "The classroom procedure and demonstration are toolkit adaptations. Local validation pending. Source mapping retained from the draft: University of Minnesota — Teaching Support, Lecture Comprehension: Withholding questions. Recommends encouraging questions, explaining office hours, providing time after class and allowing written questions."
-      },
+        ]
+          },
       {
         "id": "D07-S2",
         "title": "Ask focused questions about uncertainty",
