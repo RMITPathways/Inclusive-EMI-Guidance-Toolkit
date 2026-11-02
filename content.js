@@ -799,7 +799,7 @@ const toolkit = [
             "author": "University of Waterloo, Centre for Teaching Excellence",
             "year": "n.d.",
             "title": "Question strategies",
-            "locator": "Relevant section: “Establish expectations early”. Returning to a student after another contribution is a toolkit-created application.",
+            "locator": "Relevant section: “Establish expectations early”.,
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/question-strategies"
           }
         ]
