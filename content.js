@@ -799,7 +799,7 @@ const toolkit = [
             "author": "University of Waterloo, Centre for Teaching Excellence",
             "year": "n.d.",
             "title": "Question strategies",
-            "locator": "Relevant section: “Establish expectations early”.,
+            "locator": "Relevant section: “Establish expectations early”.",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/question-strategies"
           }
         ]
@@ -959,9 +959,10 @@ const toolkit = [
             "title": "Muddiest point",
             "locator": "",
             "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/muddy/"
-              ]
-             },
-     {
+                     }
+        ]
+      }
+    ],
     "checklist": [],
     "moduleSources": []
   },
