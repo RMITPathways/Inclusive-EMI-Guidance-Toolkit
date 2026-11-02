@@ -690,7 +690,7 @@ const toolkit = [
     "id": "D06",
     "title": "Answering questions spontaneously",
     "moduleTitle": "Helping students contribute in seminars and discussions",
-    "description": "Students may need support to join discussions, ask for clarification, and respond appropriately using concise, clear language.",
+    "description": "Students may need time to understand a question, develop their subject reasoning and formulate an answer in English. Make questions clear and provide appropriate preparation and response support.",
     "status": "Draft",
     "practicalGuide": "D06-S1–S6 Answering questions spontaneously",
     "strategies": [
