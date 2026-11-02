@@ -834,7 +834,8 @@ const toolkit = [
     "moduleTitle": "Helping students ask questions and seek clarification",
     "description": "Make it clear how students can ask questions, provide different ways to reveal uncertainty and respond constructively.",
     "status": "Draft",
-    "practicalGuide": "D07-S1–S6 Helping students ask questions and seek clarification",
+    "practicalGuide": "D07-S1–S6 Asking questions or admitting confusion",
+   "practicalGuideUrl": "guides/ D07 Asking questions or admitting confusion.pdf",
     "strategies": [
       {
         "id": "D07-S1",
@@ -959,11 +960,9 @@ const toolkit = [
             "title": "Muddiest point",
             "locator": "",
             "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/muddy/"
-          }
-        ],
-        "reviewNotes": "Supports the uncertainty prompt. The accompanying subject-application question is toolkit-created. Source mapping retained from the draft: University of Nebraska–Lincoln — Muddiest Point. Recommends asking students to identify unclear material and using responses to decide what to review."
-      }
-    ],
+              ]
+             },
+     {
     "checklist": [],
     "moduleSources": []
   },
