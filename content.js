@@ -187,7 +187,7 @@ const toolkit = [
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ]
-          },
+      },
       {
         "id": "D02-S2",
         "title": "Distinguish subject and everyday meanings",
@@ -348,8 +348,8 @@ const toolkit = [
             "locator": "Relevant section: Section 2.3, “Cohesion”, pp. 42–52.",
             "url": "guides/TAEC_EMI_Handbook.pdf#page=43"
           }
-        ],
-      }
+        ]
+      },
       {
         "id": "D03-S5",
         "title": "Guide students through a visual",
