@@ -186,9 +186,8 @@ const toolkit = [
             "locator": "Relevant section: Vocabulary.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
-        ],
-        "reviewNotes": "Source supports selecting important terms and providing definitions. Teaching sequence and subject example developed for the toolkit."
-      },
+        ]
+          },
       {
         "id": "D02-S2",
         "title": "Distinguish subject and everyday meanings",
@@ -231,9 +230,8 @@ const toolkit = [
             "locator": "Relevant sections: Section 2.6.8, “Key words and the creation of a course glossary”, pp. 69–71.",
             "url": "guides/TAEC_EMI_Handbook.pdf#page=70"
           }
-        ],
-        "reviewNotes": "Glossary content is source-supported. Optional multilingual field and subject example developed for the toolkit."
-      },
+        ]
+        },
       {
         "id": "D02-S4",
         "title": "Revisit terms through recall and application",
@@ -253,9 +251,8 @@ const toolkit = [
             "locator": "",
             "url": "https://www.tesolanz.org.nz/resources/paul-nation-the-principles-of-vocabulary-learning/"
           }
-        ],
-        "reviewNotes": "Source supports repetition, spaced retrieval and contextual use. Classroom sequence developed for the toolkit."
-      }
+        ]
+     },
     ]
   },
   {
@@ -287,8 +284,7 @@ const toolkit = [
             "locator": "Relevant section: Section 2.2, “Structuring”, pp. 33–42.",
             "url": "guides/TAEC_EMI_Handbook.pdf#page=34"
           }
-        ],
-        "reviewNotes": "Draft."
+        ]
       },
       {
         "id": "D03-S2",
@@ -309,8 +305,7 @@ const toolkit = [
             "locator": "Relevant sections: “Do”, item 4: regular pauses for reflection, paired discussion and checking understanding.",
             "url": "https://ccaps.umn.edu/classroom-dei/supporting-and-engaging-multilingual-students-by-making-content-and-lectures-more-accessible"
           }
-        ],
-        "reviewNotes": "Subject questions illustrate implementation."
+        ]
       },
       {
         "id": "D03-S3",
@@ -332,8 +327,7 @@ const toolkit = [
             "locator": "Relevant sections: “Do”, item 5: relevant visuals and listening guides.",
             "url": "https://ccaps.umn.edu/classroom-dei/supporting-and-engaging-multilingual-students-by-making-content-and-lectures-more-accessible"
           }
-        ],
-        "reviewNotes": "The source supports relevant visuals and listening guides."
+        ]
       },
       {
         "id": "D03-S4",
@@ -355,8 +349,7 @@ const toolkit = [
             "url": "guides/TAEC_EMI_Handbook.pdf#page=43"
           }
         ],
-        "reviewNotes": "Original toolkit example; grammatical terminology has been simplified."
-      },
+      }
       {
         "id": "D03-S5",
         "title": "Guide students through a visual",
@@ -377,8 +370,7 @@ const toolkit = [
             "locator": "Relevant section: Section 2.2.3, “The core of the lecture”: referring to visual material, p. 39.",
             "url": "guides/TAEC_EMI_Handbook.pdf#page=40"
           }
-        ],
-        "reviewNotes": "The source supports directing attention to visual features and explaining their relationship to the argument."
+        ]
       },
       {
         "id": "D03-S6",
@@ -399,8 +391,7 @@ const toolkit = [
             "locator": "Relevant sections: Section 2.2.3, “Digressions”, pp. 39–40; section 2.3, “Tips”, p. 52.",
             "url": "guides/TAEC_EMI_Handbook.pdf#page=40"
           }
-        ],
-        "reviewNotes": "Original toolkit example."
+        ]
       }
     ]
   },
