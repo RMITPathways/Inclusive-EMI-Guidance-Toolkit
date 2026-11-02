@@ -688,67 +688,144 @@ const toolkit = [
   },
   {
     "id": "D06",
-    "title": "Participating in discussions and asking for clarification",
+    "title": "Answering questions spontaneously",
     "moduleTitle": "Helping students contribute in seminars and discussions",
     "description": "Students may need support to join discussions, ask for clarification, and respond appropriately using concise, clear language.",
     "status": "Draft",
-    "practicalGuide": "D06-S1–S4 Participating in discussions and asking for clarification",
+    "practicalGuide": "D06-S1–S4 Answering questions spontaneously",
     "strategies": [
       {
+             {
         "id": "D06-S1",
-        "title": "Give sentence starters",
-        "summary": "Provide short, useful phrases to help students contribute in a structured way.",
+        "title": "Ask one clear question at a time",
+        "summary": "Make the question specific so students can focus on the subject thinking required.",
         "howTo": [
-          "Model phrases for agreeing, disagreeing, and clarifying.",
-          "Keep the stems short and practical.",
-          "Encourage students to use them naturally in discussion.",
-          "Gradually reduce reliance on the stems."
+          "Ask one question using clear, direct wording.",
+          "Display the question where useful.",
+          "Avoid adding several questions before students have answered the first.",
+          "Use follow-up questions to build towards more complex reasoning."
         ],
-        "example": "<em>“I think the main point is …” “Can you explain …?” “I agree because …”</em>",
-        "sources": [],
-        "reviewNotes": "Placeholder structure for D06."
+        "example": "Business — Ask: <em>“Which pricing strategy would you recommend?”</em> After students answer, ask: <em>“What evidence supports your recommendation?”</em>",
+        "sources": [
+          {
+            "author": "Washington University in St. Louis, Center for Teaching and Learning",
+            "year": "n.d.",
+            "title": "Asking questions to improve learning",
+            "locator": "Relevant section: “General Strategies”.",
+            "url": "https://ctl.wustl.edu/resources/asking-questions-to-improve-learning/"
+          }
+        ]
       },
       {
         "id": "D06-S2",
-        "title": "Ask for clarification politely",
-        "summary": "Teach students how to request repetition, examples, or definitions without interrupting the flow of discussion.",
+        "title": "Allow thinking time before taking answers",
+        "summary": "Give students time to understand the question, develop an answer and formulate it in English.",
         "howTo": [
-          "Model polite clarification questions.",
-          "Teach short phrases for asking for a repeat or explanation.",
-          "Encourage students to ask one specific question at a time.",
-          "Use the reply to continue the discussion."
+          "Ask the question, then pause for five to ten seconds before taking answers.",
+          "Allow longer for questions requiring calculation or complex reasoning.",
+          "Tell students when you are giving everyone a longer thinking period.",
+          "Avoid filling the pause by immediately rephrasing the question or supplying the answer.",
+          "Allow a further pause after an answer so the student can continue or others can consider it."
         ],
-        "example": "<em>“Could you repeat that?” “Could you give an example?” “What do you mean by …?”</em>",
-        "sources": [],
-        "reviewNotes": "Placeholder structure for D06."
+        "example": "Engineering — <em>“Which component is most likely to fail first? Take thirty seconds to examine the diagram and prepare your reason.”</em>",
+        "sources": [
+          {
+            "author": "University of Waterloo, Centre for Teaching Excellence",
+            "year": "n.d.",
+            "title": "Question strategies",
+            "locator": "Relevant sections: “Wait for the answer” and “Reach non-responsive students with wait times”.",
+            "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/question-strategies"
+          }
+        ]
       },
       {
         "id": "D06-S3",
-        "title": "Support short responses",
-        "summary": "Help students build confidence by letting them contribute brief but useful answers.",
+        "title": "Let students prepare or rehearse before answering publicly",
+        "summary": "Use brief individual preparation and pair discussion before inviting whole-class answers.",
         "howTo": [
-          "Encourage short, relevant contributions.",
-          "Allow students to respond with a single point and example.",
-          "Praise clear, concise participation.",
-          "Build toward longer responses over time."
+          "Ask students to think individually or write a few key words.",
+          "Give pairs time to compare their answers and explain their reasoning.",
+          "Explain that you will invite contributions after this preparation.",
+          "Ask students to share their answer and reasoning with the class.",
+          "Choose preparation time appropriate to the question."
         ],
-        "example": "<em>“I think the key difference is …” “For example, …”</em>",
-        "sources": [],
-        "reviewNotes": "Placeholder structure for D06."
+        "example": "Public health — Students identify one reason vaccination uptake might differ between two regions, compare explanations with a partner, then share a reason supported by the case information.",
+        "sources": [
+          {
+            "author": "Northeastern University, Center for Advancing Teaching and Learning Through Research",
+            "year": "n.d.",
+            "title": "Active question and answer techniques",
+            "locator": "Relevant section: “Think-Pair-Share”.",
+            "url": "https://learning.northeastern.edu/active-question-and-answer-approaches/"
+          }
+        ]
       },
       {
         "id": "D06-S4",
-        "title": "Use discussion norms",
-        "summary": "Set clear expectations for turn-taking, listening, and respectful participation.",
+        "title": "Offer short sentence openings to support answers",
+        "summary": "Provide optional wording that helps students organise an answer while supplying their own subject reasoning.",
         "howTo": [
-          "Set ground rules for speaking and listening.",
-          "State how students should respond to others.",
-          "Model respectful disagreement and clarification.",
-          "Review discussion moves after the activity."
+          "Identify the response required, such as explaining a cause, comparing options or justifying a choice.",
+          "Display one or two short sentence openings suited to that response.",
+          "Demonstrate how an opening can organise an answer using a different example.",
+          "Keep the openings optional and avoid supplying the subject answer.",
+          "Reduce the support as students become more confident."
         ],
-        "example": "<em>“One person speaks at a time. Use one main point and one example.”</em>",
-        "sources": [],
-        "reviewNotes": "Placeholder structure for D06."
+        "example": "Economics — Display: <em>“The main cause is … because …”</em> or <em>“Compared with …, this option …”</em> Students complete the answer using evidence from the case.",
+        "sources": [
+          {
+            "author": "University of Minnesota, College of Continuing & Professional Studies",
+            "year": "n.d.",
+            "title": "Teaching support",
+            "locator": "Relevant section: “Group Work”. Guidance on discussion language is adapted here to support answers to lecturer questions.",
+            "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
+          }
+        ]
+      },
+      {
+        "id": "D06-S5",
+        "title": "Explain how students will be invited to answer",
+        "summary": "Make participation expectations predictable and explain the options available when students need more time.",
+        "howTo": [
+          "Explain whether you will invite volunteers, name students after thinking time or ask pairs to report.",
+          "Give everyone an opportunity to prepare before naming an individual.",
+          "Explain how students can request more time or pass where appropriate.",
+          "If a student needs more time, invite another contribution and offer to return to them afterwards.",
+          "Apply the agreed approach consistently."
+        ],
+        "example": "Business — <em>“Everyone will have a minute to prepare. Then I’ll invite a few people to explain their choice. If you need more time, let me know and I can come back to you.”</em>",
+        "sources": [
+          {
+            "author": "University of Waterloo, Centre for Teaching Excellence",
+            "year": "n.d.",
+            "title": "Question strategies",
+            "locator": "Relevant section: “Establish expectations early”. Returning to a student after another contribution is a toolkit-created application.",
+            "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/question-strategies"
+          }
+        ]
+      },
+      {
+        "id": "D06-S6",
+        "title": "Listen fully and help students develop their answers",
+        "summary": "Allow students to finish, clarify their meaning and use focused follow-up questions to extend their reasoning.",
+        "howTo": [
+          "Listen without interrupting or completing the student's sentences.",
+          "Allow pauses while the student formulates the answer.",
+          "If meaning is unclear, restate your tentative understanding and invite confirmation or correction.",
+          "Ask a focused follow-up question about evidence, reasoning or an example.",
+          "Respond to the subject contribution and clarify any important misconception."
+        ],
+        "example": "Biology — <em>“You think the reaction slowed because the temperature increased. Have I understood you correctly? What happens to the enzyme above its optimum temperature?”</em>",
+        "sources": [
+          {
+            "author": "University of Waterloo, Centre for Teaching Excellence",
+            "year": "n.d.",
+            "title": "Question strategies",
+            "locator": "Relevant section: “Listening actively”.",
+            "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/question-strategies"
+          }
+        ]
+      }
       }
     ]
   },
