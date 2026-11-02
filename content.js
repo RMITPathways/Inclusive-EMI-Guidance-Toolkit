@@ -692,8 +692,8 @@ const toolkit = [
     "moduleTitle": "Helping students contribute in seminars and discussions",
     "description": "Students may need time to understand a question, develop their subject reasoning and formulate an answer in English. Make questions clear and provide appropriate preparation and response support.",
     "status": "Draft",
-    "practicalGuide": "D06-S1–S6 Answering questions spontaneously",
-    "strategies": [
+      "practicalGuide": "Download practical guide: Answering questions spontaneously (PDF)",
+    "practicalGuideUrl": "guides/D06 Answering questions spontaneously.pdf",
       {
  "id": "D06-S1",
         "title": "Ask one clear question at a time",
