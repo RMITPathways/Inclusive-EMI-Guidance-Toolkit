@@ -33,7 +33,7 @@ const toolkit = [
       },
       {
         "id": "D01-S2",
-        "title": "Break instructions into steps",
+        "title": "Break the task and/or instructions into steps",
         "summary": "Number the actions in the order students should complete them and make the requirements visible.",
         "howTo": [
           "Number the actions in the order students should complete them.",
@@ -63,7 +63,7 @@ const toolkit = [
       },
       {
         "id": "D01-S3",
-        "title": "Demonstrate the task",
+        "title": "Demonstrate what to do",
         "summary": "Work through the first step of a similar example and explain your decisions aloud.",
         "howTo": [
           "Use different content from the task students will complete.",
@@ -85,7 +85,7 @@ const toolkit = [
       },
       {
         "id": "D01-S4",
-        "title": "Check what students need to do",
+        "title": "Check that students need what to do",
         "summary": "Ask specific instruction-checking questions about the task requirements.",
         "howTo": [
           "Ask how many options students will compare.",
