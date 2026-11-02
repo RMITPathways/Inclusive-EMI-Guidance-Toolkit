@@ -694,6 +694,7 @@ const toolkit = [
     "status": "Draft",
       "practicalGuide": "Download practical guide: Answering questions spontaneously (PDF)",
     "practicalGuideUrl": "guides/D06 Answering questions spontaneously.pdf",
+        "strategies": [
       {
  "id": "D06-S1",
         "title": "Ask one clear question at a time",
