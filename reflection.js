@@ -54,7 +54,7 @@
     reflection.className = "reflection";
 
     reflection.innerHTML = `
-      <summary>Reflect on your teaching</summary>
+      <summary>Reflect on your teaching — plan, try and review</summary>
       <div class="reflection-body">
         <p>
           Choose one strategy to try, then return after teaching
