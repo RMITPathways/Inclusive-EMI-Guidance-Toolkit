@@ -85,7 +85,7 @@ const toolkit = [
       },
       {
         "id": "D01-S4",
-        "title": "Check that students need what to do",
+        "title": "Check that students know what to do",
         "summary": "Ask specific instruction-checking questions about the task requirements.",
         "howTo": [
           "Ask how many options students will compare.",
@@ -688,7 +688,7 @@ const toolkit = [
   },
   {
     "id": "D06",
-    "title": "Answering questions spontaneously",
+    "title": "Helping students answer questions in class",
     "moduleTitle": "Helping students contribute in seminars and discussions",
     "description": "Students may need time to understand a question, develop their subject reasoning and formulate an answer in English. Make questions clear and provide appropriate preparation and response support.",
     "status": "Draft",
@@ -835,7 +835,7 @@ const toolkit = [
     "description": "Make it clear how students can ask questions, provide different ways to reveal uncertainty and respond constructively.",
     "status": "Draft",
     "practicalGuide": "D07-S1–S6 Asking questions or admitting confusion",
-   "practicalGuideUrl": "guides/ D07 Asking questions or admitting confusion.pdf",
+   "practicalGuideUrl": "guides/D07 Asking questions or admitting confusion.pdf",
     "strategies": [
       {
         "id": "D07-S1",
@@ -969,7 +969,7 @@ const toolkit = [
     "description": "Make group tasks clear and structure participation so students can prepare, contribute and discuss subject ideas.",
     "status": "Draft",
     "practicalGuide": "D08-S1–S6 Helping students participate in group work",
-   "practicalGuideUrl": "guides/ D08 Helping students participate in group work.pdf",
+   "practicalGuideUrl": "guides/D08 Helping students participate in group work.pdf",
     "strategies": [
       {
         "id": "D08-S1",
@@ -1228,7 +1228,6 @@ const toolkit = [
       }
     ],
     "checklist": [],
-    "checklist": [],
     "moduleSources": []
   },
   {
@@ -1238,7 +1237,7 @@ const toolkit = [
     "description": "Explain what an assignment requires, show how the criteria apply and check students’ understanding before substantial work begins.",
     "status": "Draft",
     "practicalGuide": "D10-S1–S6 Making assignment expectations clear",
-    "practicalGuideUrl": "guides/D10 Making assignment expectations clear.pdf,
+    "practicalGuideUrl": "guides/D10 Making assignment expectations clear.pdf",
     "strategies": [
       {
         "id": "D10-S1",
