@@ -1090,10 +1090,10 @@ const toolkit = [
             "title": "Implementing group work in the classroom",
             "locator": "Relevant sections: “Monitoring the Group Task” and “Ending the Group Task”.",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/implementing-group-work-classroom"
-        }
+          }
         ]
-          },
-      {
+      }
+    ],
     "checklist": [],
     "moduleSources": []
   },
