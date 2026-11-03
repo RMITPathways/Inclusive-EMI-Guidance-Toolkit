@@ -1652,6 +1652,7 @@ const toolkit = [
     "description": "Make independent study purposeful and manageable, demonstrate useful study methods and help students adjust their approach.",
     "status": "Draft",
     "practicalGuide": "D13 Independent study and preparation",
+      "practicalGuideUrl": "guides/D13_Independent_study_and_preparation.pdf",
     "strategies": [
       {
         "id": "D13-S1",
