@@ -2090,6 +2090,7 @@ const toolkit = [
     "description": "Plan how students can draw on their languages while ensuring everyone can follow shared reasoning and meet course requirements.",
     "status": "Draft",
     "practicalGuide": "D19 Using different languages inclusively",
+     "practicalGuideUrl": "guides/D19 Using different languages inclusively.pdf",
     "strategies": [
       {
         "id": "D19-S1",
