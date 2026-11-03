@@ -487,21 +487,21 @@ a:focus-visible {
 
 .header-logo {
   float: right;
-  width: 280px;
+  width: 240px;
   max-width: 100%;
   margin: 0 0 1.5rem 2rem;
   padding: 0;
   background: transparent;
 }
-}
 
 .header-logo img {
   display: block;
   width: 100%;
+  max-width: 240px;
   height: auto;
 }
 
-/* Keep the logo above the title on smaller screens */
+/* Logo above the title on smaller screens */
 @media (max-width: 650px) {
   .header-logo {
     float: none;
