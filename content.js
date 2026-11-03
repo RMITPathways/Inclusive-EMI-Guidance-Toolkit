@@ -874,10 +874,9 @@ const toolkit = [
             "title": "Teaching support",
             "locator": "Relevant section: Lecture comprehension: withholding questions.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
-          }
-        ],
-        "reviewNotes": "Partial source support. Focused prompts and subject example developed for the toolkit. Source mapping retained from the draft: University of Minnesota — Teaching Support, Lecture Comprehension: Withholding questions. Supports encouraging questions. The focused uncertainty prompt is a toolkit adaptation."
-      },
+           }
+        ]
+          },
       {
         "id": "D07-S3",
         "title": "Provide a way to ask without speaking publicly",
@@ -895,10 +894,9 @@ const toolkit = [
             "title": "Muddiest point",
             "locator": "",
             "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/muddy/"
-          }
-        ],
-        "reviewNotes": "Supports a written route to disclose confusion. Subject example developed for the toolkit. Source mapping retained from the draft: University of Nebraska–Lincoln — Muddiest Point. Describes collecting unclear points through paper slips or anonymous online surveys, then addressing common difficulties."
-      },
+         }
+        ]
+          },
       {
         "id": "D07-S4",
         "title": "Give students language for requesting clarification",
@@ -917,9 +915,8 @@ const toolkit = [
             "locator": "Relevant sections: “How to ask for clarification” and “How to ask for more information”.",
             "url": "https://ccaps.umn.edu/esl-resources/students/speaking/discussions"
           }
-        ],
-        "reviewNotes": "Student-facing language resource. Introducing and modelling the phrases is a toolkit teaching adaptation. Source mapping retained from the draft: University of Minnesota — Discussions, How to ask for clarification and How to ask for more information. Provides phrases for identifying unclear points, requesting explanations and asking for examples."
-      },
+        ]
+          },
       {
         "id": "D07-S5",
         "title": "Respond constructively when students reveal confusion",
@@ -938,10 +935,9 @@ const toolkit = [
             "title": "Question strategies",
             "locator": "Relevant section: “Listening actively”.",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/question-strategies"
-          }
-        ],
-        "reviewNotes": "Partial source support. Explaining differently and checking through a new application task are additional toolkit steps. Source mapping retained from the draft: University of Waterloo — Question Strategies, Listening actively. Supports acknowledging contributions, avoiding interruption, asking for clarification and inviting elaboration."
-      },
+           }
+        ]
+          },
       {
         "id": "D07-S6",
         "title": "Build in opportunities to identify what remains unclear",
