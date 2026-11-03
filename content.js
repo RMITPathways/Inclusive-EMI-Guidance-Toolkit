@@ -1379,7 +1379,8 @@ const toolkit = [
     "description": "Show students how explanations work in your subject and support them to organise, express and refine their reasoning.",
     "status": "Draft",
     "practicalGuide": "D11-S1–S6 Helping students explain subject knowledge in English",
-    "strategies": [
+      "practicalGuideUrl": "guides/D11 Helping students explain subject knowledge in English.pdf",
+        "strategies": [
       {
         "id": "D11-S1",
         "title": "Make the structure of an explanation explicit",
