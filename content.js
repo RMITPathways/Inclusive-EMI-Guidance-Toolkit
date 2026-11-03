@@ -1514,6 +1514,7 @@ const toolkit = [
     "description": "Make feedback clear and actionable, check how students interpret it and provide opportunities to use it.",
     "status": "Draft",
     "practicalGuide": "D12 Understanding and using feedback",
+    "practicalGuideUrl": "guides/Understanding_and_using_feedback.pdf",
     "strategies": [
       {
         "id": "D12-S1",
