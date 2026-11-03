@@ -1796,6 +1796,7 @@ const toolkit = [
     "description": "Check access, demonstrate unfamiliar tools and provide clear instructions and workable alternatives.",
     "status": "Draft",
     "practicalGuide": "D14 Accessing and using digital resources",
+      "practicalGuideUrl": "guides/D14_Accessing_and_using_digital_resources.pdf",
     "strategies": [
       {
         "id": "D14-S1",
