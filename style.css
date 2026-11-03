@@ -509,3 +509,71 @@ a:focus-visible {
     margin: 0 0 1.5rem auto;
   }
 }
+.toolkit-overview {
+  margin-bottom: 2rem;
+}
+
+.toolkit-overview h2 {
+  color: var(--navy);
+}
+
+.overview-map {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.overview-panel {
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-top: 5px solid var(--navy);
+  border-radius: 10px;
+  background: white;
+}
+
+.overview-panel:nth-child(2) {
+  border-top-color: #2878b5;
+}
+
+.overview-panel:nth-child(3) {
+  border-top-color: #a47700;
+}
+
+.overview-panel:nth-child(4) {
+  border-top-color: #28734a;
+}
+
+.overview-panel h3 {
+  margin: 0 0 1rem;
+  color: var(--navy);
+  font-size: 1.1rem;
+}
+
+.overview-links {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.overview-link {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--navy);
+  background: var(--background);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.overview-link:hover {
+  background: var(--light-blue);
+  border-color: var(--navy);
+}
+
+@media (max-width: 650px) {
+  .overview-map {
+    grid-template-columns: 1fr;
+  }
+}
