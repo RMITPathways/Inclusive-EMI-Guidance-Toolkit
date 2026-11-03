@@ -969,6 +969,7 @@ const toolkit = [
     "description": "Make group tasks clear and structure participation so students can prepare, contribute and discuss subject ideas.",
     "status": "Draft",
     "practicalGuide": "D08-S1–S6 Helping students participate in group work",
+   "practicalGuideUrl": "guides/ D08 Helping students participate in group work.pdf",
     "strategies": [
       {
         "id": "D08-S1",
@@ -988,9 +989,8 @@ const toolkit = [
             "locator": "Relevant section: “Introducing the Group Activity”.",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/implementing-group-work-classroom"
           }
-        ],
-        "reviewNotes": "The specified individual contribution and subject example are toolkit adaptations. Source mapping retained from the draft: University of Waterloo — Implementing Group Work in the Classroom, Introducing the Group Activity. Supports explaining the task and final output, providing written or visual instructions and including time estimates."
-      },
+        ]
+          },
       {
         "id": "D08-S2",
         "title": "Give individual preparation time",
@@ -1009,9 +1009,8 @@ const toolkit = [
             "locator": "Relevant section: Think-pair-share.",
             "url": "https://learning.northeastern.edu/active-question-and-answer-approaches/"
           }
-        ],
-        "reviewNotes": "Using individual preparation before a larger group task is a toolkit application. Source mapping retained from the draft: Northeastern University — Active Question and Answer Techniques, Think-Pair-Share. Describes individual thinking or writing before comparing ideas with peers."
-      },
+        ]
+          },
       {
         "id": "D08-S3",
         "title": "Structure opportunities for everyone to contribute",
@@ -1030,10 +1029,9 @@ const toolkit = [
             "title": "Group work in the classroom: Types of small groups",
             "locator": "Relevant section: “Circle of Voices”.",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/group-work-classroom-types-small-groups"
-          }
-        ],
-        "reviewNotes": "The shorter opening round and option to return to a student are toolkit adaptations. Source mapping retained from the draft: University of Waterloo — Types of Small Groups, Circle of Voices. Describes preparation followed by uninterrupted turns before open discussion."
-      },
+           }
+        ]
+          },
       {
         "id": "D08-S4",
         "title": "Assign useful roles and rotate them",
@@ -1052,10 +1050,9 @@ const toolkit = [
             "title": "Group work: Assignment of roles",
             "locator": "",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/group-work-assignment-roles"
-          }
-        ],
-        "reviewNotes": "Role descriptions are adapted to the subject task. Source mapping retained from the draft: University of Waterloo — Group Work: Assignment of Roles. Explains specific responsibilities for group roles and suggests rotating roles periodically."
-      },
+           }
+        ]
+          },
       {
         "id": "D08-S5",
         "title": "Model language for working together",
@@ -1074,9 +1071,8 @@ const toolkit = [
             "locator": "Relevant section: Group work: navigating group miscommunications.",
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
-        ],
-        "reviewNotes": "The phrases and model exchange are toolkit-created applications. Source mapping retained from the draft: University of Minnesota — Teaching Support, Group Work: Navigating group miscommunications. Recommends providing examples of discussion language for different functions."
-      },
+        ]
+          },
       {
         "id": "D08-S6",
         "title": "Monitor how the group is working",
@@ -1094,11 +1090,10 @@ const toolkit = [
             "title": "Implementing group work in the classroom",
             "locator": "Relevant sections: “Monitoring the Group Task” and “Ending the Group Task”.",
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/implementing-group-work-classroom"
-          }
-        ],
-        "reviewNotes": "The intervention for uneven participation is a toolkit application. Source mapping retained from the draft: University of Waterloo — Implementing Group Work in the Classroom, Monitoring the Group Task and Ending the Group Task. Supports circulating, listening, facilitating without taking over and reflection on group functioning."
-      }
-    ],
+        }
+        ]
+          },
+      {
     "checklist": [],
     "moduleSources": []
   },
