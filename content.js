@@ -1943,6 +1943,7 @@ const toolkit = [
     "description": "Guide students through course information so they can find expectations, understand procedures and know where to ask for clarification.",
     "status": "Draft",
     "practicalGuide": "D15 Course expectations and procedures",
+       "practicalGuideUrl": "guides/D15_Course_expectations_and_procedures.pdf",
     "strategies": [
       {
         "id": "D15-S1",
