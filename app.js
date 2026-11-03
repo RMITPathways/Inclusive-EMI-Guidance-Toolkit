@@ -250,13 +250,7 @@ ${area.practicalGuideUrl ? `
       ${sourceHTML || "<li>Source details to be confirmed.</li>"}
     </ul>
 
-    <h3>Review information</h3>
-
-    <p>
-      ${strategy.reviewNotes || "No review notes provided."}
-    </p>
-
-    <p class="back-link">
+        <p class="back-link">
       <a href="#areas-heading">↑ Back to teaching areas</a>
     </p>
   `;
