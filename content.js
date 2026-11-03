@@ -2019,6 +2019,7 @@ const toolkit = [
     "description": "Make referrals specific and practical so students understand why a service may help and how to access it.",
     "status": "Draft",
     "practicalGuide": "D17 Accessing additional support",
+     "practicalGuideUrl": "guides/D17_Accessing_additional_support.pdf",
     "strategies": [
       {
         "id": "D17-S1",
