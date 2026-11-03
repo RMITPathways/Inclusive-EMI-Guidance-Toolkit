@@ -1374,7 +1374,7 @@ const toolkit = [
   },
   {
     "id": "D11",
-    "title": "Explaining disciplinary knowledge in English",
+    "title": "Explaining subject knowledge in English",
     "moduleTitle": "Helping students explain subject knowledge in English",
     "description": "Show students how explanations work in your subject and support them to organise, express and refine their reasoning.",
     "status": "Draft",
@@ -1399,7 +1399,6 @@ const toolkit = [
             "url": "https://writing.utoronto.ca/teaching-resources/designing-assignments/"
           }
         ],
-        "reviewNotes": "Partial source support. The source focuses on writing; the sequence of explanation prompts is a toolkit adaptation. Source mapping retained from the draft: University of Toronto — Designing Assignments and Presenting Them to Students, Presenting Assignments, points 2–3. Supports demonstrating the thinking required, outlining effective answers and explaining disciplinary writing structures."
       },
       {
         "id": "D11-S2",
@@ -1420,7 +1419,6 @@ const toolkit = [
             "url": "https://wac.umn.edu/tww-program/teaching-resources/supporting-multilingual-learners"
           }
         ],
-        "reviewNotes": "Direct support for written models. Applying this to spoken explanations is a toolkit adaptation. Source mapping retained from the draft: University of Minnesota — Supporting Multilingual Learners, As You’re Creating a Writing Assignment. Recommends annotated models and sample extracts that highlight valued writing features."
       },
       {
         "id": "D11-S3",
@@ -1439,9 +1437,8 @@ const toolkit = [
             "title": "Academic Phrasebank: Explaining causality",
             "locator": "",
             "url": "https://www.phrasebank.manchester.ac.uk/explaining-cause-and-effect/"
-          }
+         }
         ],
-        "reviewNotes": "This source supports cause-and-effect language specifically. Selecting accessible phrases and modelling them with course content is a toolkit teaching approach. Source mapping retained from the draft: University of Manchester — Academic Phrasebank, Explaining causality. Provides language for causes, effects and contributing factors."
       },
       {
         "id": "D11-S4",
@@ -1460,9 +1457,8 @@ const toolkit = [
             "title": "Develop understanding: Concept maps",
             "locator": "",
             "url": "https://www.ucl.ac.uk/short-courses/staff-resources/course-design/design-learning-activities/develop-understanding-concept-maps"
-          }
+         }
         ],
-        "reviewNotes": "Partial source support. Other representations and the transition to spoken or written explanations are toolkit extensions. Source mapping retained from the draft: UCL — Develop understanding, Concept maps. Supports student-created maps that connect concepts through meaningful statements, followed by discussion and revision."
       },
       {
         "id": "D11-S5",
@@ -1484,7 +1480,6 @@ const toolkit = [
             "url": "https://learning.northeastern.edu/active-question-and-answer-approaches/"
           }
         ],
-        "reviewNotes": "The focused listener check and explicit revision step are toolkit additions. Source mapping retained from the draft: Northeastern University — Active Question and Answer Techniques, Think-Pair-Share. Supports individual thinking or writing followed by peer discussion before whole-class contributions."
       },
       {
         "id": "D11-S6",
@@ -1505,8 +1500,7 @@ const toolkit = [
             "locator": "Relevant section: “As Students are Completing a Writing Assignment”.",
             "url": "https://wac.umn.edu/tww-program/teaching-resources/supporting-multilingual-learners"
           }
-        ],
-        "reviewNotes": "The source addresses written work. Checking intended meaning in spoken explanations is a toolkit adaptation. Source mapping retained from the draft: University of Minnesota — Supporting Multilingual Learners, As Students are Completing a Writing Assignment. Supports prioritising content and organisation, giving instructive draft feedback and addressing language selectively."
+        ]
       }
     ],
     "checklist": [],
