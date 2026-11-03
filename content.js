@@ -1981,6 +1981,7 @@ const toolkit = [
     "description": "Use a short survey to understand students’ prior learning, strengths and support preferences, then revisit your understanding as the course progresses.",
     "status": "Draft",
     "practicalGuide": "D16 Learning experiences and support preferences",
+       "practicalGuideUrl": "guides/D16_Learning_experiences_and_support_preferences.pdf",
     "strategies": [
       {
         "id": "D16-S1",
