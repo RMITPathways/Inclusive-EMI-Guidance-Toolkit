@@ -112,9 +112,6 @@ ${area.practicalGuideUrl ? `
     </a>
   </p>
 ` : ""}
-          <p class="status">
-            Status: ${area.status || "Draft"}
-          </p>
 
           <div class="strategy-list">
             ${(area.strategies || []).map(strategy => `
