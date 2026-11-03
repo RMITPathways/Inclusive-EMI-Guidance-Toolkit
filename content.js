@@ -1238,6 +1238,7 @@ const toolkit = [
     "description": "Explain what an assignment requires, show how the criteria apply and check students’ understanding before substantial work begins.",
     "status": "Draft",
     "practicalGuide": "D10-S1–S6 Making assignment expectations clear",
+    "practicalGuideUrl": "guides/D10 Making assignment expectations clear.pdf,
     "strategies": [
       {
         "id": "D10-S1",
