@@ -2052,6 +2052,7 @@ const toolkit = [
     "description": "Check your understanding of a student’s contribution before evaluating the subject reasoning.",
     "status": "Draft",
     "practicalGuide": "D18 Understanding students’ contributions",
+      "practicalGuideUrl": "guides/D18_Understanding_students_contributions.pdf",
     "strategies": [
       {
         "id": "D18-S1",
