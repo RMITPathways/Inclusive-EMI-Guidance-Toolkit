@@ -270,3 +270,65 @@ closeDetails.addEventListener("click", () => {
 });
 
 renderDifficultyAreas();
+function renderOverviewMap() {
+  const overviewMap = document.getElementById("overview-map");
+
+  if (!overviewMap) return;
+
+  overviewMap.innerHTML = "";
+
+  groups.forEach(group => {
+    const panel = document.createElement("section");
+    panel.className = "overview-panel";
+
+    const heading = document.createElement("h3");
+    heading.textContent = group.title;
+    panel.appendChild(heading);
+
+    const links = document.createElement("div");
+    links.className = "overview-links";
+
+    group.ids.forEach(id => {
+      const area = toolkit.find(item => item.id === id);
+
+      if (!area) return;
+
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "overview-link";
+      button.textContent = `${area.id} · ${area.title}`;
+
+      button.addEventListener("click", () => {
+        // Clear the search so the selected area is available.
+        searchInput.value = "";
+        renderDifficultyAreas();
+
+        const content = document.getElementById(`area-${id}`);
+
+        if (!content) return;
+
+        const groupSection = content.closest(".toolkit-group");
+        const card = content.closest(".difficulty-card");
+        const areaButton = card.querySelector(".difficulty-button");
+
+        if (groupSection) groupSection.open = true;
+
+        content.hidden = false;
+        areaButton.setAttribute("aria-expanded", "true");
+        areaButton.focus({ preventScroll: true });
+
+        card.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
+      });
+
+      links.appendChild(button);
+    });
+
+    panel.appendChild(links);
+    overviewMap.appendChild(panel);
+  });
+}
+
+renderOverviewMap();
