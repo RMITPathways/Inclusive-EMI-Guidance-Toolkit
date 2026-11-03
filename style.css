@@ -480,3 +480,30 @@ a:focus-visible {
   color: var(--muted);
   font-size: 0.9rem;
 }
+/* Logo at the top right of the banner */
+.site-header > .container {
+  display: flow-root;
+}
+
+.header-logo {
+  float: right;
+  width: 240px;
+  margin: 0 0 1.5rem 2rem;
+  padding: 12px;
+  background: white;
+}
+
+.header-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Keep the logo above the title on smaller screens */
+@media (max-width: 650px) {
+  .header-logo {
+    float: none;
+    width: 200px;
+    margin: 0 0 1.5rem auto;
+  }
+}
