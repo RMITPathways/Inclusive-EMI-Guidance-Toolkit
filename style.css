@@ -577,3 +577,87 @@ a:focus-visible {
     grid-template-columns: 1fr;
   }
 }
+/* D01 teaching reflection pilot */
+.reflection {
+  margin-top: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--cream);
+}
+
+.reflection > summary {
+  padding: 1rem;
+  color: var(--navy);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reflection > summary:focus-visible {
+  outline: 3px solid var(--yellow);
+  outline-offset: 2px;
+}
+
+.reflection-body {
+  padding: 0 1rem 1rem;
+}
+
+.reflection-body h3 {
+  margin-top: 1.5rem;
+  color: var(--navy);
+}
+
+.reflection-body label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.reflection-note {
+  margin: 0.35rem 0 0.6rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.reflection-body textarea,
+.reflection-body select {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  background: white;
+  font: inherit;
+}
+
+.reflection-body textarea {
+  resize: vertical;
+}
+
+.reflection-body textarea:focus,
+.reflection-body select:focus {
+  outline: 3px solid var(--yellow);
+  outline-offset: 2px;
+}
+
+.reflection-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+}
+
+.reflection-actions button {
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--navy);
+  border-radius: 6px;
+  color: var(--navy);
+  background: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.reflection-actions button:first-child {
+  color: white;
+  background: var(--navy);
+}
