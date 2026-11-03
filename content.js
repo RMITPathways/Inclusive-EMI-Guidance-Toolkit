@@ -689,7 +689,7 @@ const toolkit = [
   {
     "id": "D06",
     "title": "Helping students answer questions in class",
-    "moduleTitle": "Helping students contribute in seminars and discussions",
+    "moduleTitle": "Helping students answer questions in class",
     "description": "Students may need time to understand a question, develop their subject reasoning and formulate an answer in English. Make questions clear and provide appropriate preparation and response support.",
     "status": "Draft",
       "practicalGuide": "Download practical guide: Answering questions spontaneously (PDF)",
