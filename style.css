@@ -661,3 +661,40 @@ a:focus-visible {
   color: white;
   background: var(--navy);
 }
+.reflection > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  color: white;
+  background: var(--navy);
+  font-size: 1.05rem;
+  font-weight: bold;
+  list-style: none;
+  cursor: pointer;
+}
+
+.reflection > summary::-webkit-details-marker {
+  display: none;
+}
+
+.reflection > summary::after {
+  content: "+";
+  flex-shrink: 0;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.reflection[open] > summary::after {
+  content: "−";
+}
+
+.reflection[open] > summary {
+  border-radius: 8px 8px 0 0;
+}
+
+.reflection > summary:hover {
+  background: #24247a;
+}
