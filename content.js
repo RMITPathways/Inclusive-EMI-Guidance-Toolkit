@@ -198,7 +198,7 @@ const toolkit = [
           "Use examples to check whether students can distinguish them.",
           "Explain which meaning applies in the current task."
         ],
-        "example": "Physics — Contrast everyday work meaning effort with mechanical work involving force and displacement. Ask whether holding a bag stationary involves mechanical work on the bag.",
+        "example": "Physics — Explain that “work” commonly means effort, but in physics, mechanical work occurs when a force causes displacement. Ask: “Holding a heavy bag still takes effort, but are you doing mechanical work on the bag?” Explain that no mechanical work is done on the bag because it does not move.",
         "sources": [
           {
             "author": "Monash University, Faculty of Education, & Victorian Department of Education and Training",
