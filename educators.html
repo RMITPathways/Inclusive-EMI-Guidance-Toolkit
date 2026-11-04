@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>For educators | Inclusive EMI Guidance Toolkit</title>
+
+  <meta
+    name="description"
+    content="Practical guidance for inclusive English-medium instruction in Vietnamese higher education, with particular consideration of ethnic-minority students."
+  >
+
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="navigation.css">
+
+  <style>
+    .homepage-introduction {
+      max-width: 850px;
+      margin-bottom: 3rem;
+    }
+
+    .homepage-introduction h2 {
+      margin-top: 2rem;
+      color: var(--navy);
+    }
+
+    .homepage-introduction p {
+      font-size: 1.05rem;
+    }
+
+    .explore-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.9rem 1.3rem;
+      border-radius: 7px;
+      color: var(--white);
+      background: var(--navy);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .explore-link:hover {
+      background: var(--dark-blue);
+    }
+
+    #educator-guidance {
+      scroll-margin-top: 1.5rem;
+    }
+
+    @media print {
+      .explore-link {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container">
+       <div class="header-logo">
+      <img
+        src="images/seup-logo.png"
+        alt="RMIT University — School of English & University Pathways"
+      >
+    </div>
+  
+      <p class="eyebrow">Inclusive EMI Guidance Toolkit</p><h1>For educators</h1>
+
+      <p class="intro-text">
+        Practical support for inclusive teaching and learning
+        through English.
+      </p>
+    </div>
+  </header>
+
+  <nav class="toolkit-nav" aria-label="Main navigation"><div class="container"><a href="index.html">Home</a><a href="educators.html" aria-current="page">For educators</a><a href="students.html">For students</a><a href="institutions.html">For institutions</a><a href="responsibilities.html">Shared responsibilities</a><a href="about.html">About</a><a href="sources.html">Sources</a></div></nav><main class="container" id="main-content">
+<section class="landing-intro"><h2>Practical guidance for subject educators</h2><p>Use these strategies to support students learning through English. You do not need to be a language teacher: practical steps and subject examples show how to apply each strategy.</p><p>Start with a difficulty you have observed, explore the teaching areas or search for a topic. Check what is causing the difficulty and adapt the guidance to your course and students while maintaining disciplinary outcomes and standards.</p><p class="development-notice">Developing draft: guidance and supporting sources remain subject to review.</p></section>
+    <section
+      id="educator-guidance"
+      aria-labelledby="guidance-heading"
+    >
+      <div class="welcome-panel">
+        <h2 id="guidance-heading">Educator guidance</h2>
+
+        <p>
+          Explore practical strategies for understanding teaching and
+          materials, speaking and working with others, assignments and
+          feedback, and independent study and accessing support.
+        </p>
+
+            </div>
+<section class="toolkit-overview" aria-labelledby="overview-heading">
+  <h2 id="overview-heading">Toolkit at a glance</h2>
+  <p>Select an area below to explore practical teaching strategies.</p>
+  <div id="overview-map" class="overview-map"></div>
+</section>
+      <section
+        aria-labelledby="search-heading"
+        class="search-section"
+      >
+        <h2 id="search-heading">Find guidance</h2>
+
+        <label for="search-input">
+          Search by difficulty, strategy or subject
+        </label>
+
+        <input
+          id="search-input"
+          type="search"
+          placeholder="For example: group work, vocabulary or engineering"
+        >
+      </section>
+
+      <section aria-labelledby="areas-heading">
+        <div class="section-heading">
+          <h2 id="areas-heading">Explore by teaching area</h2>
+
+          <p id="results-count" aria-live="polite"></p>
+        </div>
+
+        <div id="difficulty-list" class="difficulty-list"></div>
+
+        <p id="no-results" class="no-results" hidden>
+          No matching difficulty areas or strategies were found.
+          Try another search term.
+        </p>
+      </section>
+
+      <section
+        id="detail-panel"
+        class="detail-panel"
+        aria-label="Selected teaching strategy"
+        aria-live="polite"
+        hidden
+      >
+        <button
+          id="close-details"
+          class="close-button"
+          type="button"
+        >
+          Close details
+        </button>
+
+        <div id="detail-content"></div>
+      </section>
+    </section>
+  </main>
+
+<footer class="site-footer"><div class="container"><p>Inclusive EMI Guidance Toolkit · Developing draft</p><p><a href="about.html">About the toolkit</a> · <a href="responsibilities.html">Shared responsibilities and support</a> · <a href="sources.html">Sources and acknowledgements</a></p></div></footer>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+  <script src="reflection.js"></script>
+</body>
+</html>
