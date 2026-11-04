@@ -87,9 +87,12 @@
       textarea.dataset.field = prompt.name;
       textarea.setAttribute("aria-describedby", hint.id);
 
-      wrapper.append(label, hint, textarea);
+     wrapper.append(label, hint, textarea);
 
-    const fields = reflection.querySelectorAll("[data-field]");
+reflection.querySelector("[data-reflection-fields]").appendChild(wrapper);
+});
+
+const fields = reflection.querySelectorAll("[data-field]");
     const status = reflection.querySelector("[data-save-status]");
 
     fields.forEach(field => {
