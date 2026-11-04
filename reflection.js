@@ -9,38 +9,23 @@
     answers = {};
   }
 
-  const prompts = [
-    {
-      name: "notice",
-      label: "What have you noticed?",
-      hint: "Describe something in students’ work, questions or participation that suggests difficulty with instructions."
-    },
-    {
-      name: "current",
-      label: "What do you currently do?",
-      hint: "How well does your current approach work? What tells you this?"
-    },
-    {
-      name: "plan",
-      label: "How will you use the selected strategy?",
-      hint: "Identify an upcoming lesson or task and explain what you will do."
-    },
-    {
-      name: "evidence",
-      label: "What will you look for?",
-      hint: "Identify an observable sign that students understand the instructions."
-    },
-    {
-      name: "outcome",
-      label: "What happened?",
-      hint: "After teaching, record what you noticed in students’ work, questions or feedback."
-    },
-    {
-      name: "next",
-      label: "What will you keep or change?",
-      hint: "Decide what to continue, adjust or try next."
-    }
-  ];
+ const prompts = [
+  {
+    name: "before",
+    label: "1. Before: Review your current practice",
+    hint: "What have you noticed about students’ understanding of task instructions? What do you currently do to support them, and how well does it work?"
+  },
+  {
+    name: "plan",
+    label: "2. Plan: Choose something to try",
+    hint: "Which strategy for helping students understand task instructions will you try or adapt? How will you use it in an upcoming lesson? What will you look for to see whether it helps?"
+  },
+  {
+    name: "after",
+    label: "3. After: Observe and reflect",
+    hint: "What happened? What did students’ work, questions or participation show you? What will you keep or change next time?"
+  }
+];
 
   function addReflection() {
     const areaContent = document.getElementById("area-D01");
@@ -68,20 +53,7 @@
           Avoid including students’ names or identifying details.
         </p>
 
-        <h3>Before teaching</h3>
-        <div data-before-fields></div>
-
-        <label for="reflection-strategy">
-          Which strategy will you try or adapt?
-        </label>
-        <select id="reflection-strategy" data-field="strategy">
-          <option value="">Select a strategy</option>
-        </select>
-
-        <div data-plan-fields></div>
-
-        <h3>After teaching</h3>
-        <div data-after-fields></div>
+<div data-reflection-fields></div>
 
         <div class="reflection-actions">
           <button type="button" data-print>
@@ -96,16 +68,7 @@
       </div>
     `;
 
-    const select = reflection.querySelector("select");
-
-    area.strategies.forEach(strategy => {
-      const option = document.createElement("option");
-      option.value = strategy.id;
-      option.textContent = `${strategy.id}: ${strategy.title}`;
-      select.appendChild(option);
-    });
-
-    prompts.forEach((prompt, index) => {
+      prompts.forEach((prompt, index) => {
       const wrapper = document.createElement("div");
       wrapper.className = "reflection-field";
 
@@ -125,15 +88,6 @@
       textarea.setAttribute("aria-describedby", hint.id);
 
       wrapper.append(label, hint, textarea);
-
-      const target = index < 2
-        ? "[data-before-fields]"
-        : index < 4
-          ? "[data-plan-fields]"
-          : "[data-after-fields]";
-
-      reflection.querySelector(target).appendChild(wrapper);
-    });
 
     const fields = reflection.querySelectorAll("[data-field]");
     const status = reflection.querySelector("[data-save-status]");
@@ -213,23 +167,14 @@
       `);
       doc.close();
 
-      const items = [
-        ...prompts.slice(0, 2),
-        { name: "strategy", label: "Selected strategy" },
-        ...prompts.slice(2)
-      ];
-
+const items = prompts;
       items.forEach(item => {
         const section = doc.createElement("section");
         const heading = doc.createElement("h2");
         const response = doc.createElement("p");
 
         heading.textContent = item.label;
-        response.textContent = item.name === "strategy"
-          ? select.value
-            ? select.options[select.selectedIndex].textContent
-            : "Not selected."
-          : answers[item.name] || "Not completed.";
+      response.textContent = answers[item.name] || "Not completed.";
 
         section.append(heading, response);
         doc.body.appendChild(section);
