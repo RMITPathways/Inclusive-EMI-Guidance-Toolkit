@@ -260,7 +260,6 @@ const toolkit = [
     "title": "Following lectures and extended explanations",
     "moduleTitle": "Supporting comprehension during lectures",
     "description": "Students listening in English need to follow the language, understand the subject ideas and recognise how those ideas connect. They may also be interpreting slides and taking notes. Make the organisation visible and give students opportunities to process and check the explanation.",
-    "status": "Draft",
     "practicalGuide": "Download practical guide: Following lectures and extended explanations (PDF)",
     "practicalGuideUrl": "guides/D03_Following_lectures_and_extended_explanations.pdf",
     "strategies": [
@@ -400,7 +399,6 @@ const toolkit = [
     "title": "Identifying main ideas in readings",
     "moduleTitle": "Helping students identify main ideas in readings",
     "description": "Students may need support to distinguish a text’s main message from supporting details, examples and broader inferences.",
-    "status": "Draft",
     "practicalGuide": "Download practical guide: Identifying main ideas in readings (PDF)",
     "practicalGuideUrl": "guides/D04_Identifying_main_ideas_in_readings.pdf",
     "strategies": [
@@ -424,7 +422,6 @@ const toolkit = [
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
-        "reviewNotes": "The source recommends making reading goals clear."
       },
       {
         "id": "D04-S2",
@@ -447,7 +444,6 @@ const toolkit = [
             "url": "https://cee.ucdavis.edu/strategies-increase-engagement-while-reading"
           }
         ],
-        "reviewNotes": "The source recommends modelling annotation and distinguishing what a paragraph says from what it does."
       },
       {
         "id": "D04-S3",
@@ -469,7 +465,6 @@ const toolkit = [
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
-        "reviewNotes": "The source recommends reading guides with key questions to help students distinguish main ideas from supporting details."
       },
       {
         "id": "D04-S4",
@@ -512,7 +507,6 @@ const toolkit = [
             "url": "https://cee.ucdavis.edu/strategies-increase-engagement-while-reading"
           }
         ],
-        "reviewNotes": "The source recommends brief statements summarising main points."
       },
       {
         "id": "D04-S6",
@@ -534,7 +528,6 @@ const toolkit = [
             "url": "https://www.uc.edu/campus-life/learning-commons/learning-resources/notetaking-resources/main-ideas-vs-details.html"
           }
         ],
-        "reviewNotes": "Source supports identifying main claims and checking them against textual evidence. Comparing alternative summaries, discussing their limitations and the Business example are toolkit-created adaptations."
       }
     ]
   },
@@ -543,7 +536,6 @@ const toolkit = [
     "title": "Listening while taking notes",
     "moduleTitle": "Helping students listen while taking notes",
     "description": "Listening, understanding subject ideas and writing notes at the same time can place competing demands on students’ attention. Help students identify what matters, record it concisely and check their notes while preserving the subject learning required.",
-    "status": "Draft",
     "practicalGuide": "Download practical guide: Listening while taking notes (PDF)",
     "practicalGuideUrl": "guides/D05_Listening_while_taking_notes.pdf",
     "strategies": [
@@ -568,7 +560,6 @@ const toolkit = [
             "url": "https://teaching.vt.edu/teachingresources/adjustinginstruction/lectureguides.html"
           }
         ],
-        "reviewNotes": "Source supports instructor-prepared outlines with spaces for key information. The Business example and adjustments to the level of support are toolkit-created applications."
       },
       {
         "id": "D05-S2",
@@ -590,7 +581,6 @@ const toolkit = [
             "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/notetaking/"
           }
         ],
-        "reviewNotes": "Source supports explaining what students should record; the same page also recommends spoken signalling. The Economics wording is toolkit-created."
       },
       {
         "id": "D05-S3",
@@ -613,7 +603,6 @@ const toolkit = [
             "url": "https://ctli.vermontstate.edu/teaching-effectiveness-framework/instructional-strategies/note-taking-guidance/"
           }
         ],
-        "reviewNotes": "Source supports sharing examples, concise notes and symbols, and discouraging verbatim transcription. The worked demonstration and Biology example are toolkit-created applications."
       },
       {
         "id": "D05-S4",
@@ -636,7 +625,6 @@ const toolkit = [
             "url": "https://www.imperial.ac.uk/staff/educational-development/teaching-toolkit/inclusive-learning-and-teaching/managing-inclusive-learning-environments/using-visual-aids/"
           }
         ],
-        "reviewNotes": "Source supports reducing copying through handouts and pausing for students to complete notes. The “listen first, then annotate” sequence and Engineering example are toolkit adaptations."
       },
       {
         "id": "D05-S5",
@@ -659,7 +647,6 @@ const toolkit = [
             "url": "https://graduate.unl.edu/professional-development/teaching-development/teaching-resources/notetaking/"
           }
         ],
-        "reviewNotes": "Source supports pauses for paraphrasing, restating relationships and adding explanations. The Public health example is toolkit-created."
       },
       {
         "id": "D05-S6",
@@ -682,7 +669,6 @@ const toolkit = [
             "url": "https://teaching.unl.edu/resources/interactive-lecture/reviewing-and-comparing-lecture-notes/"
           }
         ],
-        "reviewNotes": "Source supports peer comparison to identify missing or contradictory information and correct or expand notes. The teacher’s comparison outline and Business example are toolkit-created applications."
       }
     ]
   },
@@ -691,7 +677,6 @@ const toolkit = [
     "title": "Helping students answer questions in class",
     "moduleTitle": "Helping students answer questions in class",
     "description": "Students may need time to understand a question, develop their subject reasoning and formulate an answer in English. Make questions clear and provide appropriate preparation and response support.",
-    "status": "Draft",
       "practicalGuide": "Download practical guide: Answering questions spontaneously (PDF)",
     "practicalGuideUrl": "guides/D06 Answering questions spontaneously.pdf",
         "strategies": [
@@ -833,7 +818,6 @@ const toolkit = [
     "title": "Asking questions or admitting confusion",
     "moduleTitle": "Helping students ask questions and seek clarification",
     "description": "Make it clear how students can ask questions, provide different ways to reveal uncertainty and respond constructively.",
-    "status": "Draft",
     "practicalGuide": "D07-S1–S6 Asking questions or admitting confusion",
    "practicalGuideUrl": "guides/D07 Asking questions or admitting confusion.pdf",
     "strategies": [
@@ -967,7 +951,6 @@ const toolkit = [
     "title": "Participating in group work",
     "moduleTitle": "Helping students participate in group work",
     "description": "Make group tasks clear and structure participation so students can prepare, contribute and discuss subject ideas.",
-    "status": "Draft",
     "practicalGuide": "D08-S1–S6 Helping students participate in group work",
    "practicalGuideUrl": "guides/D08 Helping students participate in group work.pdf",
     "strategies": [
@@ -1102,7 +1085,6 @@ const toolkit = [
     "title": "Understanding unfamiliar examples or references",
     "moduleTitle": "Making examples and references accessible",
     "description": "Provide the background students need to understand an example and make its connection to the subject concept clear.",
-    "status": "Draft",
     "practicalGuide": "Download practical guide: Making examples and references accessible (PDF)",
     "practicalGuideUrl": "guides/D09_Making_examples_and_references_accessible.pdf",
     "strategies": [
@@ -1235,7 +1217,6 @@ const toolkit = [
     "title": "Understanding assignment expectations",
     "moduleTitle": "Making assignment expectations clear",
     "description": "Explain what an assignment requires, show how the criteria apply and check students’ understanding before substantial work begins.",
-    "status": "Draft",
     "practicalGuide": "D10-S1–S6 Making assignment expectations clear",
     "practicalGuideUrl": "guides/D10 Making assignment expectations clear.pdf",
     "strategies": [
@@ -1258,7 +1239,6 @@ const toolkit = [
             "url": "https://tilthighered.com/assets/pdffiles/faculty.pdf"
           }
         ],
-        "reviewNotes": "The detailed requirements checklist and subject example are toolkit applications. Source mapping retained from the draft: TILT Higher Ed — Transparent Assignment Template. Organises guidance around purpose, task and criteria for success. Supports explaining learning benefits, required activities and relevant steps."
       },
       {
         "id": "D10-S2",
@@ -1279,7 +1259,6 @@ const toolkit = [
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/language-effectively-communicating-assignments"
           }
         ],
-        "reviewNotes": "The subject-specific explanation is a toolkit application. Source mapping retained from the draft: University of Waterloo — Language for Effectively Communicating Assignments. Recommends explaining task descriptors and includes definitions of analyse, evaluate and justify."
       },
       {
         "id": "D10-S3",
@@ -1300,7 +1279,6 @@ const toolkit = [
             "url": "https://tilthighered.com/assets/pdffiles/faculty.pdf"
           }
         ],
-        "reviewNotes": "The criterion-by-criterion explanation and subject example are toolkit applications. Source mapping retained from the draft: TILT Higher Ed — Transparent Assignment Template, Criteria for Success. Supports defining successful work, illustrating its features and developing a checklist for students."
       },
       {
         "id": "D10-S4",
@@ -1322,7 +1300,6 @@ const toolkit = [
             "url": "https://tilthighered.com/assets/pdffiles/faculty.pdf"
           }
         ],
-        "reviewNotes": "Direct support for the approach. Subject examples and extracts are toolkit-created. Source mapping retained from the draft: TILT Higher Ed — Transparent Assignment Template, Criteria for Success. Recommends analysing multiple examples before students begin and discussing differences between excellent and adequate work."
       },
       {
         "id": "D10-S5",
@@ -1344,7 +1321,6 @@ const toolkit = [
             "url": "https://writing.utoronto.ca/teaching-resources/designing-assignments/"
           }
         ],
-        "reviewNotes": "Partial source support. Collaboration and permitted tools require assignment-specific guidance consistent with institutional rules. Source mapping retained from the draft: University of Toronto — Designing Assignments and Presenting Them to Students, Assignment Prompts and Presenting Assignments. Supports explaining genre expectations, disciplinary conventions, sources and documentation."
       },
       {
         "id": "D10-S6",
@@ -1366,7 +1342,6 @@ const toolkit = [
             "url": "https://www.tilthighered.org/faq"
           }
         ],
-        "reviewNotes": "The brief planning activity is a toolkit adaptation. Source mapping retained from the draft: TILT Higher Ed — Frequently Asked Questions, What if I don’t have time to be transparent in my teaching? Supports asking students to interpret an upcoming assignment and confirm their understanding before starting."
       }
     ],
     "checklist": [],
@@ -1377,7 +1352,6 @@ const toolkit = [
     "title": "Explaining subject knowledge in English",
     "moduleTitle": "Helping students explain subject knowledge in English",
     "description": "Show students how explanations work in your subject and support them to organise, express and refine their reasoning.",
-    "status": "Draft",
     "practicalGuide": "D11-S1–S6 Helping students explain subject knowledge in English",
       "practicalGuideUrl": "guides/D11 Helping students explain subject knowledge in English.pdf",
         "strategies": [
@@ -1512,7 +1486,6 @@ const toolkit = [
     "title": "Understanding and applying feedback",
     "moduleTitle": "Helping students understand and use feedback",
     "description": "Make feedback clear and actionable, check how students interpret it and provide opportunities to use it.",
-    "status": "Draft",
     "practicalGuide": "D12 Understanding and using feedback",
     "practicalGuideUrl": "guides/Understanding_and_using_feedback.pdf",
     "strategies": [
@@ -1535,7 +1508,6 @@ const toolkit = [
             "url": "https://teachinghub.bath.ac.uk/guide/actionable-feedback/"
           }
         ],
-        "reviewNotes": "Direct source support. The rewritten comment is toolkit-created. Source mapping retained from the draft: University of Bath — Actionable Feedback, Breaking it down and Worked examples. Supports identifying what needs improvement, illustrating the issue and explaining how to improve."
       },
       {
         "id": "D12-S2",
@@ -1556,7 +1528,6 @@ const toolkit = [
             "url": "https://blogs.kcl.ac.uk/aflkings/students-directing-their-own-learning/helping-students-engage-with-feedback/how-can-i-help-students-engage-with-feedback/"
           }
         ],
-        "reviewNotes": "Partial source support. Pairing an individual feedback comment with an annotated example is a toolkit application. Source mapping retained from the draft: King’s College London — How can I help students engage with feedback?, Methods. Supports using exemplars to help students apply assessment criteria."
       },
       {
         "id": "D12-S3",
@@ -1577,7 +1548,6 @@ const toolkit = [
             "url": "https://lsa.umich.edu/sweetland/instructors/guides-to-teaching-writing/giving-feedback-on-student-writing.html"
           }
         ],
-        "reviewNotes": "Direct source support, with a focus on written work. Subject example is toolkit-created. Source mapping retained from the draft: University of Michigan — Giving Feedback on Student Writing, Strategy #1: Overview Notes and Marginal Comments. Supports selecting important issues and explicitly identifying revision priorities."
       },
       {
         "id": "D12-S4",
@@ -1598,7 +1568,6 @@ const toolkit = [
             "url": "https://www.gla.ac.uk/schools/business/informationforstaff/teachingexcellence/theoryandprinciples/respondtofeedback/"
           }
         ],
-        "reviewNotes": "Direct source support. Subject example developed for the toolkit; local validation pending. Source mapping retained from the draft: University of Glasgow — Respond to feedback, How. Supports asking learners to explain feedback in their own words and develop an action plan through discussion."
       },
       {
         "id": "D12-S5",
@@ -1619,7 +1588,6 @@ const toolkit = [
             "url": "https://wac.umn.edu/tww-program/teaching-writing-blog/creating-revision-plans-and-revision-memos-moving-feedback"
           }
         ],
-        "reviewNotes": "The source focuses on written work. Applying the approach to spoken or practical attempts is a toolkit adaptation. Source mapping retained from the draft: University of Minnesota — Creating Revision Plans and Revision Memos. Supports feedback followed by planned revision, including repeated or developing assignments."
       },
       {
         "id": "D12-S6",
@@ -1640,7 +1608,6 @@ const toolkit = [
             "url": "https://wac.umn.edu/tww-program/teaching-writing-blog/creating-revision-plans-and-revision-memos-moving-feedback"
           }
         ],
-        "reviewNotes": "The brief response-log format is a toolkit adaptation. Source mapping retained from the draft: University of Minnesota — Creating Revision Plans and Revision Memos, Revision memos. Supports summarising feedback, describing changes and explaining decisions to leave elements unchanged."
       }
     ],
     "checklist": [],
@@ -1651,7 +1618,6 @@ const toolkit = [
     "title": "Managing independent study and preparation",
     "moduleTitle": "Helping students manage independent study and preparation",
     "description": "Make independent study purposeful and manageable, demonstrate useful study methods and help students adjust their approach.",
-    "status": "Draft",
     "practicalGuide": "D13 Independent study and preparation",
       "practicalGuideUrl": "guides/D13_Independent_study_and_preparation.pdf",
     "strategies": [
@@ -1675,7 +1641,6 @@ const toolkit = [
             "url": "https://www.du.edu/otl/plan-a-course/teaching-resources/motivating-students-to-come-to-class-prepared"
           }
         ],
-        "reviewNotes": "Distinguishing essential work from optional extension is a toolkit addition. Subject example is toolkit-created. Source mapping retained from the draft: University of Denver — Motivating Students to Come to Class Prepared, Adjust your teaching practices and Use guides/prompts/reflections. Supports explaining preparation purposes and expectations and providing key questions."
       },
       {
         "id": "D13-S2",
@@ -1697,7 +1662,6 @@ const toolkit = [
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support"
           }
         ],
-        "reviewNotes": "Partial source support. Staged planning, acknowledging variation and inviting students to flag difficulties are toolkit additions. Source mapping retained from the draft: University of Minnesota — Teaching Support, Reading: Taking extra time to read in a second language. Recommends providing time estimates for readings."
       },
       {
         "id": "D13-S3",
@@ -1719,7 +1683,6 @@ const toolkit = [
             "url": "https://www.edresearch.edu.au/guides-resources/practice-guides/spacing-and-retrieval-practice-guide-full-publication"
           }
         ],
-        "reviewNotes": "Primarily school-facing guidance. The higher-education demonstration is a toolkit adaptation. Source mapping retained from the draft: Australian Education Research Organisation — Spacing and retrieval practice guide, Key practice 2. Supports recalling learning, using conceptual questions, correcting errors and teaching retrieval for independent study."
       },
       {
         "id": "D13-S4",
@@ -1741,7 +1704,6 @@ const toolkit = [
             "url": "https://www.niu.edu/citl/resources/guides/instructional-guide/instructional-scaffolding-to-improve-learning.shtml"
           }
         ],
-        "reviewNotes": "The independent-study checklist and reading example apply this broader approach. Source mapping retained from the draft: Northern Illinois University — Instructional Scaffolding to Improve Learning. Supports providing temporary support and gradually withdrawing it as students master a task."
       },
       {
         "id": "D13-S5",
@@ -1762,7 +1724,6 @@ const toolkit = [
             "url": "https://www.du.edu/otl/plan-a-course/teaching-resources/motivating-students-to-come-to-class-prepared"
           }
         ],
-        "reviewNotes": "The graph-interpretation activity is toolkit-created. Source mapping retained from the draft: University of Denver — Motivating Students to Come to Class Prepared, Adjust your teaching practices and Use guides/prompts/reflections. Supports integrating preparation into class activities, including initial responses followed by peer discussion."
       },
       {
         "id": "D13-S6",
@@ -1784,7 +1745,6 @@ const toolkit = [
             "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/teaching-metacognitive-skills"
           }
         ],
-        "reviewNotes": "Prompts distinguishing different sources of difficulty are toolkit additions. Source mapping retained from the draft: University of Waterloo — Teaching Metacognitive Skills, Strategies for Assignments. Supports reflecting on how a task was completed and using the experience to plan future work."
       }
     ],
     "checklist": [],
@@ -1795,7 +1755,6 @@ const toolkit = [
     "title": "Accessing and using digital resources",
     "moduleTitle": "Helping students access and use digital course resources",
     "description": "Check access, demonstrate unfamiliar tools and provide clear instructions and workable alternatives.",
-    "status": "Draft",
     "practicalGuide": "D14 Accessing and using digital resources",
       "practicalGuideUrl": "guides/D14_Accessing_and_using_digital_resources.pdf",
     "strategies": [
@@ -1819,7 +1778,6 @@ const toolkit = [
             "url": "https://keepteaching.ucdavis.edu/teach/create-inclusive-class-environment-online"
           }
         ],
-        "reviewNotes": "The resource-specific access check and subject example are toolkit applications. Source mapping retained from the draft: UC Davis — Create an inclusive class climate online, Get to know your students. Supports surveying technology access, considering connectivity, identifying campus support and offering alternatives."
       },
       {
         "id": "D14-S2",
@@ -1841,7 +1799,6 @@ const toolkit = [
             "url": "https://oscqr.suny.edu/standard16/"
           }
         ],
-        "reviewNotes": "Direct support for predictable navigation. Identifying essential resources and checking permissions are toolkit additions. Source mapping retained from the draft: SUNY OSCQR — Standard 16. Supports consistent organisation, grouping related content and using descriptive headings and links."
       },
       {
         "id": "D14-S3",
@@ -1863,7 +1820,6 @@ const toolkit = [
             "url": "https://oscqr.suny.edu/standard12/"
           }
         ],
-        "reviewNotes": "The numbered screenshot guide and subject practice task apply this guidance. Source mapping retained from the draft: SUNY OSCQR — Standard 12. Supports technology orientation, how-to documentation and opportunities to practise before assessed use."
       },
       {
         "id": "D14-S4",
@@ -1886,7 +1842,6 @@ const toolkit = [
             "url": "https://oscqr.suny.edu/standard12/"
           }
         ],
-        "reviewNotes": "Partial source support. Explaining interface vocabulary and distinguishing saving, uploading and submitting are toolkit applications requiring platform-specific checking. Source mapping retained from the draft: SUNY OSCQR — Standard 12. Supports introducing required tools and features before students use them."
       },
       {
         "id": "D14-S5",
@@ -1908,7 +1863,6 @@ const toolkit = [
             "url": "https://sites.lsa.umich.edu/learningteachingconsulting/2020/11/05/accessible-courses-online-and-hybrid-edition/"
           }
         ],
-        "reviewNotes": "The downloadable formats and subject example are toolkit applications. Check that alternatives preserve the required learning. Source mapping retained from the draft: University of Michigan — Accessible Courses, Online and Hybrid Edition, Technological Accessibility. Supports considering bandwidth, offering alternative activities or representations, captions and accessible materials."
       },
       {
         "id": "D14-S6",
@@ -1931,7 +1885,6 @@ const toolkit = [
             "url": "https://oscqr.suny.edu/standard8/"
           }
         ],
-        "reviewNotes": "Partial source support. Problem-report details and deadline procedures are toolkit additions requiring local checking. Source mapping retained from the draft: SUNY OSCQR — Standard 8. Supports clear technical requirements, access instructions, help-desk links and reference guides."
       }
     ],
     "checklist": [],
@@ -1942,7 +1895,6 @@ const toolkit = [
     "title": "Understanding course expectations and procedures",
     "moduleTitle": "Helping students understand course expectations and procedures",
     "description": "Guide students through course information so they can find expectations, understand procedures and know where to ask for clarification.",
-    "status": "Draft",
     "practicalGuide": "D15 Course expectations and procedures",
        "practicalGuideUrl": "guides/D15_Course_expectations_and_procedures.pdf",
     "strategies": [
@@ -1969,7 +1921,6 @@ const toolkit = [
             "url": "https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/first-day-of-class/"
           }
         ],
-        "reviewNotes": "Supports active exploration of course information. Questions about submission, feedback and help are toolkit-created applications. Check against local procedures. D10 addresses individual assignment expectations. Source mapping retained from the draft: University of Illinois Chicago — First Day of Class, Introduce the Syllabus (Actively!). Recommends active review of course information, student-generated questions and class discussion."
       }
     ],
     "checklist": [],
@@ -1980,7 +1931,6 @@ const toolkit = [
     "title": "Making students’ learning experiences and support preferences visible",
     "moduleTitle": "Learning about students and their support preferences",
     "description": "Use a short survey to understand students’ prior learning, strengths and support preferences, then revisit your understanding as the course progresses.",
-    "status": "Draft",
     "practicalGuide": "D16 Learning experiences and support preferences",
        "practicalGuideUrl": "guides/D16_Learning_experiences_and_support_preferences.pdf",
     "strategies": [
@@ -2007,7 +1957,6 @@ const toolkit = [
             "url": "https://teaching.uic.edu/cate-teaching-guides/inclusive-equity-minded-teaching-practices/first-day-of-class/"
           }
         ],
-        "reviewNotes": "Supports gathering information and using it to inform teaching. Survey wording, optional disclosure and later check-ins are toolkit design choices. Do not infer needs from ethnicity or assign fixed learning styles. A survey provides an initial picture rather than a diagnosis. Source mapping retained from the draft: University of Illinois Chicago — First Day of Class, Create Classroom Community. Recommends introductory surveys about students’ backgrounds, goals, obstacles and preferences to inform teaching."
       }
     ],
     "checklist": [],
@@ -2018,7 +1967,6 @@ const toolkit = [
     "title": "Finding and accessing additional support",
     "moduleTitle": "Helping students access additional support",
     "description": "Make referrals specific and practical so students understand why a service may help and how to access it.",
-    "status": "Draft",
     "practicalGuide": "D17 Accessing additional support",
      "practicalGuideUrl": "guides/D17_Accessing_additional_support.pdf",
     "strategies": [
@@ -2045,7 +1993,6 @@ const toolkit = [
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/teaching-support/student-referrals"
           }
         ],
-        "reviewNotes": "Strong direct support for language-support referrals. Applying this approach to other services extends the source. Verify local services and booking arrangements. Do not use accent or isolated language errors as a diagnosis of support needs. Source mapping retained from the draft: University of Minnesota — Student Referral Best Practices. Supports identifying specific difficulties and strengths, explaining appointment arrangements and what to bring, and following up."
       }
     ],
     "checklist": [],
@@ -2056,7 +2003,6 @@ const toolkit = [
     "title": "Understanding students’ contributions accurately",
     "moduleTitle": "Interpreting student contributions accurately",
     "description": "Check your understanding of a student’s contribution before evaluating the subject reasoning.",
-    "status": "Draft",
     "practicalGuide": "D18 Understanding students’ contributions",
       "practicalGuideUrl": "guides/D18_Understanding_students_contributions.pdf",
     "strategies": [
@@ -2083,7 +2029,6 @@ const toolkit = [
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/communication-tips"
           }
         ],
-        "reviewNotes": "Direct support for checking interpretation. Responding to disciplinary reasoning after clarification is a toolkit application. Avoid leading the student. In assessment, follow approved criteria and rules for clarification. Source mapping retained from the draft: University of Minnesota — Communication Tips, Check comprehension and Give feedback. Recommends paraphrasing a student’s contribution and allowing them to confirm or correct the interpretation."
       }
     ],
     "checklist": [],
@@ -2094,7 +2039,6 @@ const toolkit = [
     "title": "Using different languages inclusively during learning activities",
     "moduleTitle": "Using different languages inclusively in learning activities",
     "description": "Plan how students can draw on their languages while ensuring everyone can follow shared reasoning and meet course requirements.",
-    "status": "Draft",
     "practicalGuide": "D19 Using different languages inclusively",
      "practicalGuideUrl": "guides/D19 Using different languages inclusively.pdf",
     "strategies": [
@@ -2122,7 +2066,6 @@ const toolkit = [
             "url": "https://ccaps.umn.edu/esl-resources/supporting-multilingual-students/fostering-linguistically-inclusive-and-asset-based-classroom"
           }
         ],
-        "reviewNotes": "Supports multilingual participation. Agreed task stages, English summaries and alignment with course requirements are toolkit adaptations. Do not require students to act as translators. For assessment, follow published language and tool rules. Source mapping retained from the draft: University of Minnesota — Fostering a Linguistically Inclusive and Asset-Based Classroom, Helpful Tips. Encourages students to draw on different languages and make communication inclusive through translation and interpretation."
       }
     ],
     "checklist": [],
